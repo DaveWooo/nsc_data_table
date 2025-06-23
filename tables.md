@@ -12,7 +12,7 @@
 | BuyTime                  | 购买时间                                                                 |
 | Source                   | 订单来源（如NSC+,NSCtoB等）                                               |
 | NewCustomerType          | 新客类型（如超启新客，特护新客）                                           |
-| Brand                    | 品牌                                                                     |
+| Brand                    | 品牌 (如超启能恩，AL110, PreNAN, 铂初能恩，数舒宜能恩，力多精)             |
 | Stage                    | 阶段（如促销期、常规期等）                                               |
 | province                 | 省份                                                                     |
 | area_name                | 区域名称                                                                 |

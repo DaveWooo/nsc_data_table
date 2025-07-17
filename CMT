@@ -10712,6 +10712,45 @@ CREATE TABLE [dbo].[星火门店详情Monthly](
 	[CreatedOn] [datetime] NULL
 ) ON [PRIMARY]
 GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'订单号', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'OrderNum';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'门店编码', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'StoreCode';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'门店名称', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'StoreName';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'用户手机号', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'OrderMobile';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'订单创建时间', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'OrderCreateTime';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'罐条码（商品唯一罐体标识）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'TankBarcode';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'箱条码（商品外包装箱标识）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'BoxBarcode';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'退货罐体条码', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'ReturnTankBarcode';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'退货罐数', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'ReturnCount';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'订单创建时间', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'CreatedOn';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'最后修改时间', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'ModifiedOn';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'扫码标记。如扫码归巢，扫码销量，自然销量', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'OrderEntry';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'订单来源（如NSC+,NSCtoB等）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'Channel';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'用户手机号', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'S_MOBILE';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'用户唯一标识（如微信 UnionID）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'Unionid';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'事业部（Business Unit）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'BU';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'会员等级', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'Vip_Level';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'是否为 SPARK 门店（1-是，0-否）', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'Is_Spark';
+GO
+EXEC sys.sp_addextendedproperty @name = N'MS_Description', @value = N'实际购买日期', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CRMPlus_Order', @level2type = N'COLUMN', @level2name = N'BabyBirthday';
+GO
+GO
 /****** Object:  Table [dbo].[星火门店详情Monthly_20241101]    Script Date: 7/16/2025 8:28:02 AM ******/
 SET ANSI_NULLS ON
 GO

@@ -50,206 +50,206 @@
 | 购买日期                 | 实际购买日期                                                             |
 | Price                    | 单价                                                                     |
 # [20250411_雀巢测试结果_天御Result_筛选Risk] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了天御风险筛查结果的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| risk_level | risk_level |
-| risk_type | risk_type |
-| ksfid | ksfid |
-| TYPE1 | TYPE1 |
-| TYPE2 | TYPE2 |
-| TYPE3 | TYPE3 |
-| TYPE4 | TYPE4 |
-| TYPE5 | TYPE5 |
-| TYPE6 | TYPE6 |
-| TYPE7 | TYPE7 |
-| TYPE8 | TYPE8 |
-| TYPE9 | TYPE9 |
-| TYPE10 | TYPE10 |
-| TYPE11 | TYPE11 |
+| risk_level | 风险等级 |
+| risk_type | 风险类型 |
+| ksfid | KSFID |
+| TYPE1 | 类型1 |
+| TYPE2 | 类型2 |
+| TYPE3 | 类型3 |
+| TYPE4 | 类型4 |
+| TYPE5 | 类型5 |
+| TYPE6 | 类型6 |
+| TYPE7 | 类型7 |
+| TYPE8 | 类型8 |
+| TYPE9 | 类型9 |
+| TYPE10 | 类型10 |
+| TYPE11 | 类型11 |
 
 # [ACCESS_LOGS] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了访问日志的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Request | Request |
-| Method | Method |
-| Token | Token |
-| Payload | Payload |
-| Response | Response |
-| Status | Status |
-| EnterDate | EnterDate |
-| ElapsedMilliseconds | ElapsedMilliseconds |
-| IP | IP |
-| CreateDate | CreateDate |
+| ID | 日志ID |
+| Request | 请求内容 |
+| Method | 请求方法 |
+| Token | 访问令牌 |
+| Payload | 请求负荷 |
+| Response | 响应内容 |
+| Status | 状态 |
+| EnterDate | 进入日期 |
+| ElapsedMilliseconds | 耗时（毫秒） |
+| IP | IP地址 |
+| CreateDate | 创建日期 |
 | ID | ID |
 
 # [ACCESS_LOGS_READ] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了只读访问日志的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Request | Request |
-| Method | Method |
-| Token | Token |
-| Payload | Payload |
-| Response | Response |
-| Status | Status |
-| ElapsedMilliseconds | ElapsedMilliseconds |
-| CreateDate | CreateDate |
-| EnterDate | EnterDate |
-| IP | IP |
+| ID | 日志ID |
+| Request | 请求内容 |
+| Method | 请求方法 |
+| Token | 访问令牌 |
+| Payload | 请求负荷 |
+| Response | 响应内容 |
+| Status | 状态 |
+| ElapsedMilliseconds | 耗时（毫秒） |
+| CreateDate | 创建日期 |
+| EnterDate | 进入日期 |
+| IP | IP地址 |
 | ID | ID |
 
 # [ACCESS_TOKENS] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了访问令牌的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Token | Token |
-| SecurityKey | SecurityKey |
-| Company | Company |
-| IsValid | IsValid |
-| Type | Type |
-| IP | IP |
-| CreatedDateTime | CreatedDateTime |
+| ID | 令牌ID |
+| Token | 令牌 |
+| SecurityKey | 安全密钥 |
+| Company | 公司 |
+| IsValid | 是否有效 |
+| Type | 类型 |
+| IP | IP地址 |
+| CreatedDateTime | 创建时间 |
 | ID | ID |
 
 # [AL110_BoChu_MOT_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了AL110和铂初的目标受众（MOT TA）的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| AL110招募时间 | AL110招募时间 |
-| TOC_AL110招募总量 | TOC_AL110招募总量 |
-| 6M以下 | 6M以下 |
-| 6M及以上 | 6M及以上 |
-| 6M未领取样包 | 6M未领取样包 |
-| 6M且领取样包 | 6M且领取样包 |
-| 在D3之后 -6M且领取样包 | 在D3之后 -6M且领取样包 |
-| 在D3之前-6M且领取样包 | 在D3之前-6M且领取样包 |
-| 在D3之前6M且领取样包且未购买IMF | 在D3之前6M且领取样包且未购买IMF |
-| 生成链接的人(43001) | 生成链接的人(43001) |
-| 推送MOT的人(43001) | 推送MOT的人(43001) |
-| 点了链接 | 点了链接 |
-| 没点链接 | 没点链接 |
-| 生成43002的人 | 生成43002的人 |
-| 推送43002的人 | 推送43002的人 |
-| 生成43003的人 | 生成43003的人 |
-| 推送43003的人 | 推送43003的人 |
-| 生成43004的人 | 生成43004的人 |
-| 推送43004的人 | 推送43004的人 |
-| 生成43005的人 | 生成43005的人 |
-| 推送43005的人 | 推送43005的人 |
-| D3D4未点链接 | D3D4未点链接 |
-| 不可转奶数 | 不可转奶数 |
-| 生成43006的人 | 生成43006的人 |
-| 推送43006的人 | 推送43006的人 |
-| 生成43007的人 | 生成43007的人 |
-| 推送43007的人 | 推送43007的人 |
-| 生成43008的人 | 生成43008的人 |
-| 推送43008的人 | 推送43008的人 |
+| AL110招募时间 | AL110产品招募时间 |
+| TOC_AL110招募总量 | TOC渠道AL110产品招募总量 |
+| 6M以下 | 6个月以下 |
+| 6M及以上 | 6个月及以上 |
+| 6M未领取样包 | 6个月以下未领取样包 |
+| 6M且领取样包 | 6个月以下且领取样包 |
+| 在D3之后 -6M且领取样包 | 在D3之后6个月以下且领取样包 |
+| 在D3之前-6M且领取样包 | 在D3之前6个月以下且领取样包 |
+| 在D3之前6M且领取样包且未购买IMF | 在D3之前6个月以下且领取样包且未购买IMF |
+| 生成链接的人(43001) | 生成链接的人（MOT 43001） |
+| 推送MOT的人(43001) | 推送MOT的人（MOT 43001） |
+| 点了链接 | 是否点击链接 |
+| 没点链接 | 是否未点击链接 |
+| 生成43002的人 | 生成链接的人（MOT 43002） |
+| 推送43002的人 | 推送MOT的人（MOT 43002） |
+| 生成43003的人 | 生成链接的人（MOT 43003） |
+| 推送43003的人 | 推送MOT的人（MOT 43003） |
+| 生成43004的人 | 生成链接的人（MOT 43004） |
+| 推送43004的人 | 推送MOT的人（MOT 43004） |
+| 生成43005的人 | 生成链接的人（MOT 43005） |
+| 推送43005的人 | 推送MOT的人（MOT 43005） |
+| D3D4未点链接 | D3D4阶段未点击链接 |
+| 不可转奶数 | 不可转奶数量 |
+| 生成43006的人 | 生成链接的人（MOT 43006） |
+| 推送43006的人 | 推送MOT的人（MOT 43006） |
+| 生成43007的人 | 生成链接的人（MOT 43007） |
+| 推送43007的人 | 推送MOT的人（MOT 43007） |
+| 生成43008的人 | 生成链接的人（MOT 43008） |
+| 推送43008的人 | 推送MOT的人（MOT 43008） |
 
 # [App_Settings] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了应用设置的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Code | Code |
-| Value | Value |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Code | Code |
+| Code | 设置代码 |
+| Value | 设置值 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Code | 设置代码 |
 
 # [Azure_Healthy_Detection] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了Azure健康检测的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Status | Status |
-| Msg | Msg |
-| ElapsedMilliseconds | ElapsedMilliseconds |
-| CreatedOn | CreatedOn |
+| ID | 检测ID |
+| Status | 状态 |
+| Msg | 消息 |
+| ElapsedMilliseconds | 耗时（毫秒） |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [Birthday_Base] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的基本信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Openid | Openid |
-| unionid | unionid |
-| Mobile | Mobile |
-| current_stage | current_stage |
-| StageByCRM | StageByCRM |
-| 是否正在关注 | 是否正在关注 |
-| BabyBirthday | BabyBirthday |
-| Offset_Day | Offset_Day |
-| CreatedOn | CreatedOn |
+| Openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| current_stage | 当前阶段 |
+| StageByCRM | CRM中的阶段 |
+| 是否正在关注 | 是否正在关注公众号 |
+| BabyBirthday | 宝宝生日 |
+| Offset_Day | 距离生日天数 |
+| CreatedOn | 创建时间 |
 
 # [Birthday_BHRecruitment] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的铂护会员招募信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 铂护会员招募时间 | 铂护会员招募时间 |
 | 铂护会员招募渠道 | 铂护会员招募渠道 |
 
 # [Birthday_Binding] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的绑定信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| SNCCode | SNCCode |
-| UpDate | UpDate |
+| unionid | 用户微信Unionid |
+| SNCCode | SNC编码 |
+| UpDate | 更新日期 |
 
 # [Birthday_BoChuS3S4_Purchase] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的铂初S3/S4产品购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| 有无BCS3/S4产品购买 | 有无BCS3/S4产品购买 |
-| BCS3/S4最近购买时间 | BCS3/S4最近购买时间 |
+| Unionid | 用户微信Unionid |
+| 有无BCS3/S4产品购买 | 是否购买过铂初S3/S4产品 |
+| BCS3/S4最近购买时间 | 铂初S3/S4产品最近购买时间 |
 
 # [Birthday_Engage] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的用户互动信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| 最近Engage时间 | 最近Engage时间 |
-| 最近SC互动时间 | 最近SC互动时间 |
-| 最近MC/BGT/OA互动时间 | 最近MC/BGT/OA互动时间 |
+| unionid | 用户微信Unionid |
+| 最近Engage时间 | 最近互动时间 |
+| 最近SC互动时间 | 最近与SNC互动时间 |
+| 最近MC/BGT/OA互动时间 | 最近与MC/BGT/OA互动时间 |
 
 # [Birthday_HARecruitment] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的启护会员招募信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 启护会员招募时间 | 启护会员招募时间 |
 | 启护会员招募渠道 | 启护会员招募渠道 |
 | 启护会员招募导购 | 启护会员招募导购 |
 | 启护会员招募门店 | 启护会员招募门店 |
 
 # [Birthday_Infomation] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| Openid | Openid |
-| StageByCRM | StageByCRM |
-| current_stage | current_stage |
-| Offset_Day | Offset_Day |
-| BabyBirthday | BabyBirthday |
-| 是否正在关注 | 是否正在关注 |
-| 最近购买brand | 最近购买brand |
-| 最近购买stage | 最近购买stage |
+| unionid | 用户微信Unionid |
+| Openid | 用户微信Openid |
+| StageByCRM | CRM中的阶段 |
+| current_stage | 当前阶段 |
+| Offset_Day | 距离生日天数 |
+| BabyBirthday | 宝宝生日 |
+| 是否正在关注 | 是否正在关注公众号 |
+| 最近购买brand | 最近购买的品牌 |
+| 最近购买stage | 最近购买的阶段 |
 | 最近购买时间 | 最近购买时间 |
-| 最近购买SKU | 最近购买SKU |
-| 最近购买罐数 | 最近购买罐数 |
-| 绑定导购 | 绑定导购 |
-| 绑定导购门店 | 绑定导购门店 |
+| 最近购买SKU | 最近购买的SKU |
+| 最近购买罐数 | 最近购买的罐数 |
+| 绑定导购 | 绑定的导购 |
+| 绑定导购门店 | 绑定的导购门店 |
 | 导购是否在职 | 导购是否在职 |
-| 最近Engage时间 | 最近Engage时间 |
-| 最近MC/BGT/OA互动时间 | 最近MC/BGT/OA互动时间 |
-| 最近SC互动时间 | 最近SC互动时间 |
+| 最近Engage时间 | 最近互动时间 |
+| 最近MC/BGT/OA互动时间 | 最近与MC/BGT/OA互动时间 |
+| 最近SC互动时间 | 最近与SNC互动时间 |
 | 启护会员招募时间 | 启护会员招募时间 |
 | 启护会员招募渠道 | 启护会员招募渠道 |
 | 启护会员招募导购 | 启护会员招募导购 |
@@ -260,1643 +260,1643 @@
 | 优护会员招募渠道 | 优护会员招募渠道 |
 | 铂护会员招募渠道 | 铂护会员招募渠道 |
 | 铂护会员招募时间 | 铂护会员招募时间 |
-| 有无BCS3/S4产品购买 | 有无BCS3/S4产品购买 |
-| BCS3/S4最近购买时间 | BCS3/S4最近购买时间 |
-| 有无HAS3/S4产品购买 | 有无HAS3/S4产品购买 |
-| 有无PTS3/S4产品购买 | 有无PTS3/S4产品购买 |
-| 有无HAS4产品购买 | 有无HAS4产品购买 |
-| 有无IMF购买记录 | 有无IMF购买记录 |
-| IMF_NOPT_最近购买时间 | IMF_NOPT_最近购买时间 |
-| 是否参加生日礼 | 是否参加生日礼 |
+| 有无BCS3/S4产品购买 | 是否购买过铂初S3/S4产品 |
+| BCS3/S4最近购买时间 | 铂初S3/S4产品最近购买时间 |
+| 有无HAS3/S4产品购买 | 是否购买过启护S3/S4产品 |
+| 有无PTS3/S4产品购买 | 是否购买过能恩S3/S4产品 |
+| 有无HAS4产品购买 | 是否购买过启护S4产品 |
+| 有无IMF购买记录 | 是否有婴幼儿配方奶粉购买记录 |
+| IMF_NOPT_最近购买时间 | 非能恩产品最近购买时间 |
+| 是否参加生日礼 | 是否参加生日礼活动 |
 | 判断日期 | 判断日期 |
 
 # [Birthday_Joined] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了用户是否参加生日礼活动的信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| 是否参加生日礼 | 是否参加生日礼 |
+| Unionid | 用户微信Unionid |
+| 是否参加生日礼 | 是否参加生日礼活动 |
 
 # [Birthday_Recent_Buy_IMF_DATE] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的最近购买婴幼儿配方奶粉（IMF）日期信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| IMF最近购买时间 | IMF最近购买时间 |
+| Unionid | 用户微信Unionid |
+| IMF最近购买时间 | 婴幼儿配方奶粉最近购买时间 |
 
 # [Birthday_Recent_Buy_IMF_NOPT_DATE] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的最近购买非能恩产品（IMF_NOPT）日期信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| IMF_NOPT_最近购买时间 | IMF_NOPT_最近购买时间 |
+| Unionid | 用户微信Unionid |
+| IMF_NOPT_最近购买时间 | 非能恩产品最近购买时间 |
 
 # [Birthday_Recent_Purchse_Brand] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的最近购买品牌信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| 最近购买brand | 最近购买brand |
-| 最近购买stage | 最近购买stage |
+| unionid | 用户微信Unionid |
+| 最近购买brand | 最近购买的品牌 |
+| 最近购买stage | 最近购买的阶段 |
 | 最近购买时间 | 最近购买时间 |
-| 最近购买SKU | 最近购买SKU |
-| 最近购买罐数 | 最近购买罐数 |
+| 最近购买SKU | 最近购买的SKU |
+| 最近购买罐数 | 最近购买的罐数 |
 
 # [Birthday_RunTA_Set] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的目标受众（TA）运行设置。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| RunDate | RunDate |
-| Tag | Tag |
+| RunDate | 运行日期 |
+| Tag | 标签 |
 
 # [Birthday_S3S4_Purchase] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的S3/S4产品购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| 有无HAS3/S4产品购买 | 有无HAS3/S4产品购买 |
-| 有无PTS3/S4产品购买 | 有无PTS3/S4产品购买 |
-| 有无HAS4产品购买 | 有无HAS4产品购买 |
-| 有无IMF购买记录 | 有无IMF购买记录 |
+| Unionid | 用户微信Unionid |
+| 有无HAS3/S4产品购买 | 是否购买过启护S3/S4产品 |
+| 有无PTS3/S4产品购买 | 是否购买过能恩S3/S4产品 |
+| 有无HAS4产品购买 | 是否购买过启护S4产品 |
+| 有无IMF购买记录 | 是否有婴幼儿配方奶粉购买记录 |
 
 # [Birthday_SHRecruitment] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的守护会员招募信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 守护会员招募时间 | 守护会员招募时间 |
 | 守护会员招募渠道 | 守护会员招募渠道 |
 
 # [Birthday_Slow20240514] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年5月14日生日慢相关的数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Openid | Openid |
-| Unionid | Unionid |
-| Member_Type | Member_Type |
-| SNC_Code | SNC_Code |
-| Store_Number | Store_Number |
-| Touch_Point | Touch_Point |
-| CreatedOn | CreatedOn |
-| SentToCMTON | SentToCMTON |
-| Current_Stage | Current_Stage |
-| Offset_Day | Offset_Day |
-| Birthday | Birthday |
-| IsEngaged | IsEngaged |
-| ha12_type | ha12_type |
+| ID | 记录ID |
+| Openid | 用户微信Openid |
+| Unionid | 用户微信Unionid |
+| Member_Type | 会员类型 |
+| SNC_Code | SNC编码 |
+| Store_Number | 门店编号 |
+| Touch_Point | 触点 |
+| CreatedOn | 创建时间 |
+| SentToCMTON | 发送至CMT时间 |
+| Current_Stage | 当前阶段 |
+| Offset_Day | 距离生日天数 |
+| Birthday | 生日 |
+| IsEngaged | 是否互动 |
+| ha12_type | HA12类型 |
 
 # [Birthday_SNC_OnJob] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的SNC在职信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| serial_number | serial_number |
-| store_number | store_number |
+| serial_number | 序列号 |
+| store_number | 门店编号 |
 | 导购是否在职 | 导购是否在职 |
 
 # [Birthday_YHRecruitment] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日相关的优护会员招募信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 优护会员招募时间 | 优护会员招募时间 |
 | 优护会员招募渠道 | 优护会员招募渠道 |
 
 # [BirthdayGift_StorageData] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了生日礼物的存储数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| Openid | Openid |
-| current_stage | current_stage |
-| 绑定导购 | 绑定导购 |
-| 绑定导购门店 | 绑定导购门店 |
-| MemberType | MemberType |
-| ha12_type | ha12_type |
-| Touch_Point | Touch_Point |
-| Offset_Day | Offset_Day |
-| BabyBirthday | BabyBirthday |
-| IsEngaged | IsEngaged |
+| unionid | 用户微信Unionid |
+| Openid | 用户微信Openid |
+| current_stage | 当前阶段 |
+| 绑定导购 | 绑定的导购 |
+| 绑定导购门店 | 绑定的导购门店 |
+| MemberType | 会员类型 |
+| ha12_type | HA12类型 |
+| Touch_Point | 触点 |
+| Offset_Day | 距离生日天数 |
+| BabyBirthday | 宝宝生日 |
+| IsEngaged | 是否互动 |
 
 # [BLHX_ActivityInfo] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了BLHX活动信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| hd_no | hd_no |
-| title | title |
-| type | type |
-| sdate | sdate |
-| edate | edate |
-| gift_id | gift_id |
-| gift_code | gift_code |
-| gift_name | gift_name |
-| zg_title | zg_title |
-| exp_type | exp_type |
-| premium_share | premium_share |
-| premium_first | premium_first |
-| zm_share | zm_share |
-| product_codes | product_codes |
-| buy_num | buy_num |
-| is_enable | is_enable |
-| min_month | min_month |
-| cdate | cdate |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| hd_no | hd_no |
+| id | 活动ID |
+| hd_no | 活动编号 |
+| title | 活动标题 |
+| type | 活动类型 |
+| sdate | 开始日期 |
+| edate | 结束日期 |
+| gift_id | 礼品ID |
+| gift_code | 礼品码 |
+| gift_name | 礼品名称 |
+| zg_title | 资格标题 |
+| exp_type | 过期类型 |
+| premium_share | 付费分享 |
+| premium_first | 付费优先 |
+| zm_share | 招募分享 |
+| product_codes | 产品编码 |
+| buy_num | 购买数量 |
+| is_enable | 是否启用 |
+| min_month | 最小月龄 |
+| cdate | 创建日期 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| hd_no | 活动编号 |
 
 # [BLHX_CouponsInfo] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了BLHX优惠券信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| unionid | unionid |
-| mobile | mobile |
-| stime | stime |
-| etime | etime |
-| stores_list | stores_list |
-| hd_no | hd_no |
-| gift_code | gift_code |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| UseDatetime | UseDatetime |
-| ExpireDatetime | ExpireDatetime |
-| Expire2OADatetime | Expire2OADatetime |
-| HA_Xinke | HA_Xinke |
-| TeHu_Xinke | TeHu_Xinke |
-| type | type |
-| is_black | is_black |
-| unionid | unionid |
-| hd_no | hd_no |
+| ID | 优惠券ID |
+| unionid | 用户微信Unionid |
+| mobile | 手机号码 |
+| stime | 开始时间 |
+| etime | 结束时间 |
+| stores_list | 门店列表 |
+| hd_no | 活动编号 |
+| gift_code | 礼品码 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| UseDatetime | 使用时间 |
+| ExpireDatetime | 过期时间 |
+| Expire2OADatetime | OA过期时间 |
+| HA_Xinke | 启护新客 |
+| TeHu_Xinke | 特护新客 |
+| type | 类型 |
+| is_black | 是否黑名单 |
+| unionid | 用户微信Unionid |
+| hd_no | 活动编号 |
 
 # [BoChuSampleTempTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了铂初样品临时目标受众信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| TargetType | TargetType |
-| GetSampleTime | GetSampleTime |
-| RecentBuyTime | RecentBuyTime |
-| RecentBuyCount | RecentBuyCount |
-| EmptyDate | EmptyDate |
-| FirstTriggerDate | FirstTriggerDate |
-| SecondTriggerDate | SecondTriggerDate |
+| Unionid | 用户微信Unionid |
+| TargetType | 目标类型 |
+| GetSampleTime | 获取样品时间 |
+| RecentBuyTime | 最近购买时间 |
+| RecentBuyCount | 最近购买数量 |
+| EmptyDate | 空罐日期 |
+| FirstTriggerDate | 第一次触发日期 |
+| SecondTriggerDate | 第二次触发日期 |
 
 # [CRM_API_LOGS] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM API日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Method | Method |
-| Payload | Payload |
-| Response | Response |
-| CreateDate | CreateDate |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| ID | 日志ID |
+| Method | 请求方法 |
+| Payload | 请求负荷 |
+| Response | 响应内容 |
+| CreateDate | 创建日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [CRM_Baby] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的宝宝信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| PBabyId | PBabyId |
-| CBabyId | CBabyId |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| BabyName | BabyName |
-| Birthday | Birthday |
-| Gender | Gender |
-| BirthOrder | BirthOrder |
-| BabyNum | BabyNum |
-| WeanedDate | WeanedDate |
-| CreatedOn | CreatedOn |
-| CreatedBy | CreatedBy |
-| Frozen | Frozen |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| ModifiedBy | ModifiedBy |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| PBabyId | P端宝宝ID |
+| CBabyId | C端宝宝ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| BabyName | 宝宝姓名 |
+| Birthday | 生日 |
+| Gender | 性别 |
+| BirthOrder | 出生顺序 |
+| BabyNum | 宝宝数量 |
+| WeanedDate | 断奶日期 |
+| CreatedOn | 创建时间 |
+| CreatedBy | 创建人 |
+| Frozen | 是否冻结 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| ModifiedBy | 修改人 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_CallResult] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM外呼结果信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| KSFId | KSFId |
-| CMamaId | CMamaId |
-| PMamaId | PMamaId |
-| Mobile1 | Mobile1 |
-| Mobile2 | Mobile2 |
-| BatchNumber | BatchNumber |
-| ImportStatus | ImportStatus |
-| FaildReason | FaildReason |
-| IsSpotCheck | IsSpotCheck |
-| IsNewCustomer | IsNewCustomer |
-| UpdateCustName | UpdateCustName |
-| UpdatebrandName | UpdatebrandName |
-| UpdateBuyTime | UpdateBuyTime |
-| CallContent | CallContent |
-| CallUser | CallUser |
-| CallTime | CallTime |
-| UserBrand | UserBrand |
-| ContinueBuy | ContinueBuy |
-| CallStatus | CallStatus |
-| InvalidReason | InvalidReason |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| CallResult | CallResult |
-| IsNameValid | IsNameValid |
-| IsBuy | IsBuy |
-| IsProductNameValid | IsProductNameValid |
-| CurrentMomBrand | CurrentMomBrand |
-| CurrentNicBrand | CurrentNicBrand |
-| CurrentS3NestleBrand | CurrentS3NestleBrand |
-| CurrentS3CompeteBrand | CurrentS3CompeteBrand |
-| CallRemark | CallRemark |
-| OperationFlag | OperationFlag |
-| BrandExperience | BrandExperience |
-| IsApprovalBrand | IsApprovalBrand |
-| IsReceiveGift | IsReceiveGift |
-| NewCustomerType | NewCustomerType |
-| ReferrerPhone | ReferrerPhone |
-| GiftMechanism | GiftMechanism |
-| IsRiskSurvey | IsRiskSurvey |
-| RiskSurveyDate | RiskSurveyDate |
-| AllergicFactors | AllergicFactors |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| KSFId | KSFID |
+| CMamaId | C端妈妈ID |
+| PMamaId | P端妈妈ID |
+| Mobile1 | 手机号码1 |
+| Mobile2 | 手机号码2 |
+| BatchNumber | 批次号 |
+| ImportStatus | 导入状态 |
+| FaildReason | 失败原因 |
+| IsSpotCheck | 是否抽查 |
+| IsNewCustomer | 是否新客 |
+| UpdateCustName | 更新客户姓名 |
+| UpdatebrandName | 更新品牌名称 |
+| UpdateBuyTime | 更新购买时间 |
+| CallContent | 外呼内容 |
+| CallUser | 外呼客服 |
+| CallTime | 外呼时间 |
+| UserBrand | 用户品牌 |
+| ContinueBuy | 是否继续购买 |
+| CallStatus | 外呼状态 |
+| InvalidReason | 无效原因 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| CallResult | 外呼结果 |
+| IsNameValid | 姓名是否有效 |
+| IsBuy | 是否购买 |
+| IsProductNameValid | 产品名称是否有效 |
+| CurrentMomBrand | 当前妈妈品牌 |
+| CurrentNicBrand | 当前NIC品牌 |
+| CurrentS3NestleBrand | 当前S3雀巢品牌 |
+| CurrentS3CompeteBrand | 当前S3竞品品牌 |
+| CallRemark | 外呼备注 |
+| OperationFlag | 操作标志 |
+| BrandExperience | 品牌体验 |
+| IsApprovalBrand | 是否认可品牌 |
+| IsReceiveGift | 是否收到礼物 |
+| NewCustomerType | 新客类型 |
+| ReferrerPhone | 推荐人手机号 |
+| GiftMechanism | 礼品机制 |
+| IsRiskSurvey | 是否风险调研 |
+| RiskSurveyDate | 风险调研日期 |
+| AllergicFactors | 过敏因素 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_FAQ] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的常见问题（FAQ）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| ID | ID |
-| InfoType | InfoType |
-| Question | Question |
-| Ans | Ans |
-| ParentId | ParentId |
-| OrderID | OrderID |
-| AttName | AttName |
-| AttPath | AttPath |
-| QueryAns | QueryAns |
-| OperationFlag | OperationFlag |
-| txUser | txUser |
-| txDate | txDate |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| ID | FAQ ID |
+| InfoType | 信息类型 |
+| Question | 问题 |
+| Ans | 答案 |
+| ParentId | 父ID |
+| OrderID | 排序ID |
+| AttName | 附件名称 |
+| AttPath | 附件路径 |
+| QueryAns | 查询答案 |
+| OperationFlag | 操作标志 |
+| txUser | 交易用户 |
+| txDate | 交易日期 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_Inbound] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM呼入电话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| Name | Name |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| FilePath | FilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| Remark | Remark |
-| ContactSpecification | ContactSpecification |
-| CallCategory | CallCategory |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| FeedType | FeedType |
-| ConsultPoint | ConsultPoint |
-| ConsultContent | ConsultContent |
-| ReplyContent | ReplyContent |
-| HotlineKnowWay | HotlineKnowWay |
-| ConsultDetail | ConsultDetail |
-| TIMELONG | TIMELONG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| QuestionDetailJSON | QuestionDetailJSON |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| Id | 呼入ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| Name | 姓名 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| FilePath | 文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| Remark | 备注 |
+| ContactSpecification | 联系规格 |
+| CallCategory | 通话类别 |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| FeedType | 喂养方式 |
+| ConsultPoint | 咨询要点 |
+| ConsultContent | 咨询内容 |
+| ReplyContent | 回复内容 |
+| HotlineKnowWay | 热线知晓渠道 |
+| ConsultDetail | 咨询详情 |
+| TIMELONG | 通话时长 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| QuestionDetailJSON | 问题详情JSON |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_Inbound_DS] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM呼入电话（DS）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| Name | Name |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| FilePath | FilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| Remark | Remark |
-| ContactSpecification | ContactSpecification |
-| CallCategory | CallCategory |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| FeedType | FeedType |
-| ConsultPoint | ConsultPoint |
-| ConsultContent | ConsultContent |
-| ReplyContent | ReplyContent |
-| HotlineKnowWay | HotlineKnowWay |
-| ConsultDetail | ConsultDetail |
-| TIMELONG | TIMELONG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| QuestionDetailJSON | QuestionDetailJSON |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| PID | 主键ID |
+| Id | 呼入ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| Name | 姓名 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| FilePath | 文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| Remark | 备注 |
+| ContactSpecification | 联系规格 |
+| CallCategory | 通话类别 |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| FeedType | 喂养方式 |
+| ConsultPoint | 咨询要点 |
+| ConsultContent | 咨询内容 |
+| ReplyContent | 回复内容 |
+| HotlineKnowWay | 热线知晓渠道 |
+| ConsultDetail | 咨询详情 |
+| TIMELONG | 通话时长 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| QuestionDetailJSON | 问题详情JSON |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [CRM_Mama] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的妈妈信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| MamaName | MamaName |
-| Birthday | Birthday |
-| Gender | Gender |
-| PostalCode | PostalCode |
-| AddressHead | AddressHead |
-| AddressTail | AddressTail |
-| JoinTime | JoinTime |
-| HomeTel | HomeTel |
-| OfficeTel | OfficeTel |
-| OtherTel | OtherTel |
-| Mobile | Mobile |
-| DefaultTelType | DefaultTelType |
-| HotelineKnowWay | HotelineKnowWay |
-| IsRefusedAll | IsRefusedAll |
-| IsFollowedWechatCTM | IsFollowedWechatCTM |
-| IsBandWechatCTM | IsBandWechatCTM |
-| IsAcceptedCall | IsAcceptedCall |
-| IsAcceptedMail | IsAcceptedMail |
-| IsAcceptedEmail | IsAcceptedEmail |
-| IsAcceptedSMS | IsAcceptedSMS |
-| Remark | Remark |
-| IsMember | IsMember |
-| MemberCardNo | MemberCardNo |
-| IdentityNumber | IdentityNumber |
-| Company | Company |
-| Job | Job |
-| CheccId | CheccId |
-| CMTId | CMTId |
-| LogBatchId | LogBatchId |
-| WebUserId | WebUserId |
-| WebDataSource | WebDataSource |
-| Email | Email |
-| WechatNo | WechatNo |
-| WeiboNo | WeiboNo |
-| RegisterMobile | RegisterMobile |
-| PregnantStatus | PregnantStatus |
-| HasAllergy | HasAllergy |
-| CMTKnowWay | CMTKnowWay |
-| Interests | Interests |
-| IsPass | IsPass |
-| NoPassReason | NoPassReason |
-| IsCMTCall | IsCMTCall |
-| BabyEDC | BabyEDC |
-| IsCallCount | IsCallCount |
-| ImportDate | ImportDate |
-| Frozen | Frozen |
-| SubscribeSource | SubscribeSource |
-| SubscribeTime | SubscribeTime |
-| RegisterChannel | RegisterChannel |
-| OperationFlag | OperationFlag |
-| CreatedOn | CreatedOn |
-| CreatedBy | CreatedBy |
-| ModifiedOn | ModifiedOn |
-| ModifiedBy | ModifiedBy |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| ActivityChannel | ActivityChannel |
-| CMT_ID | CMT_ID |
-| MamaNameFromSNC | MamaNameFromSNC |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Unionid | Unionid |
-| Comments | Comments |
-| PID | PID |
+| PID | 主键ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| MamaName | 妈妈姓名 |
+| Birthday | 生日 |
+| Gender | 性别 |
+| PostalCode | 邮政编码 |
+| AddressHead | 地址头 |
+| AddressTail | 地址尾 |
+| JoinTime | 加入时间 |
+| HomeTel |家庭电话 |
+| OfficeTel | 办公电话 |
+| OtherTel | 其他电话 |
+| Mobile | 手机号码 |
+| DefaultTelType | 默认电话类型 |
+| HotelineKnowWay | 热线知晓渠道 |
+| IsRefusedAll | 是否全部拒绝 |
+| IsFollowedWechatCTM | 是否关注微信CTM |
+| IsBandWechatCTM | 是否绑定微信CTM |
+| IsAcceptedCall | 是否接受电话 |
+| IsAcceptedMail | 是否接受邮件 |
+| IsAcceptedEmail | 是否接受电子邮件 |
+| IsAcceptedSMS | 是否接受短信 |
+| Remark | 备注 |
+| IsMember | 是否会员 |
+| MemberCardNo | 会员卡号 |
+| IdentityNumber | 身份证号 |
+| Company | 公司 |
+| Job | 工作 |
+| CheccId | CheccID |
+| CMTId | CMT ID |
+| LogBatchId | 日志批次ID |
+| WebUserId | 网站用户ID |
+| WebDataSource | 网站数据源 |
+| Email | 电子邮箱 |
+| WechatNo | 微信号 |
+| WeiboNo | 微博号 |
+| RegisterMobile | 注册手机 |
+| PregnantStatus | 怀孕状态 |
+| HasAllergy | 是否过敏 |
+| CMTKnowWay | CMT知晓渠道 |
+| Interests | 兴趣 |
+| IsPass | 是否通过 |
+| NoPassReason | 未通过原因 |
+| IsCMTCall | 是否CMT呼叫 |
+| BabyEDC | 宝宝预产期 |
+| IsCallCount | 是否计入呼叫次数 |
+| ImportDate | 导入日期 |
+| Frozen | 是否冻结 |
+| SubscribeSource | 订阅来源 |
+| SubscribeTime | 订阅时间 |
+| RegisterChannel | 注册渠道 |
+| OperationFlag | 操作标志 |
+| CreatedOn | 创建时间 |
+| CreatedBy | 创建人 |
+| ModifiedOn | 修改时间 |
+| ModifiedBy | 修改人 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| ActivityChannel | 活动渠道 |
+| CMT_ID | CMT ID |
+| MamaNameFromSNC | 来自SNC的妈妈姓名 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Unionid | 用户微信Unionid |
+| Comments | 评论 |
+| PID | 主键ID |
 
 # [CRM_Manufactor] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的制造商信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ManufactorID | ManufactorID |
-| ManufactorName | ManufactorName |
-| UserType | UserType |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| ManufactorID | 制造商ID |
+| ManufactorName | 制造商名称 |
+| UserType | 用户类型 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [CRM_Member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| MemberId | MemberId |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| RegisterChannel | RegisterChannel |
-| Status | Status |
-| CreateUser | CreateUser |
-| CreateTime | CreateTime |
-| Remark | Remark |
-| SRCode | SRCode |
-| SRName | SRName |
-| QRCode | QRCode |
-| MamaName | MamaName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| StoreChannel | StoreChannel |
-| Region | Region |
-| Province | Province |
-| City | City |
-| CityGroup | CityGroup |
-| JoinDate | JoinDate |
-| OperationFlag | OperationFlag |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| MemberId | 会员ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| RegisterChannel | 注册渠道 |
+| Status | 状态 |
+| CreateUser | 创建用户 |
+| CreateTime | 创建时间 |
+| Remark | 备注 |
+| SRCode | SR代码 |
+| SRName | SR名称 |
+| QRCode | 二维码 |
+| MamaName | 妈妈姓名 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| StoreChannel | 门店渠道 |
+| Region | 区域 |
+| Province | 省份 |
+| City | 城市 |
+| CityGroup | 城市组 |
+| JoinDate | 加入日期 |
+| OperationFlag | 操作标志 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_Member_Profiles] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM中的会员详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| M_MOBILE | M_MOBILE |
-| M_PASSWORD | M_PASSWORD |
-| M_IS_VAILD | M_IS_VAILD |
-| M_INVAILD_REASON | M_INVAILD_REASON |
-| M_CREATE_DATE | M_CREATE_DATE |
-| M_UPDATE_DATE | M_UPDATE_DATE |
-| SUB_USER_EMAIL | SUB_USER_EMAIL |
-| SUB_USER_NAME | SUB_USER_NAME |
-| SUB_USER_NICKNAME | SUB_USER_NICKNAME |
-| SUB_USER_BIRTHDAY | SUB_USER_BIRTHDAY |
-| SUB_MEMBER_TYPE | SUB_MEMBER_TYPE |
-| SUB_MEMBER_TYPE_OTHER | SUB_MEMBER_TYPE_OTHER |
-| SUB_PROVINCE | SUB_PROVINCE |
-| SUB_CITY | SUB_CITY |
-| SUB_DISTRICT | SUB_DISTRICT |
-| SUB_ADDRESS | SUB_ADDRESS |
-| SUB_ZIPCODE | SUB_ZIPCODE |
-| SUB_PREGNANT_STATUS | SUB_PREGNANT_STATUS |
-| SUB_BABY_DUEDATE | SUB_BABY_DUEDATE |
-| SUB_BABY_BIRTHDAY | SUB_BABY_BIRTHDAY |
-| SUB_BABY_NICKNAME | SUB_BABY_NICKNAME |
-| SUB_INTEREST_MILESTONE | SUB_INTEREST_MILESTONE |
-| SUB_IS_RCV_SMS | SUB_IS_RCV_SMS |
-| SUB_IS_RCV_MMS | SUB_IS_RCV_MMS |
-| SUB_IS_RCV_MAIL | SUB_IS_RCV_MAIL |
-| SUB_IS_RCV_OTHER | SUB_IS_RCV_OTHER |
-| SUB_IS_ALLERGY | SUB_IS_ALLERGY |
-| SUB_BABY_BRAND | SUB_BABY_BRAND |
-| SUB_FEEDING_PATTERNS | SUB_FEEDING_PATTERNS |
-| SOU_REG_URL | SOU_REG_URL |
-| SOU_PREVIOUS_URL | SOU_PREVIOUS_URL |
-| SOU_CONFERENCE_CODE | SOU_CONFERENCE_CODE |
-| SOU_TRACKING_CODE_06 | SOU_TRACKING_CODE_06 |
-| SWD_DATA_SOURCE | SWD_DATA_SOURCE |
-| WECHAT_BIND | WECHAT_BIND |
-| WECHAT_BIND_FLAG | WECHAT_BIND_FLAG |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| SR_USER_NAME | SR_USER_NAME |
-| SR_STORE_CODE | SR_STORE_CODE |
-| SR_AREA | SR_AREA |
-| SR_PROVINCE | SR_PROVINCE |
-| SR_CITY | SR_CITY |
-| SR_CODE | SR_CODE |
-| SR_CHANNEL | SR_CHANNEL |
-| SR_CITY_GROUP | SR_CITY_GROUP |
-| SR_STORE_NAME | SR_STORE_NAME |
-| CMT_ID | CMT_ID |
-| SR_QRCODE | SR_QRCODE |
-| WECHAT_CARD_CODE | WECHAT_CARD_CODE |
-| SUB_BABY_GENDER | SUB_BABY_GENDER |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| M_TYPE | M_TYPE |
-| CMT_UNIONID | CMT_UNIONID |
-| Remark | Remark |
-| S_MOBILE | S_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Completed_Shouhu_Questionnaire1_Date | Completed_Shouhu_Questionnaire1_Date |
-| Completed_Qihu_Questionnaire1_Date | Completed_Qihu_Questionnaire1_Date |
-| Completed_Youhu_Questionnaire1_Date | Completed_Youhu_Questionnaire1_Date |
-| Completed_Qihu_Questionnaire2_Date | Completed_Qihu_Questionnaire2_Date |
-| Completed_Youhu_Questionnaire2_Date | Completed_Youhu_Questionnaire2_Date |
-| Completed_Cmpa_Questionnaire_Date | Completed_Cmpa_Questionnaire_Date |
-| Completed_Info | Completed_Info |
-| Completed_ARI | Completed_ARI |
-| Brand_Prospect | Brand_Prospect |
-| MS_GP_Tag | MS_GP_Tag |
-| SYNC_TIME | SYNC_TIME |
-| Last_SYNC_Time | Last_SYNC_Time |
-| WECHAT_BIND_GB | WECHAT_BIND_GB |
-| WECHAT_BIND_FLAG_GB | WECHAT_BIND_FLAG_GB |
-| WECHAT_BIND_CT | WECHAT_BIND_CT |
-| Completed_Bohu_Questionnaire1_Date | Completed_Bohu_Questionnaire1_Date |
-| Completed_Bohu_Questionnaire2_Date | Completed_Bohu_Questionnaire2_Date |
-| Completed_Shuhu_Questionnaire1_Date | Completed_Shuhu_Questionnaire1_Date |
-| Vip_Level | Vip_Level |
-| NHS_Unionid | NHS_Unionid |
-| PID | PID |
+| PID | 主键ID |
+| M_MOBILE | 手机号码 |
+| M_PASSWORD | 密码 |
+| M_IS_VAILD | 是否有效 |
+| M_INVAILD_REASON | 无效原因 |
+| M_CREATE_DATE | 创建日期 |
+| M_UPDATE_DATE | 更新日期 |
+| SUB_USER_EMAIL | 用户邮箱 |
+| SUB_USER_NAME | 用户名 |
+| SUB_USER_NICKNAME | 用户昵称 |
+| SUB_USER_BIRTHDAY | 用户生日 |
+| SUB_MEMBER_TYPE | 会员类型 |
+| SUB_MEMBER_TYPE_OTHER | 其他会员类型 |
+| SUB_PROVINCE | 省份 |
+| SUB_CITY | 城市 |
+| SUB_DISTRICT | 区/县 |
+| SUB_ADDRESS | 地址 |
+| SUB_ZIPCODE | 邮政编码 |
+| SUB_PREGNANT_STATUS | 怀孕状态 |
+| SUB_BABY_DUEDATE | 宝宝预产期 |
+| SUB_BABY_BIRTHDAY | 宝宝生日 |
+| SUB_BABY_NICKNAME | 宝宝昵称 |
+| SUB_INTEREST_MILESTONE | 兴趣里程碑 |
+| SUB_IS_RCV_SMS | 是否接收短信 |
+| SUB_IS_RCV_MMS | 是否接收彩信 |
+| SUB_IS_RCV_MAIL | 是否接收邮件 |
+| SUB_IS_RCV_OTHER | 是否接收其他 |
+| SUB_IS_ALLERGY | 是否过敏 |
+| SUB_BABY_BRAND | 宝宝品牌 |
+| SUB_FEEDING_PATTERNS | 喂养方式 |
+| SOU_REG_URL | 注册URL |
+| SOU_PREVIOUS_URL | 上一页URL |
+| SOU_CONFERENCE_CODE | 会议代码 |
+| SOU_TRACKING_CODE_06 | 追踪代码06 |
+| SWD_DATA_SOURCE | 数据源 |
+| WECHAT_BIND | 微信绑定 |
+| WECHAT_BIND_FLAG | 微信绑定标志 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| SR_USER_NAME | SR用户名 |
+| SR_STORE_CODE | SR门店代码 |
+| SR_AREA | SR区域 |
+| SR_PROVINCE | SR省份 |
+| SR_CITY | SR城市 |
+| SR_CODE | SR代码 |
+| SR_CHANNEL | SR渠道 |
+| SR_CITY_GROUP | SR城市组 |
+| SR_STORE_NAME | SR门店名称 |
+| CMT_ID | CMT ID |
+| SR_QRCODE | SR二维码 |
+| WECHAT_CARD_CODE | 微信卡券代码 |
+| SUB_BABY_GENDER | 宝宝性别 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| M_TYPE | 类型 |
+| CMT_UNIONID | CMT Unionid |
+| Remark | 备注 |
+| S_MOBILE | S端手机号 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Completed_Shouhu_Questionnaire1_Date | 完成守护问卷1日期 |
+| Completed_Qihu_Questionnaire1_Date | 完成启护问卷1日期 |
+| Completed_Youhu_Questionnaire1_Date | 完成优护问卷1日期 |
+| Completed_Qihu_Questionnaire2_Date | 完成启护问卷2日期 |
+| Completed_Youhu_Questionnaire2_Date | 完成优护问卷2日期 |
+| Completed_Cmpa_Questionnaire_Date | 完成Cmpa问卷日期 |
+| Completed_Info | 完成信息 |
+| Completed_ARI | 完成ARI |
+| Brand_Prospect | 品牌前景 |
+| MS_GP_Tag | MS GP标签 |
+| SYNC_TIME | 同步时间 |
+| Last_SYNC_Time | 上次同步时间 |
+| WECHAT_BIND_GB | 微信绑定GB |
+| WECHAT_BIND_FLAG_GB | 微信绑定标志GB |
+| WECHAT_BIND_CT | 微信绑定CT |
+| Completed_Bohu_Questionnaire1_Date | 完成铂护问卷1日期 |
+| Completed_Bohu_Questionnaire2_Date | 完成铂护问卷2日期 |
+| Completed_Shuhu_Questionnaire1_Date | 完成舒护问卷1日期 |
+| Vip_Level | 会员等级 |
+| NHS_Unionid | NHS Unionid |
+| PID | 主键ID |
 
 # [CRM_MOT_Back] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM MOT（关键时刻）反馈信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | KSFID | KSFID |
-| Unionid | Unionid |
-| Recruit_Brand | Recruit_Brand |
-| SNCCode | SNCCode |
-| SNCName | SNCName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| Source | Source |
-| CalSeqNo | CalSeqNo |
-| CsrCallTime | CsrCallTime |
-| Tag_List | Tag_List |
-| Baby_Status | Baby_Status |
-| Is_Chg_Milk | Is_Chg_Milk |
-| Is_Age_Confirm | Is_Age_Confirm |
-| Is_Activa_HCP | Is_Activa_HCP |
-| Use_Sample | Use_Sample |
-| Repurchase_Type | Repurchase_Type |
-| Is_Valid | Is_Valid |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| Unionid | 用户微信Unionid |
+| Recruit_Brand | 招募品牌 |
+| SNCCode | SNC代码 |
+| SNCName | SNC名称 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| Source | 来源 |
+| CalSeqNo | 外呼序列号 |
+| CsrCallTime | 客服外呼时间 |
+| Tag_List | 标签列表 |
+| Baby_Status | 宝宝状态 |
+| Is_Chg_Milk | 是否转奶 |
+| Is_Age_Confirm | 年龄是否确认 |
+| Is_Activa_HCP | 是否激活HCP |
+| Use_Sample | 使用样品 |
+| Repurchase_Type | 复购类型 |
+| Is_Valid | 是否有效 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | KSFID | KSFID |
-| CalSeqNo | CalSeqNo |
+| CalSeqNo | 外呼序列号 |
 
 # [CRM_Outbound] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM外呼信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| CallingNumber | CallingNumber |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| CallDuration | CallDuration |
-| TapeFilePath | TapeFilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| CallResult | CallResult |
-| IsNameValid | IsNameValid |
-| ModifiedName | ModifiedName |
-| IsBuy | IsBuy |
-| IsProductNameValid | IsProductNameValid |
-| ModifiedProductName | ModifiedProductName |
-| ModifiedBoughtTime | ModifiedBoughtTime |
-| CurrentMomBrand | CurrentMomBrand |
-| Remark1 | Remark1 |
-| CurrentNicBrand | CurrentNicBrand |
-| Remark2 | Remark2 |
-| CurrentS3NestleBrand | CurrentS3NestleBrand |
-| Remark3 | Remark3 |
-| CurrentS3CompeteBrand | CurrentS3CompeteBrand |
-| Remark4 | Remark4 |
-| IsContinuedBuy | IsContinuedBuy |
-| CALLCONTENT | CALLCONTENT |
-| CALLREMARK | CALLREMARK |
-| Campaignid | Campaignid |
-| listid | listid |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| BUSI_TYPE_TAG | BUSI_TYPE_TAG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| ActivityChannel | ActivityChannel |
-| EqualResult | EqualResult |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| Id | 外呼ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| CallingNumber | 主叫号码 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| CallDuration | 通话时长 |
+| TapeFilePath | 录音文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| CallResult | 外呼结果 |
+| IsNameValid | 姓名是否有效 |
+| ModifiedName | 修改后的姓名 |
+| IsBuy | 是否购买 |
+| IsProductNameValid | 产品名称是否有效 |
+| ModifiedProductName | 修改后的产品名称 |
+| ModifiedBoughtTime | 修改后的购买时间 |
+| CurrentMomBrand | 当前妈妈品牌 |
+| Remark1 | 备注1 |
+| CurrentNicBrand | 当前NIC品牌 |
+| Remark2 | 备注2 |
+| CurrentS3NestleBrand | 当前S3雀巢品牌 |
+| Remark3 | 备注3 |
+| CurrentS3CompeteBrand | 当前S3竞品品牌 |
+| Remark4 | 备注4 |
+| IsContinuedBuy | 是否继续购买 |
+| CALLCONTENT | 外呼内容 |
+| CALLREMARK | 外呼备注 |
+| Campaignid | 活动ID |
+| listid | 列表ID |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| BUSI_TYPE_TAG | 业务类型标签 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| ActivityChannel | 活动渠道 |
+| EqualResult | 对比结果 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRM_Register] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM注册信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Openid | Openid |
-| Appid | Appid |
-| CreatedOn | CreatedOn |
+| ID | 注册ID |
+| Openid | 用户微信Openid |
+| Appid | 应用ID |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [CRM_SurveyResult] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM调研结果信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| SurveyResultID | SurveyResultID |
-| CampaignId | CampaignId |
-| MamaId | MamaId |
-| KsfId | KsfId |
-| CallseqNo | CallseqNo |
-| SurveyName | SurveyName |
-| OperationFlag | OperationFlag |
-| SurveyDetailList | SurveyDetailList |
-| PDateReceived | PDateReceived |
-| PDateProcessed | PDateProcessed |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| ID | 结果ID |
+| SurveyResultID | 调研结果ID |
+| CampaignId | 活动ID |
+| MamaId | 妈妈ID |
+| KsfId | KSFID |
+| CallseqNo | 外呼序列号 |
+| SurveyName | 调研名称 |
+| OperationFlag | 操作标志 |
+| SurveyDetailList | 调研详情列表 |
+| PDateReceived | P端接收日期 |
+| PDateProcessed | P端处理日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [CRM_WechatData] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRM微信数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PID | PID |
-| ID | ID |
-| ProblemTagName | ProblemTagName |
-| WxOpenID | WxOpenID |
-| Category | Category |
-| SubCategory | SubCategory |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| OperationFlag | OperationFlag |
-| PDateProcessed | PDateProcessed |
-| PDateReceived | PDateReceived |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PID | PID |
+| PID | 主键ID |
+| ID | 数据ID |
+| ProblemTagName | 问题标签名称 |
+| WxOpenID | 微信OpenID |
+| Category | 类别 |
+| SubCategory | 子类别 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| OperationFlag | 操作标志 |
+| PDateProcessed | P端处理日期 |
+| PDateReceived | P端接收日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PID | 主键ID |
 
 # [CRMPlus_API_LOG] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRMPlus API日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Request | Request |
-| Method | Method |
-| Payload | Payload |
-| Response | Response |
-| Status | Status |
-| PushAgainDate | PushAgainDate |
-| OriginId | OriginId |
-| CreatedOn | CreatedOn |
-| ElapsedMilliseconds | ElapsedMilliseconds |
-| Id | Id |
+| Id | 日志ID |
+| Request | 请求内容 |
+| Method | 请求方法 |
+| Payload | 请求负荷 |
+| Response | 响应内容 |
+| Status | 状态 |
+| PushAgainDate | 再次推送日期 |
+| OriginId | 原始ID |
+| CreatedOn | 创建时间 |
+| ElapsedMilliseconds | 耗时（毫秒） |
+| Id | ID |
 
 # [CRMPlus_Order] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRMPlus中的订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| OrderNum | OrderNum |
-| PgNum | PgNum |
-| PgName | PgName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| Openid | Openid |
-| OrderMobile | OrderMobile |
-| UserId | UserId |
-| OrderCreateTime | OrderCreateTime |
-| OrderModifyTime | OrderModifyTime |
-| TankBarcode | TankBarcode |
-| BoxBarcode | BoxBarcode |
-| ReturnTankBarcode | ReturnTankBarcode |
-| ReturnCount | ReturnCount |
-| PurchaseStatus | PurchaseStatus |
-| QRCodeLink | QRCodeLink |
-| OperationFlag | OperationFlag |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| OrderEntry | OrderEntry |
-| Recordstatus | Recordstatus |
-| Channel | Channel |
-| S_MOBILE | S_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| TouchPoint | TouchPoint |
-| Unionid | Unionid |
-| BU | BU |
-| Vip_Level | Vip_Level |
-| Cus_Number | Cus_Number |
-| Cus_Uid | Cus_Uid |
-| Is_Spark | Is_Spark |
-| BabyBirthday | BabyBirthday |
+| ID | 订单ID |
+| OrderNum | 订单号 |
+| PgNum | PG数量 |
+| PgName | PG名称 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| Openid | 用户微信Openid |
+| OrderMobile | 订单手机 |
+| UserId | 用户ID |
+| OrderCreateTime | 订单创建时间 |
+| OrderModifyTime | 订单修改时间 |
+| TankBarcode | 罐条码 |
+| BoxBarcode | 箱条码 |
+| ReturnTankBarcode | 退货罐条码 |
+| ReturnCount | 退货数量 |
+| PurchaseStatus | 购买状态 |
+| QRCodeLink | 二维码链接 |
+| OperationFlag | 操作标志 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| OrderEntry | 订单入口 |
+| Recordstatus | 记录状态 |
+| Channel | 渠道 |
+| S_MOBILE | S端手机号 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| TouchPoint | 触点 |
+| Unionid | 用户微信Unionid |
+| BU | 业务单元 |
+| Vip_Level | 会员等级 |
+| Cus_Number | 客户编号 |
+| Cus_Uid | 客户UID |
+| Is_Spark | 是否Spark |
+| BabyBirthday | 宝宝生日 |
 | TNRS | TNRS |
-| IsShareOrder | IsShareOrder |
-| Tcds_Id | Tcds_Id |
+| IsShareOrder | 是否分享订单 |
+| Tcds_Id | TCDS ID |
 | ID | ID |
 
 # [CRMPlus_Order_ProductCode] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CRMPlus中的订单产品代码信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| OrderNum | OrderNum |
-| ProductCode | ProductCode |
-| Type | Type |
-| Count | Count |
-| TankBarcode | TankBarcode |
-| BoxBarcode | BoxBarcode |
-| OrdeModifiedTime | OrdeModifiedTime |
-| Price | Price |
-| TotalPrice | TotalPrice |
-| PurchaseStatus | PurchaseStatus |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| ID_CRMPlus | ID_CRMPlus |
-| LastChange | LastChange |
-| CampaignId | CampaignId |
-| NewCustomterType | NewCustomterType |
-| OrderCreateTime | OrderCreateTime |
+| OrderNum | 订单号 |
+| ProductCode | 产品代码 |
+| Type | 类型 |
+| Count | 数量 |
+| TankBarcode | 罐条码 |
+| BoxBarcode | 箱条码 |
+| OrdeModifiedTime | 订单修改时间 |
+| Price | 价格 |
+| TotalPrice | 总价 |
+| PurchaseStatus | 购买状态 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| ID_CRMPlus | CRMPlus ID |
+| LastChange | 最后更改时间 |
+| CampaignId | 活动ID |
+| NewCustomterType | 新客户类型 |
+| OrderCreateTime | 订单创建时间 |
 | ID | ID |
 
 # [DATA_Baby] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了宝宝的数据信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PBabyId | PBabyId |
-| CBabyId | CBabyId |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| BabyName | BabyName |
-| Birthday | Birthday |
-| Gender | Gender |
-| BirthOrder | BirthOrder |
-| BabyNum | BabyNum |
-| WeanedDate | WeanedDate |
-| CreatedOn | CreatedOn |
-| CreatedBy | CreatedBy |
-| Frozen | Frozen |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| ModifiedBy | ModifiedBy |
-| IsSentToCRM | IsSentToCRM |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| PBabyId | PBabyId |
+| PBabyId | P端宝宝ID |
+| CBabyId | C端宝宝ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| BabyName | 宝宝姓名 |
+| Birthday | 生日 |
+| Gender | 性别 |
+| BirthOrder | 出生顺序 |
+| BabyNum | 宝宝数量 |
+| WeanedDate | 断奶日期 |
+| CreatedOn | 创建时间 |
+| CreatedBy | 创建人 |
+| Frozen | 是否冻结 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| ModifiedBy | 修改人 |
+| IsSentToCRM | 是否已发送至CRM |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| PBabyId | P端宝宝ID |
 
 # [DATA_CallTypeList] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了通话类型列表数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| InboundID | InboundID |
-| CallType1 | CallType1 |
-| CallType2 | CallType2 |
-| CallType3 | CallType3 |
-| CallType4 | CallType4 |
-| CallType5 | CallType5 |
-| CallType6 | CallType6 |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Id | Id |
+| Id | ID |
+| InboundID | 呼入ID |
+| CallType1 | 通话类型1 |
+| CallType2 | 通话类型2 |
+| CallType3 | 通话类型3 |
+| CallType4 | 通话类型4 |
+| CallType5 | 通话类型5 |
+| CallType6 | 通话类型6 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Id | ID |
 
 # [DATA_Campaign_Activity] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了活动数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| Mobile | Mobile |
-| CampaignId | CampaignId |
-| CampaignName | CampaignName |
-| CampaignType | CampaignType |
-| Channel | Channel |
-| GiftCode | GiftCode |
-| BuyDate | BuyDate |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Remark | Remark |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Mobile | Mobile |
-| CampaignId | CampaignId |
+| Unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| CampaignId | 活动ID |
+| CampaignName | 活动名称 |
+| CampaignType | 活动类型 |
+| Channel | 渠道 |
+| GiftCode | 礼品码 |
+| BuyDate | 购买日期 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Remark | 备注 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Mobile | 手机号码 |
+| CampaignId | 活动ID |
 
 # [DATA_Campaign_Activity_2022] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年活动数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Openid | Openid |
-| Mobile | Mobile |
-| CampaignId | CampaignId |
-| Sequence | Sequence |
-| Channel | Channel |
-| TouchPoint | TouchPoint |
-| GiftCode | GiftCode |
-| BuyDate | BuyDate |
-| OrderId | OrderId |
-| SNCCode | SNCCode |
-| StoreID | StoreID |
-| IsValid | IsValid |
-| Completed_Questionnaire_2_Date | Completed_Questionnaire_2_Date |
-| Remark | Remark |
-| BuyDate_2 | BuyDate_2 |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| BU | BU |
-| Unionid | Unionid |
-| Resume_Qualification | Resume_Qualification |
-| ID_CRMPlus | ID_CRMPlus |
-| Vip_Level | Vip_Level |
-| Cus_Number | Cus_Number |
-| Cus_Uid | Cus_Uid |
-| Is_Spark | Is_Spark |
-| Tcds_Id | Tcds_Id |
-| Unionid | Unionid |
-| CampaignId | CampaignId |
-| Sequence | Sequence |
+| Openid | 用户微信Openid |
+| Mobile | 手机号码 |
+| CampaignId | 活动ID |
+| Sequence | 序列 |
+| Channel | 渠道 |
+| TouchPoint | 触点 |
+| GiftCode | 礼品码 |
+| BuyDate | 购买日期 |
+| OrderId | 订单ID |
+| SNCCode | SNC代码 |
+| StoreID | 门店ID |
+| IsValid | 是否有效 |
+| Completed_Questionnaire_2_Date | 完成问卷2日期 |
+| Remark | 备注 |
+| BuyDate_2 | 第二次购买日期 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| BU | 业务单元 |
+| Unionid | 用户微信Unionid |
+| Resume_Qualification | 恢复资格 |
+| ID_CRMPlus | CRMPlus ID |
+| Vip_Level | 会员等级 |
+| Cus_Number | 客户编号 |
+| Cus_Uid | 客户UID |
+| Is_Spark | 是否Spark |
+| Tcds_Id | TCDS ID |
+| Unionid | 用户微信Unionid |
+| CampaignId | 活动ID |
+| Sequence | 序列 |
 
 # [DATA_Campaign_Activity_2022_250314] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年3月14日的活动数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Openid | Openid |
-| Mobile | Mobile |
-| CampaignId | CampaignId |
-| Sequence | Sequence |
-| Channel | Channel |
-| TouchPoint | TouchPoint |
-| GiftCode | GiftCode |
-| BuyDate | BuyDate |
-| OrderId | OrderId |
-| SNCCode | SNCCode |
-| StoreID | StoreID |
-| IsValid | IsValid |
-| Completed_Questionnaire_2_Date | Completed_Questionnaire_2_Date |
-| Remark | Remark |
-| BuyDate_2 | BuyDate_2 |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| BU | BU |
-| Unionid | Unionid |
-| Resume_Qualification | Resume_Qualification |
-| ID_CRMPlus | ID_CRMPlus |
-| Vip_Level | Vip_Level |
-| Cus_Number | Cus_Number |
-| Cus_Uid | Cus_Uid |
-| Is_Spark | Is_Spark |
-| Tcds_Id | Tcds_Id |
+| Openid | 用户微信Openid |
+| Mobile | 手机号码 |
+| CampaignId | 活动ID |
+| Sequence | 序列 |
+| Channel | 渠道 |
+| TouchPoint | 触点 |
+| GiftCode | 礼品码 |
+| BuyDate | 购买日期 |
+| OrderId | 订单ID |
+| SNCCode | SNC代码 |
+| StoreID | 门店ID |
+| IsValid | 是否有效 |
+| Completed_Questionnaire_2_Date | 完成问卷2日期 |
+| Remark | 备注 |
+| BuyDate_2 | 第二次购买日期 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| BU | 业务单元 |
+| Unionid | 用户微信Unionid |
+| Resume_Qualification | 恢复资格 |
+| ID_CRMPlus | CRMPlus ID |
+| Vip_Level | 会员等级 |
+| Cus_Number | 客户编号 |
+| Cus_Uid | 客户UID |
+| Is_Spark | 是否Spark |
+| Tcds_Id | TCDS ID |
 
 # [DATA_Campaign_Activity_2022_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年活动日志数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| S_Mobile | S_Mobile |
-| QiHu_2_Qualification | QiHu_2_Qualification |
-| Youhu_2_Qualification | Youhu_2_Qualification |
-| CreateOn | CreateOn |
+| ID | 日志ID |
+| S_Mobile | S端手机号 |
+| QiHu_2_Qualification | 启护2次资格 |
+| Youhu_2_Qualification | 优护2次资格 |
+| CreateOn | 创建时间 |
 | ID | ID |
 
 # [DATA_Campaign_Period] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了活动周期数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| CampaignID | CampaignID |
-| CampaignType | CampaignType |
-| CampaignName | CampaignName |
-| GiftCodeList | GiftCodeList |
-| Sequence | Sequence |
-| Brand | Brand |
-| Remark | Remark |
-| PeriodStart | PeriodStart |
-| PeriodEnd | PeriodEnd |
-| CreatedOn | CreatedOn |
-| LastChange | LastChange |
-| Is_Spark | Is_Spark |
-| MetCompliance | MetCompliance |
-| MetCompliance_Stage_3 | MetCompliance_Stage_3 |
-| Is_blhx | Is_blhx |
-| CampaignID | CampaignID |
+| CampaignID | 活动ID |
+| CampaignType | 活动类型 |
+| CampaignName | 活动名称 |
+| GiftCodeList | 礼品码列表 |
+| Sequence | 序列 |
+| Brand | 品牌 |
+| Remark | 备注 |
+| PeriodStart | 周期开始 |
+| PeriodEnd | 周期结束 |
+| CreatedOn | 创建时间 |
+| LastChange | 最后更改时间 |
+| Is_Spark | 是否Spark |
+| MetCompliance | 符合合规 |
+| MetCompliance_Stage_3 | 符合合规（阶段3） |
+| Is_blhx | 是否blhx |
+| CampaignID | 活动ID |
 
 # [DATA_Campaign_Period_20240629] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年6月29日的活动周期数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| CampaignID | CampaignID |
-| CampaignType | CampaignType |
-| CampaignName | CampaignName |
-| GiftCodeList | GiftCodeList |
-| Sequence | Sequence |
-| Brand | Brand |
-| Remark | Remark |
-| PeriodStart | PeriodStart |
-| PeriodEnd | PeriodEnd |
-| CreatedOn | CreatedOn |
-| LastChange | LastChange |
-| Is_Spark | Is_Spark |
-| MetCompliance | MetCompliance |
-| MetCompliance_Stage_3 | MetCompliance_Stage_3 |
+| CampaignID | 活动ID |
+| CampaignType | 活动类型 |
+| CampaignName | 活动名称 |
+| GiftCodeList | 礼品码列表 |
+| Sequence | 序列 |
+| Brand | 品牌 |
+| Remark | 备注 |
+| PeriodStart | 周期开始 |
+| PeriodEnd | 周期结束 |
+| CreatedOn | 创建时间 |
+| LastChange | 最后更改时间 |
+| Is_Spark | 是否Spark |
+| MetCompliance | 符合合规 |
+| MetCompliance_Stage_3 | 符合合规（阶段3） |
 
 # [DATA_Channel] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了渠道数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Channel | Channel |
-| Source | Source |
-| Methed | Methed |
-| Keyword | Keyword |
-| IsOnline | IsOnline |
-| Remark | Remark |
+| Id | ID |
+| Channel | 渠道 |
+| Source | 来源 |
+| Methed | 方法 |
+| Keyword | 关键词 |
+| IsOnline | 是否线上 |
+| Remark | 备注 |
 
 # [DATA_Chat] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了聊天数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| chatId | chatId |
-| joinTime | joinTime |
-| openid | openid |
-| csrCode | csrCode |
-| csrName | csrName |
-| status | status |
-| msgNum | msgNum |
-| createTime | createTime |
-| finishTime | finishTime |
-| msgTagNum | msgTagNum |
-| satisfactionVal | satisfactionVal |
-| isSendMaterial | isSendMaterial |
-| chatCloseType | chatCloseType |
-| chatMsgData | chatMsgData |
-| createdOn | createdOn |
-| operationFlag | operationFlag |
-| modifiedOn | modifiedOn |
-| sentToCRMOn | sentToCRMOn |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| storeNumber | storeNumber |
-| customerType | customerType |
-| distNumber | distNumber |
-| chatId | chatId |
+| chatId | 聊天ID |
+| joinTime | 加入时间 |
+| openid | 用户微信Openid |
+| csrCode | 客服代码 |
+| csrName | 客服姓名 |
+| status | 状态 |
+| msgNum | 消息数量 |
+| createTime | 创建时间 |
+| finishTime | 结束时间 |
+| msgTagNum | 消息标签数量 |
+| satisfactionVal | 满意度值 |
+| isSendMaterial | 是否发送材料 |
+| chatCloseType | 聊天关闭类型 |
+| chatMsgData | 聊天消息数据 |
+| createdOn | 创建时间 |
+| operationFlag | 操作标志 |
+| modifiedOn | 修改时间 |
+| sentToCRMOn | 发送至CRM时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| storeNumber | 门店编号 |
+| customerType | 客户类型 |
+| distNumber | 分销商编号 |
+| chatId | 聊天ID |
 
 # [DATA_ChatMsg] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了聊天消息数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| chatMsgId | chatMsgId |
-| chatId | chatId |
-| status | status |
-| openid | openid |
-| addTimestamp | addTimestamp |
-| useType | useType |
-| wxPicUrl | wxPicUrl |
-| replyStatus | replyStatus |
-| userAnswerDiff | userAnswerDiff |
-| problemTagNames | problemTagNames |
-| remind | remind |
-| csrCode | csrCode |
-| content | content |
-| newsId | newsId |
-| csrReplyDiff | csrReplyDiff |
-| problemTagIds | problemTagIds |
-| msgType | msgType |
-| addTime | addTime |
-| createdOn | createdOn |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| chatMsgId | chatMsgId |
+| chatMsgId | 聊天消息ID |
+| chatId | 聊天ID |
+| status | 状态 |
+| openid | 用户微信Openid |
+| addTimestamp | 添加时间戳 |
+| useType | 使用类型 |
+| wxPicUrl | 微信图片URL |
+| replyStatus | 回复状态 |
+| userAnswerDiff | 用户回答差异 |
+| problemTagNames | 问题标签名称 |
+| remind | 提醒 |
+| csrCode | 客服代码 |
+| content | 内容 |
+| newsId | 新闻ID |
+| csrReplyDiff | 客服回复差异 |
+| problemTagIds | 问题标签ID |
+| msgType | 消息类型 |
+| addTime | 添加时间 |
+| createdOn | 创建时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| chatMsgId | 聊天消息ID |
 
 # [DATA_Dictionary] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了数据字典信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Name | Name |
-| parent_id | parent_id |
-| type | type |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| Name | 名称 |
+| parent_id | 父ID |
+| type | 类型 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [DATA_Inbound] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了呼入数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| Name | Name |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| FilePath | FilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| Remark | Remark |
-| ContactSpecification | ContactSpecification |
-| CallCategory | CallCategory |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| FeedType | FeedType |
-| ConsultPoint | ConsultPoint |
-| ConsultContent | ConsultContent |
-| ReplyContent | ReplyContent |
-| HotlineKnowWay | HotlineKnowWay |
-| ConsultDetail | ConsultDetail |
-| TIMELONG | TIMELONG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| QuestionDetailJSON | QuestionDetailJSON |
-| IsSentToCRM | IsSentToCRM |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Id | Id |
+| Id | ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| Name | 姓名 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| FilePath | 文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| Remark | 备注 |
+| ContactSpecification | 联系规格 |
+| CallCategory | 通话类别 |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| FeedType | 喂养方式 |
+| ConsultPoint | 咨询要点 |
+| ConsultContent | 咨询内容 |
+| ReplyContent | 回复内容 |
+| HotlineKnowWay | 热线知晓渠道 |
+| ConsultDetail | 咨询详情 |
+| TIMELONG | 通话时长 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| QuestionDetailJSON | 问题详情JSON |
+| IsSentToCRM | 是否已发送至CRM |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Id | ID |
 
 # [DATA_Mama] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了妈妈的数据信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| MamaName | MamaName |
-| Birthday | Birthday |
-| Gender | Gender |
-| PostalCode | PostalCode |
-| AddressHead | AddressHead |
-| AddressTail | AddressTail |
-| JoinTime | JoinTime |
-| HomeTel | HomeTel |
-| OfficeTel | OfficeTel |
-| OtherTel | OtherTel |
-| Mobile | Mobile |
-| DefaultTelType | DefaultTelType |
-| HotelineKnowWay | HotelineKnowWay |
-| IsRefusedAll | IsRefusedAll |
-| IsFollowedWechatCTM | IsFollowedWechatCTM |
-| IsBandWechatCTM | IsBandWechatCTM |
-| IsAcceptedCall | IsAcceptedCall |
-| IsAcceptedMail | IsAcceptedMail |
-| IsAcceptedEmail | IsAcceptedEmail |
-| IsAcceptedSMS | IsAcceptedSMS |
-| Remark | Remark |
-| IsMember | IsMember |
-| MemberCardNo | MemberCardNo |
-| IdentityNumber | IdentityNumber |
-| Company | Company |
-| Job | Job |
-| CheccId | CheccId |
-| CMTId | CMTId |
-| LogBatchId | LogBatchId |
-| WebUserId | WebUserId |
-| WebDataSource | WebDataSource |
-| Email | Email |
-| WechatNo | WechatNo |
-| WeiboNo | WeiboNo |
-| RegisterMobile | RegisterMobile |
-| PregnantStatus | PregnantStatus |
-| HasAllergy | HasAllergy |
-| CMTKnowWay | CMTKnowWay |
-| Interests | Interests |
-| IsPass | IsPass |
-| NoPassReason | NoPassReason |
-| IsCMTCall | IsCMTCall |
-| BabyEDC | BabyEDC |
-| IsCallCount | IsCallCount |
-| ImportDate | ImportDate |
-| Frozen | Frozen |
-| SubscribeSource | SubscribeSource |
-| SubscribeTime | SubscribeTime |
-| RegisterChannel | RegisterChannel |
-| OperationFlag | OperationFlag |
-| CreatedOn | CreatedOn |
-| CreatedBy | CreatedBy |
-| ModifiedOn | ModifiedOn |
-| ModifiedBy | ModifiedBy |
-| IsSentToCRM | IsSentToCRM |
-| ActivityChannel | ActivityChannel |
-| CMT_ID | CMT_ID |
-| MamaNameFromSNC | MamaNameFromSNC |
-| S_MOBILE | S_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Unionid | Unionid |
-| PMamaId | PMamaId |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| MamaName | 妈妈姓名 |
+| Birthday | 生日 |
+| Gender | 性别 |
+| PostalCode | 邮政编码 |
+| AddressHead | 地址头 |
+| AddressTail | 地址尾 |
+| JoinTime | 加入时间 |
+| HomeTel | 家庭电话 |
+| OfficeTel | 办公电话 |
+| OtherTel | 其他电话 |
+| Mobile | 手机号码 |
+| DefaultTelType | 默认电话类型 |
+| HotelineKnowWay | 热线知晓渠道 |
+| IsRefusedAll | 是否全部拒绝 |
+| IsFollowedWechatCTM | 是否关注微信CTM |
+| IsBandWechatCTM | 是否绑定微信CTM |
+| IsAcceptedCall | 是否接受电话 |
+| IsAcceptedMail | 是否接受邮件 |
+| IsAcceptedEmail | 是否接受电子邮件 |
+| IsAcceptedSMS | 是否接受短信 |
+| Remark | 备注 |
+| IsMember | 是否会员 |
+| MemberCardNo | 会员卡号 |
+| IdentityNumber | 身份证号 |
+| Company | 公司 |
+| Job | 工作 |
+| CheccId | CheccID |
+| CMTId | CMT ID |
+| LogBatchId | 日志批次ID |
+| WebUserId | 网站用户ID |
+| WebDataSource | 网站数据源 |
+| Email | 电子邮箱 |
+| WechatNo | 微信号 |
+| WeiboNo | 微博号 |
+| RegisterMobile | 注册手机 |
+| PregnantStatus | 怀孕状态 |
+| HasAllergy | 是否过敏 |
+| CMTKnowWay | CMT知晓渠道 |
+| Interests | 兴趣 |
+| IsPass | 是否通过 |
+| NoPassReason | 未通过原因 |
+| IsCMTCall | 是否CMT呼叫 |
+| BabyEDC | 宝宝预产期 |
+| IsCallCount | 是否计入呼叫次数 |
+| ImportDate | 导入日期 |
+| Frozen | 是否冻结 |
+| SubscribeSource | 订阅来源 |
+| SubscribeTime | 订阅时间 |
+| RegisterChannel | 注册渠道 |
+| OperationFlag | 操作标志 |
+| CreatedOn | 创建时间 |
+| CreatedBy | 创建人 |
+| ModifiedOn | 修改时间 |
+| ModifiedBy | 修改人 |
+| IsSentToCRM | 是否已发送至CRM |
+| ActivityChannel | 活动渠道 |
+| CMT_ID | CMT ID |
+| MamaNameFromSNC | 来自SNC的妈妈姓名 |
+| S_MOBILE | S端手机号 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Unionid | 用户微信Unionid |
+| PMamaId | P端妈妈ID |
 
 # [DATA_Member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员数据信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MemberId | MemberId |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| RegisterChannel | RegisterChannel |
-| Status | Status |
-| CreateUser | CreateUser |
-| CreateTime | CreateTime |
-| Remark | Remark |
-| SRCode | SRCode |
-| SRName | SRName |
-| QRCode | QRCode |
-| MamaName | MamaName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| StoreChannel | StoreChannel |
-| Region | Region |
-| Province | Province |
-| City | City |
-| CityGroup | CityGroup |
-| JoinDate | JoinDate |
-| OperationFlag | OperationFlag |
-| IsBUChecked | IsBUChecked |
-| ModifiedOn | ModifiedOn |
-| ActivityChannel | ActivityChannel |
-| IsSentToCRM | IsSentToCRM |
-| CreatedOn | CreatedOn |
-| SentToCRMOn | SentToCRMOn |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| MemberId | 会员ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| RegisterChannel | 注册渠道 |
+| Status | 状态 |
+| CreateUser | 创建用户 |
+| CreateTime | 创建时间 |
+| Remark | 备注 |
+| SRCode | SR代码 |
+| SRName | SR名称 |
+| QRCode | 二维码 |
+| MamaName | 妈妈姓名 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| StoreChannel | 门店渠道 |
+| Region | 区域 |
+| Province | 省份 |
+| City | 城市 |
+| CityGroup | 城市组 |
+| JoinDate | 加入日期 |
+| OperationFlag | 操作标志 |
+| IsBUChecked | BU是否已检查 |
+| ModifiedOn | 修改时间 |
+| ActivityChannel | 活动渠道 |
+| IsSentToCRM | 是否已发送至CRM |
+| CreatedOn | 创建时间 |
+| SentToCRMOn | 发送至CRM时间 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [DATA_Member_Channel] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员渠道数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| smt_mp | smt_mp |
-| smt_md | smt_md |
-| swd_channel_reg_typ | swd_channel_reg_typ |
-| tags | tags |
-| smt_class | smt_class |
-| is_zhu | is_zhu |
-| smt_sub_class | smt_sub_class |
-| updatetime | updatetime |
-| modifiedOn | modifiedOn |
+| id | ID |
+| smt_mp | SMT MP |
+| smt_md | SMT MD |
+| swd_channel_reg_typ | SWD渠道注册类型 |
+| tags | 标签 |
+| smt_class | SMT分类 |
+| is_zhu | 是否主要 |
+| smt_sub_class | SMT子分类 |
+| updatetime | 更新时间 |
+| modifiedOn | 修改时间 |
 
 # [DATA_Member_Profiles] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员详细数据信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| CMT_ID | CMT_ID |
-| M_MOBILE | M_MOBILE |
-| M_PASSWORD | M_PASSWORD |
-| M_IS_VAILD | M_IS_VAILD |
-| M_INVAILD_REASON | M_INVAILD_REASON |
-| M_CREATE_DATE | M_CREATE_DATE |
-| M_UPDATE_DATE | M_UPDATE_DATE |
-| SUB_USER_EMAIL | SUB_USER_EMAIL |
-| SUB_USER_NAME | SUB_USER_NAME |
-| SUB_USER_NICKNAME | SUB_USER_NICKNAME |
-| SUB_USER_BIRTHDAY | SUB_USER_BIRTHDAY |
-| SUB_MEMBER_TYPE | SUB_MEMBER_TYPE |
-| SUB_MEMBER_TYPE_OTHER | SUB_MEMBER_TYPE_OTHER |
-| SUB_PROVINCE | SUB_PROVINCE |
-| SUB_CITY | SUB_CITY |
-| SUB_DISTRICT | SUB_DISTRICT |
-| SUB_ADDRESS | SUB_ADDRESS |
-| SUB_ZIPCODE | SUB_ZIPCODE |
-| SUB_PREGNANT_STATUS | SUB_PREGNANT_STATUS |
-| SUB_BABY_DUEDATE | SUB_BABY_DUEDATE |
-| SUB_BABY_BIRTHDAY | SUB_BABY_BIRTHDAY |
-| SUB_BABY_NICKNAME | SUB_BABY_NICKNAME |
-| SUB_INTEREST_MILESTONE | SUB_INTEREST_MILESTONE |
-| SUB_IS_RCV_SMS | SUB_IS_RCV_SMS |
-| SUB_IS_RCV_MMS | SUB_IS_RCV_MMS |
-| SUB_IS_RCV_MAIL | SUB_IS_RCV_MAIL |
-| SUB_IS_RCV_OTHER | SUB_IS_RCV_OTHER |
-| SUB_IS_ALLERGY | SUB_IS_ALLERGY |
-| SUB_BABY_BRAND | SUB_BABY_BRAND |
-| SUB_FEEDING_PATTERNS | SUB_FEEDING_PATTERNS |
-| SOU_REG_URL | SOU_REG_URL |
-| SOU_PREVIOUS_URL | SOU_PREVIOUS_URL |
-| SOU_CONFERENCE_CODE | SOU_CONFERENCE_CODE |
-| SOU_TRACKING_CODE_06 | SOU_TRACKING_CODE_06 |
-| SWD_DATA_SOURCE | SWD_DATA_SOURCE |
-| WECHAT_BIND | WECHAT_BIND |
-| WECHAT_BIND_FLAG | WECHAT_BIND_FLAG |
-| WECHAT_CARD_CODE | WECHAT_CARD_CODE |
-| SR_QRCODE | SR_QRCODE |
-| SR_USER_NAME | SR_USER_NAME |
-| SR_STORE_CODE | SR_STORE_CODE |
-| SR_AREA | SR_AREA |
-| SR_PROVINCE | SR_PROVINCE |
-| SR_CITY | SR_CITY |
-| SR_CODE | SR_CODE |
-| SR_CHANNEL | SR_CHANNEL |
-| SR_CITY_GROUP | SR_CITY_GROUP |
-| SR_STORE_NAME | SR_STORE_NAME |
-| SYNC_TIME | SYNC_TIME |
-| ModifiedOn | ModifiedOn |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| M_TYPE | M_TYPE |
-| CMT_UNIONID | CMT_UNIONID |
-| Remark | Remark |
-| S_MOBILE | S_MOBILE |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Vip_Level | Vip_Level |
-| NHS_Unionid | NHS_Unionid |
-| CMT_ID | CMT_ID |
+| CMT_ID | CMT ID |
+| M_MOBILE | 手机号码 |
+| M_PASSWORD | 密码 |
+| M_IS_VAILD | 是否有效 |
+| M_INVAILD_REASON | 无效原因 |
+| M_CREATE_DATE | 创建日期 |
+| M_UPDATE_DATE | 更新日期 |
+| SUB_USER_EMAIL | 用户邮箱 |
+| SUB_USER_NAME | 用户名 |
+| SUB_USER_NICKNAME | 用户昵称 |
+| SUB_USER_BIRTHDAY | 用户生日 |
+| SUB_MEMBER_TYPE | 会员类型 |
+| SUB_MEMBER_TYPE_OTHER | 其他会员类型 |
+| SUB_PROVINCE | 省份 |
+| SUB_CITY | 城市 |
+| SUB_DISTRICT | 区/县 |
+| SUB_ADDRESS | 地址 |
+| SUB_ZIPCODE | 邮政编码 |
+| SUB_PREGNANT_STATUS | 怀孕状态 |
+| SUB_BABY_DUEDATE | 宝宝预产期 |
+| SUB_BABY_BIRTHDAY | 宝宝生日 |
+| SUB_BABY_NICKNAME | 宝宝昵称 |
+| SUB_INTEREST_MILESTONE | 兴趣里程碑 |
+| SUB_IS_RCV_SMS | 是否接收短信 |
+| SUB_IS_RCV_MMS | 是否接收彩信 |
+| SUB_IS_RCV_MAIL | 是否接收邮件 |
+| SUB_IS_RCV_OTHER | 是否接收其他 |
+| SUB_IS_ALLERGY | 是否过敏 |
+| SUB_BABY_BRAND | 宝宝品牌 |
+| SUB_FEEDING_PATTERNS | 喂养方式 |
+| SOU_REG_URL | 注册URL |
+| SOU_PREVIOUS_URL | 上一页URL |
+| SOU_CONFERENCE_CODE | 会议代码 |
+| SOU_TRACKING_CODE_06 | 追踪代码06 |
+| SWD_DATA_SOURCE | 数据源 |
+| WECHAT_BIND | 微信绑定 |
+| WECHAT_BIND_FLAG | 微信绑定标志 |
+| WECHAT_CARD_CODE | 微信卡券代码 |
+| SR_QRCODE | SR二维码 |
+| SR_USER_NAME | SR用户名 |
+| SR_STORE_CODE | SR门店代码 |
+| SR_AREA | SR区域 |
+| SR_PROVINCE | SR省份 |
+| SR_CITY | SR城市 |
+| SR_CODE | SR代码 |
+| SR_CHANNEL | SR渠道 |
+| SR_CITY_GROUP | SR城市组 |
+| SR_STORE_NAME | SR门店名称 |
+| SYNC_TIME | 同步时间 |
+| ModifiedOn | 修改时间 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| M_TYPE | 类型 |
+| CMT_UNIONID | CMT Unionid |
+| Remark | 备注 |
+| S_MOBILE | S端手机号 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Vip_Level | 会员等级 |
+| NHS_Unionid | NHS Unionid |
+| CMT_ID | CMT ID |
 
 # [DATA_Outbound] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了外呼数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| CallingNumber | CallingNumber |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| CallDuration | CallDuration |
-| TapeFilePath | TapeFilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| CallResult | CallResult |
-| IsNameValid | IsNameValid |
-| ModifiedName | ModifiedName |
-| IsBuy | IsBuy |
-| IsProductNameValid | IsProductNameValid |
-| ModifiedProductName | ModifiedProductName |
-| ModifiedBoughtTime | ModifiedBoughtTime |
-| CurrentMomBrand | CurrentMomBrand |
-| Remark1 | Remark1 |
-| CurrentNicBrand | CurrentNicBrand |
-| Remark2 | Remark2 |
-| CurrentS3NestleBrand | CurrentS3NestleBrand |
-| Remark3 | Remark3 |
-| CurrentS3CompeteBrand | CurrentS3CompeteBrand |
-| Remark4 | Remark4 |
-| IsContinuedBuy | IsContinuedBuy |
-| CALLCONTENT | CALLCONTENT |
-| CALLREMARK | CALLREMARK |
-| Campaignid | Campaignid |
-| listid | listid |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| BUSI_TYPE_TAG | BUSI_TYPE_TAG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| ActivityChannel | ActivityChannel |
-| IsSentToCRM | IsSentToCRM |
-| EqualResult | EqualResult |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Id | Id |
+| Id | ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| CallingNumber | 主叫号码 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| CallDuration | 通话时长 |
+| TapeFilePath | 录音文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| CallResult | 外呼结果 |
+| IsNameValid | 姓名是否有效 |
+| ModifiedName | 修改后的姓名 |
+| IsBuy | 是否购买 |
+| IsProductNameValid | 产品名称是否有效 |
+| ModifiedProductName | 修改后的产品名称 |
+| ModifiedBoughtTime | 修改后的购买时间 |
+| CurrentMomBrand | 当前妈妈品牌 |
+| Remark1 | 备注1 |
+| CurrentNicBrand | 当前NIC品牌 |
+| Remark2 | 备注2 |
+| CurrentS3NestleBrand | 当前S3雀巢品牌 |
+| Remark3 | 备注3 |
+| CurrentS3CompeteBrand | 当前S3竞品品牌 |
+| Remark4 | 备注4 |
+| IsContinuedBuy | 是否继续购买 |
+| CALLCONTENT | 外呼内容 |
+| CALLREMARK | 外呼备注 |
+| Campaignid | 活动ID |
+| listid | 列表ID |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| BUSI_TYPE_TAG | 业务类型标签 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| ActivityChannel | 活动渠道 |
+| IsSentToCRM | 是否已发送至CRM |
+| EqualResult | 对比结果 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Id | ID |
 
 # [DATA_Outbound_20250307] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年3月7日的外呼数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| PMamaId | PMamaId |
-| CMamaId | CMamaId |
-| KSFId | KSFId |
-| CallingNumber | CallingNumber |
-| CalledNumber | CalledNumber |
-| StartTime | StartTime |
-| EndTime | EndTime |
-| CallDuration | CallDuration |
-| TapeFilePath | TapeFilePath |
-| CallId | CallId |
-| CSRCode | CSRCode |
-| CSRName | CSRName |
-| CallResult | CallResult |
-| IsNameValid | IsNameValid |
-| ModifiedName | ModifiedName |
-| IsBuy | IsBuy |
-| IsProductNameValid | IsProductNameValid |
-| ModifiedProductName | ModifiedProductName |
-| ModifiedBoughtTime | ModifiedBoughtTime |
-| CurrentMomBrand | CurrentMomBrand |
-| Remark1 | Remark1 |
-| CurrentNicBrand | CurrentNicBrand |
-| Remark2 | Remark2 |
-| CurrentS3NestleBrand | CurrentS3NestleBrand |
-| Remark3 | Remark3 |
-| CurrentS3CompeteBrand | CurrentS3CompeteBrand |
-| Remark4 | Remark4 |
-| IsContinuedBuy | IsContinuedBuy |
-| CALLCONTENT | CALLCONTENT |
-| CALLREMARK | CALLREMARK |
-| Campaignid | Campaignid |
-| listid | listid |
-| CallType | CallType |
-| MomBrandId | MomBrandId |
-| MomProductId | MomProductId |
-| NicBrandId | NicBrandId |
-| NicProductId | NicProductId |
-| BabyBrandId | BabyBrandId |
-| BabyProductId | BabyProductId |
-| BUSI_TYPE_TAG | BUSI_TYPE_TAG |
-| OperationFlag | OperationFlag |
-| ModifiedOn | ModifiedOn |
-| ActivityChannel | ActivityChannel |
-| IsSentToCRM | IsSentToCRM |
-| EqualResult | EqualResult |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| Id | ID |
+| PMamaId | P端妈妈ID |
+| CMamaId | C端妈妈ID |
+| KSFId | KSFID |
+| CallingNumber | 主叫号码 |
+| CalledNumber | 被叫号码 |
+| StartTime | 开始时间 |
+| EndTime | 结束时间 |
+| CallDuration | 通话时长 |
+| TapeFilePath | 录音文件路径 |
+| CallId | 通话ID |
+| CSRCode | 客服代码 |
+| CSRName | 客服姓名 |
+| CallResult | 外呼结果 |
+| IsNameValid | 姓名是否有效 |
+| ModifiedName | 修改后的姓名 |
+| IsBuy | 是否购买 |
+| IsProductNameValid | 产品名称是否有效 |
+| ModifiedProductName | 修改后的产品名称 |
+| ModifiedBoughtTime | 修改后的购买时间 |
+| CurrentMomBrand | 当前妈妈品牌 |
+| Remark1 | 备注1 |
+| CurrentNicBrand | 当前NIC品牌 |
+| Remark2 | 备注2 |
+| CurrentS3NestleBrand | 当前S3雀巢品牌 |
+| Remark3 | 备注3 |
+| CurrentS3CompeteBrand | 当前S3竞品品牌 |
+| Remark4 | 备注4 |
+| IsContinuedBuy | 是否继续购买 |
+| CALLCONTENT | 外呼内容 |
+| CALLREMARK | 外呼备注 |
+| Campaignid | 活动ID |
+| listid | 列表ID |
+| CallType | 通话类型 |
+| MomBrandId | 妈妈品牌ID |
+| MomProductId | 妈妈产品ID |
+| NicBrandId | NIC品牌ID |
+| NicProductId | NIC产品ID |
+| BabyBrandId | 宝宝品牌ID |
+| BabyProductId | 宝宝产品ID |
+| BUSI_TYPE_TAG | 业务类型标签 |
+| OperationFlag | 操作标志 |
+| ModifiedOn | 修改时间 |
+| ActivityChannel | 活动渠道 |
+| IsSentToCRM | 是否已发送至CRM |
+| EqualResult | 对比结果 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [DATA_RiskSurvey] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了风险调研数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| openid | openid |
-| mobile | mobile |
-| question | question |
-| answer1 | answer1 |
-| answer2 | answer2 |
-| answer3 | answer3 |
-| answer4 | answer4 |
-| answer5 | answer5 |
-| answer6 | answer6 |
-| answer7 | answer7 |
-| answer8 | answer8 |
-| answer9 | answer9 |
-| answer10 | answer10 |
-| level | level |
-| label | label |
-| label_count | label_count |
-| create_time | create_time |
-| CreatedOn | CreatedOn |
-| SentCRMOn | SentCRMOn |
-| ModifiedOn | ModifiedOn |
-| Unionid | Unionid |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| openid | 用户微信Openid |
+| mobile | 手机号码 |
+| question | 问题 |
+| answer1 | 答案1 |
+| answer2 | 答案2 |
+| answer3 | 答案3 |
+| answer4 | 答案4 |
+| answer5 | 答案5 |
+| answer6 | 答案6 |
+| answer7 | 答案7 |
+| answer8 | 答案8 |
+| answer9 | 答案9 |
+| answer10 | 答案10 |
+| level | 等级 |
+| label | 标签 |
+| label_count | 标签计数 |
+| create_time | 创建时间 |
+| CreatedOn | 创建时间 |
+| SentCRMOn | 发送至CRM时间 |
+| ModifiedOn | 修改时间 |
+| Unionid | 用户微信Unionid |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [DATA_Routin_Birthday_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了日常生日提醒数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Openid | Openid |
-| Unionid | Unionid |
-| Member_Type | Member_Type |
-| SNC_Code | SNC_Code |
-| Store_Number | Store_Number |
-| Touch_Point | Touch_Point |
-| CreatedOn | CreatedOn |
-| SentToCMTON | SentToCMTON |
-| Current_Stage | Current_Stage |
-| Offset_Day | Offset_Day |
-| Birthday | Birthday |
-| IsEngaged | IsEngaged |
-| ha12_type | ha12_type |
+| Openid | 用户微信Openid |
+| Unionid | 用户微信Unionid |
+| Member_Type | 会员类型 |
+| SNC_Code | SNC代码 |
+| Store_Number | 门店编号 |
+| Touch_Point | 触点 |
+| CreatedOn | 创建时间 |
+| SentToCMTON | 发送至CMT时间 |
+| Current_Stage | 当前阶段 |
+| Offset_Day | 距离生日天数 |
+| Birthday | 生日 |
+| IsEngaged | 是否互动 |
+| ha12_type | HA12类型 |
 | ID | ID |
 
 # [DATA_Routin_Birthday_Daily_BT] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了日常生日提醒数据（BT）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Openid | Openid |
-| Unionid | Unionid |
-| Member_Type | Member_Type |
-| SNC_Code | SNC_Code |
-| Store_Number | Store_Number |
-| Touch_Point | Touch_Point |
-| CreatedOn | CreatedOn |
-| SentToCMTON | SentToCMTON |
-| Current_Stage | Current_Stage |
-| Offset_Day | Offset_Day |
-| Birthday | Birthday |
-| IsEngaged | IsEngaged |
-| ha12_type | ha12_type |
+| Openid | 用户微信Openid |
+| Unionid | 用户微信Unionid |
+| Member_Type | 会员类型 |
+| SNC_Code | SNC代码 |
+| Store_Number | 门店编号 |
+| Touch_Point | 触点 |
+| CreatedOn | 创建时间 |
+| SentToCMTON | 发送至CMT时间 |
+| Current_Stage | 当前阶段 |
+| Offset_Day | 距离生日天数 |
+| Birthday | 生日 |
+| IsEngaged | 是否互动 |
+| ha12_type | HA12类型 |
 
 # [DATA_Routin_Birthday_Daily_Engage] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了日常生日提醒互动数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| Engage_times | Engage_times |
+| unionid | 用户微信Unionid |
+| Engage_times | 互动次数 |
 
 # [DATA_SurveyDetailList] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了调研详情列表数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| SurveyResultID | SurveyResultID |
-| QuestionCode | QuestionCode |
-| QuestionName | QuestionName |
-| OptionName | OptionName |
-| Remark | Remark |
-| itemText | itemText |
-| CreatedOn | CreatedOn |
-| PDateProcessed | PDateProcessed |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| SurveyResultID | 调研结果ID |
+| QuestionCode | 问题代码 |
+| QuestionName | 问题名称 |
+| OptionName | 选项名称 |
+| Remark | 备注 |
+| itemText | 项目文本 |
+| CreatedOn | 创建时间 |
+| PDateProcessed | P端处理日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [DATA_SurveyResult] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了调研结果数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| SurveyResultID | SurveyResultID |
-| CampaignId | CampaignId |
-| MamaId | MamaId |
-| KsfId | KsfId |
-| CallseqNo | CallseqNo |
-| SurveyName | SurveyName |
-| OperationFlag | OperationFlag |
-| SurveyDetailList | SurveyDetailList |
-| Q1 | Q1 |
-| Q2 | Q2 |
-| Q3 | Q3 |
-| Q4 | Q4 |
-| Q5 | Q5 |
-| Q6 | Q6 |
-| Q7 | Q7 |
-| A1 | A1 |
-| A2 | A2 |
-| A3 | A3 |
-| A4 | A4 |
-| A5 | A5 |
-| A6 | A6 |
-| A7 | A7 |
-| CreatedOn | CreatedOn |
-| Q8 | Q8 |
-| A8 | A8 |
-| LastChange | LastChange |
-| Q9 | Q9 |
-| A9 | A9 |
-| Q10 | Q10 |
-| A10 | A10 |
-| Q11 | Q11 |
-| A11 | A11 |
-| Q12 | Q12 |
-| A12 | A12 |
-| Sub_A1 | Sub_A1 |
-| Sub_A2 | Sub_A2 |
-| Sub_A3 | Sub_A3 |
-| Sub_A4 | Sub_A4 |
-| Sub_A5 | Sub_A5 |
-| Sub_A6 | Sub_A6 |
-| Sub_A7 | Sub_A7 |
-| Sub_A8 | Sub_A8 |
-| Sub_A9 | Sub_A9 |
-| Sub_A10 | Sub_A10 |
-| Sub_A11 | Sub_A11 |
-| Sub_A12 | Sub_A12 |
-| SurveyResultID | SurveyResultID |
+| SurveyResultID | 调研结果ID |
+| CampaignId | 活动ID |
+| MamaId | 妈妈ID |
+| KsfId | KSFID |
+| CallseqNo | 外呼序列号 |
+| SurveyName | 调研名称 |
+| OperationFlag | 操作标志 |
+| SurveyDetailList | 调研详情列表 |
+| Q1 | 问题1 |
+| Q2 | 问题2 |
+| Q3 | 问题3 |
+| Q4 | 问题4 |
+| Q5 | 问题5 |
+| Q6 | 问题6 |
+| Q7 | 问题7 |
+| A1 | 答案1 |
+| A2 | 答案2 |
+| A3 | 答案3 |
+| A4 | 答案4 |
+| A5 | 答案5 |
+| A6 | 答案6 |
+| A7 | 答案7 |
+| CreatedOn | 创建时间 |
+| Q8 | 问题8 |
+| A8 | 答案8 |
+| LastChange | 最后更改时间 |
+| Q9 | 问题9 |
+| A9 | 答案9 |
+| Q10 | 问题10 |
+| A10 | 答案10 |
+| Q11 | 问题11 |
+| A11 | 答案11 |
+| Q12 | 问题12 |
+| A12 | 答案12 |
+| Sub_A1 | 子答案1 |
+| Sub_A2 | 子答案2 |
+| Sub_A3 | 子答案3 |
+| Sub_A4 | 子答案4 |
+| Sub_A5 | 子答案5 |
+| Sub_A6 | 子答案6 |
+| Sub_A7 | 子答案7 |
+| Sub_A8 | 子答案8 |
+| Sub_A9 | 子答案9 |
+| Sub_A10 | 子答案10 |
+| Sub_A11 | 子答案11 |
+| Sub_A12 | 子答案12 |
+| SurveyResultID | 调研结果ID |
 
 # [DATA_Tuwen] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了图文数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| wxArticleId | wxArticleId |
-| title | title |
-| titleUrl | titleUrl |
-| outLine | outLine |
-| content | content |
-| formatType | formatType |
-| formatTypeForm | formatTypeForm |
-| formatUrl | formatUrl |
-| formatBaiduUrl | formatBaiduUrl |
-| readCount | readCount |
-| downloadCount | downloadCount |
-| forwardCount | forwardCount |
-| commentCount | commentCount |
-| createTime | createTime |
-| updateTime | updateTime |
-| status | status |
-| brandId | brandId |
-| brandTypeId | brandTypeId |
-| jpgUrl | jpgUrl |
-| pngUrl | pngUrl |
-| userId | userId |
-| fileSize | fileSize |
-| seeFlag | seeFlag |
-| attachId | attachId |
-| thumbUrl | thumbUrl |
-| author | author |
-| digest | digest |
-| url | url |
-| showCoverPic | showCoverPic |
-| contentSourceUrl | contentSourceUrl |
-| displayorder | displayorder |
-| orderTop | orderTop |
-| collection | collection |
-| createdOn | createdOn |
-| pullMonth | pullMonth |
-| id | id |
-| pullMonth | pullMonth |
+| id | ID |
+| wxArticleId | 微信文章ID |
+| title | 标题 |
+| titleUrl | 标题URL |
+| outLine | 大纲 |
+| content | 内容 |
+| formatType | 格式类型 |
+| formatTypeForm | 格式类型表单 |
+| formatUrl | 格式URL |
+| formatBaiduUrl | 格式百度URL |
+| readCount | 阅读计数 |
+| downloadCount | 下载计数 |
+| forwardCount | 转发计数 |
+| commentCount | 评论计数 |
+| createTime | 创建时间 |
+| updateTime | 更新时间 |
+| status | 状态 |
+| brandId | 品牌ID |
+| brandTypeId | 品牌类型ID |
+| jpgUrl | JPG图片URL |
+| pngUrl | PNG图片URL |
+| userId | 用户ID |
+| fileSize | 文件大小 |
+| seeFlag | 查看标志 |
+| attachId | 附件ID |
+| thumbUrl | 缩略图URL |
+| author | 作者 |
+| digest | 摘要 |
+| url | URL |
+| showCoverPic | 显示封面图片 |
+| contentSourceUrl | 内容源URL |
+| displayorder | 显示顺序 |
+| orderTop | 置顶 |
+| collection | 收藏 |
+| createdOn | 创建时间 |
+| pullMonth | 拉取月份 |
+| id | ID |
+| pullMonth | 拉取月份 |
 
 # [DATA_WechatData] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了微信数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| ProblemTagName | ProblemTagName |
-| WxOpenID | WxOpenID |
-| Category | Category |
-| SubCategory | SubCategory |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| OperationFlag | OperationFlag |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| ProblemTagName | 问题标签名称 |
+| WxOpenID | 微信OpenID |
+| Category | 类别 |
+| SubCategory | 子类别 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| OperationFlag | 操作标志 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
 
 # [DATA_YGYM] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了YGYM数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Openid | Openid |
-| Unionid | Unionid |
-| S_MOBILE | S_MOBILE |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ScanTime | ScanTime |
-| NewCustomerType | NewCustomerType |
-| Createdon | Createdon |
-| ModifiedOn | ModifiedOn |
-| Id | Id |
+| Id | ID |
+| Openid | 用户微信Openid |
+| Unionid | 用户微信Unionid |
+| S_MOBILE | S端手机号 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ScanTime | 扫描时间 |
+| NewCustomerType | 新客户类型 |
+| Createdon | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Id | ID |
 
 # [Dave_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了Dave的日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Name | Name |
-| Message | Message |
-| CreatedOn | CreatedOn |
+| ID | 日志ID |
+| Name | 名称 |
+| Message | 消息 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [DDL_LOG] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DDL（数据定义语言）日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| PostTime | PostTime |
-| DatabaseName | DatabaseName |
-| DB_User | DB_User |
-| Event | Event |
-| LoginName | LoginName |
-| TSQL | TSQL |
-| LastChange_Azure | LastChange_Azure |
-| ComputerName | ComputerName |
+| ID | 日志ID |
+| PostTime | 发布时间 |
+| DatabaseName | 数据库名称 |
+| DB_User | 数据库用户 |
+| Event | 事件 |
+| LoginName | 登录名 |
+| TSQL | TSQL语句 |
+| LastChange_Azure | Azure端最后更改时间 |
+| ComputerName | 计算机名 |
 | ID | ID |
 
 # [DTC_EDMS_Store] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC EDMS门店信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| OutletName | OutletName |
+| OutletName | 网点名称 |
 | 新大区 | 新大区 |
 | 团队 | 团队 |
 | 省份 | 省份 |
@@ -1904,317 +1904,317 @@
 | HCI名称 | HCI名称 |
 | 备注 | 备注 |
 | 是否DMS建店 | 是否DMS建店 |
-| OutletCode | OutletCode |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| OutletName | OutletName |
+| OutletCode | 网点代码 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| OutletName | 网点名称 |
 
 # [DTC_YOUZAN_Buyer_Info] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞买家信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| yz_open_id | yz_open_id |
-| outer_user_id | outer_user_id |
-| buyer_phone | buyer_phone |
-| fans_type | fans_type |
-| fans_nickname | fans_nickname |
-| fans_id | fans_id |
-| s_mobile | s_mobile |
-| CreatedOn | CreatedOn |
-| yz_open_id | yz_open_id |
+| yz_open_id | 有赞open_id |
+| outer_user_id | 外部用户ID |
+| buyer_phone | 买家手机 |
+| fans_type | 粉丝类型 |
+| fans_nickname | 粉丝昵称 |
+| fans_id | 粉丝ID |
+| s_mobile | S端手机号 |
+| CreatedOn | 创建时间 |
+| yz_open_id | 有赞open_id |
 
 # [DTC_YOUZAN_Orders] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| oid | oid |
-| tid | tid |
-| outer_item_id | outer_item_id |
-| item_type | item_type |
-| discount_price | discount_price |
-| num | num |
-| goods_snapshot | goods_snapshot |
-| title | title |
-| fenxiao_payment | fenxiao_payment |
-| item_id | item_id |
-| item_no | item_no |
-| is_present | is_present |
-| price | price |
-| sub_order_no | sub_order_no |
-| total_fee | total_fee |
-| fenxiao_price | fenxiao_price |
-| alias | alias |
-| payment | payment |
-| item_barcode | item_barcode |
-| outer_sku_id | outer_sku_id |
-| goods_url | goods_url |
-| points_price | points_price |
-| sku_barcode | sku_barcode |
-| sku_no | sku_no |
-| sku_properties_name | sku_properties_name |
-| s_mobile | s_mobile |
-| newcustomer_type | newcustomer_type |
-| is_newcustomer | is_newcustomer |
-| dcps | dcps |
-| kdt_id | kdt_id |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| oid | oid |
+| oid | 订单ID |
+| tid | 交易ID |
+| outer_item_id | 外部商品ID |
+| item_type | 商品类型 |
+| discount_price | 折扣价 |
+| num | 数量 |
+| goods_snapshot | 商品快照 |
+| title | 标题 |
+| fenxiao_payment | 分销支付 |
+| item_id | 商品ID |
+| item_no | 商品编号 |
+| is_present | 是否赠品 |
+| price | 价格 |
+| sub_order_no | 子订单号 |
+| total_fee | 总费用 |
+| fenxiao_price | 分销价 |
+| alias | 别名 |
+| payment | 支付金额 |
+| item_barcode | 商品条码 |
+| outer_sku_id | 外部SKU ID |
+| goods_url | 商品URL |
+| points_price | 积分价格 |
+| sku_barcode | SKU条码 |
+| sku_no | SKU编号 |
+| sku_properties_name | SKU属性名称 |
+| s_mobile | S端手机号 |
+| newcustomer_type | 新客户类型 |
+| is_newcustomer | 是否新客户 |
+| dcps | DCPS |
+| kdt_id | KDT ID |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| oid | 订单ID |
 
 # [DTC_YOUZAN_Orders_Info] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞订单详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tid | tid |
-| created | created |
-| expired_time | expired_time |
-| status_str | status_str |
-| success_time | success_time |
-| type | type |
-| kdt_id | kdt_id |
-| kdt_name | kdt_name |
-| confirm_time | confirm_time |
-| pay_time | pay_time |
-| update_time | update_time |
-| is_retail_order | is_retail_order |
-| pay_type | pay_type |
-| team_type | team_type |
-| refund_state | refund_state |
-| close_type | close_type |
-| status | status |
-| express_type | express_type |
-| buyer_phone | buyer_phone |
-| yz_open_id | yz_open_id |
-| fans_id | fans_id |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| tid | tid |
+| tid | 交易ID |
+| created | 创建时间 |
+| expired_time | 过期时间 |
+| status_str | 状态字符串 |
+| success_time | 成功时间 |
+| type | 类型 |
+| kdt_id | KDT ID |
+| kdt_name | KDT名称 |
+| confirm_time | 确认时间 |
+| pay_time | 支付时间 |
+| update_time | 更新时间 |
+| is_retail_order | 是否零售订单 |
+| pay_type | 支付类型 |
+| team_type | 团队类型 |
+| refund_state | 退款状态 |
+| close_type | 关闭类型 |
+| status | 状态 |
+| express_type | 快递类型 |
+| buyer_phone | 买家手机 |
+| yz_open_id | 有赞open_id |
+| fans_id | 粉丝ID |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| tid | 交易ID |
 
 # [DTC_YOUZAN_pay_info] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞支付信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 
 # [DTC_YOUZAN_Push_Order] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞推送订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| oid | oid |
-| tid | tid |
-| mobile | mobile |
-| s_mobile | s_mobile |
-| product_name | product_name |
-| newcustomer_type | newcustomer_type |
-| isnewcustomer | isnewcustomer |
-| store_number | store_number |
-| ps_name | ps_name |
-| dcps | dcps |
-| nestle_product_code | nestle_product_code |
-| item_id | item_id |
-| item_no | item_no |
-| kdt_id | kdt_id |
-| kdt_name | kdt_name |
-| create_time | create_time |
-| created_on | created_on |
-| modified_on | modified_on |
-| oid | oid |
+| Id | ID |
+| oid | 订单ID |
+| tid | 交易ID |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
+| product_name | 产品名称 |
+| newcustomer_type | 新客户类型 |
+| isnewcustomer | 是否新客户 |
+| store_number | 门店编号 |
+| ps_name | PS名称 |
+| dcps | DCPS |
+| nestle_product_code | 雀巢产品代码 |
+| item_id | 商品ID |
+| item_no | 商品编号 |
+| kdt_id | KDT ID |
+| kdt_name | KDT名称 |
+| create_time | 创建时间 |
+| created_on | 创建于 |
+| modified_on | 修改于 |
+| oid | 订单ID |
 
 # [DTC_YOUZAN_PushMSG_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞推送消息日志。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| pid | pid |
-| payload | payload |
-| msg | msg |
-| kdt_name | kdt_name |
-| test | test |
-| sign | sign |
-| type | type |
-| sendCount | sendCount |
-| version | version |
-| client_id | client_id |
-| mode | mode |
-| kdt_id | kdt_id |
-| id | id |
-| msg_id | msg_id |
-| root_kdt_id | root_kdt_id |
-| status | status |
-| createdon | createdon |
-| pid | pid |
+| pid | PID |
+| payload | 有效负载 |
+| msg | 消息 |
+| kdt_name | KDT名称 |
+| test | 测试 |
+| sign | 签名 |
+| type | 类型 |
+| sendCount | 发送计数 |
+| version | 版本 |
+| client_id | 客户端ID |
+| mode | 模式 |
+| kdt_id | KDT ID |
+| id | ID |
+| msg_id | 消息ID |
+| root_kdt_id | 根KDT ID |
+| status | 状态 |
+| createdon | 创建于 |
+| pid | PID |
 
 # [DTC_YOUZAN_Store] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了DTC有赞店铺信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
+| Id | ID |
 | 店铺名称 | 店铺名称 |
 | 店铺编号 | 店铺编号 |
 | 店铺有效期 | 店铺有效期 |
 | 店铺状态 | 店铺状态 |
 | 授权状态 | 授权状态 |
-| CreatedOn | CreatedOn |
-| Id | Id |
+| CreatedOn | 创建时间 |
+| Id | ID |
 
 # [EC_JD_Brand_Upload] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东品牌上传信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| offline_user_id | offline_user_id |
-| customer_id | customer_id |
-| brand_encode_phone | brand_encode_phone |
-| level | level |
-| bind_time | bind_time |
-| is_mapping | is_mapping |
-| created | created |
-| modified | modified |
-| id | id |
+| id | ID |
+| offline_user_id | 线下用户ID |
+| customer_id | 客户ID |
+| brand_encode_phone | 品牌加密手机号 |
+| level | 等级 |
+| bind_time | 绑定时间 |
+| is_mapping | 是否映射 |
+| created | 创建时间 |
+| modified | 修改时间 |
+| id | ID |
 
 # [EC_JD_ID_Mapping] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东ID映射信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| S_Mobile | S_Mobile |
-| JD_Mobile | JD_Mobile |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Sent2JDOn | Sent2JDOn |
-| TM_MegaNAN_Mobile | TM_MegaNAN_Mobile |
-| S_Mobile | S_Mobile |
+| S_Mobile | S端手机号 |
+| JD_Mobile | 京东手机号 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Sent2JDOn | 发送至京东时间 |
+| TM_MegaNAN_Mobile | 天猫MegaNAN手机号 |
+| S_Mobile | S端手机号 |
 
 # [EC_JD_Member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| activityId | activityId |
-| venderId | venderId |
-| pin | pin |
-| channel | channel |
-| josEncPin | josEncPin |
-| phoneNo | phoneNo |
-| babyBirthday | babyBirthday |
-| sex | sex |
-| nickname | nickname |
-| factor1 | factor1 |
-| factor2 | factor2 |
-| initialLevel | initialLevel |
-| initialJdLevel | initialJdLevel |
-| level | level |
-| levelUpdateTime | levelUpdateTime |
-| point | point |
-| pointUpdateTime | pointUpdateTime |
-| result | result |
-| message | message |
-| extend | extend |
-| createTime | createTime |
-| updateTime | updateTime |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| SendToJDOn | SendToJDOn |
-| id | id |
+| id | ID |
+| activityId | 活动ID |
+| venderId | 商家ID |
+| pin | PIN码 |
+| channel | 渠道 |
+| josEncPin | JOS加密PIN |
+| phoneNo | 手机号 |
+| babyBirthday | 宝宝生日 |
+| sex | 性别 |
+| nickname | 昵称 |
+| factor1 | 因素1 |
+| factor2 | 因素2 |
+| initialLevel | 初始等级 |
+| initialJdLevel | 初始京东等级 |
+| level | 等级 |
+| levelUpdateTime | 等级更新时间 |
+| point | 积分 |
+| pointUpdateTime | 积分更新时间 |
+| result | 结果 |
+| message | 消息 |
+| extend | 扩展信息 |
+| createTime | 创建时间 |
+| updateTime | 更新时间 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
+| SendToJDOn | 发送至京东时间 |
+| id | ID |
 
 # [EC_JD_MemberUpdate] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东会员更新信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| phoneNo | phoneNo |
-| mappingResult | mappingResult |
-| level | level |
-| cardStatus | cardStatus |
-| ext | ext |
-| xid | xid |
-| jdpin | jdpin |
-| time | time |
-| isFirstMapping | isFirstMapping |
-| v_child_birthday | v_child_birthday |
-| v_child_nickname | v_child_nickname |
-| v_child_sex | v_child_sex |
-| createdOn | createdOn |
-| modifiedOn | modifiedOn |
-| phoneNo | phoneNo |
+| phoneNo | 手机号 |
+| mappingResult | 映射结果 |
+| level | 等级 |
+| cardStatus | 卡状态 |
+| ext | 扩展信息 |
+| xid | XID |
+| jdpin | 京东PIN |
+| time | 时间 |
+| isFirstMapping | 是否首次映射 |
+| v_child_birthday | 子女 生日 |
+| v_child_nickname | 子女昵称 |
+| v_child_sex | 子女性别 |
+| createdOn | 创建于 |
+| modifiedOn | 修改于 |
+| phoneNo | 手机号 |
 
 # [EC_JD_Mot] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东MOT（关键时刻）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| uid | uid |
-| externalUserid | externalUserid |
-| target | target |
-| executor | executor |
-| sendTime | sendTime |
-| mot_def_no | mot_def_no |
-| status | status |
-| msg | msg |
-| contactTime | contactTime |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| id | id |
+| id | ID |
+| uid | 用户ID |
+| externalUserid | 外部用户ID |
+| target | 目标 |
+| executor | 执行人 |
+| sendTime | 发送时间 |
+| mot_def_no | MOT定义编号 |
+| status | 状态 |
+| msg | 消息 |
+| contactTime | 联系时间 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
+| id | ID |
 
 # [EC_JD_MotDetail] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东MOT（关键时刻）详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| remark | remark |
-| materialType | materialType |
-| text | text |
-| linkTitle | linkTitle |
-| linkImage | linkImage |
-| linkUrl | linkUrl |
-| linkDesc | linkDesc |
-| imageFile | imageFile |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| id | id |
-| materialType | materialType |
+| id | ID |
+| remark | 备注 |
+| materialType | 材料类型 |
+| text | 文本 |
+| linkTitle | 链接标题 |
+| linkImage | 链接图片 |
+| linkUrl | 链接URL |
+| linkDesc | 链接描述 |
+| imageFile | 图片文件 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
+| id | ID |
+| materialType | 材料类型 |
 
 # [EC_JD_MotDetail_WDY] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东MOT（关键时刻）详细信息（WDY）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| remark | remark |
-| contentType | contentType |
-| Brand | Brand |
-| Days | Days |
-| Is_Gaoqian | Is_Gaoqian |
-| content | content |
-| url | url |
-| fileName | fileName |
-| previewImgUrl | previewImgUrl |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| id | ID |
+| remark | 备注 |
+| contentType | 内容类型 |
+| Brand | 品牌 |
+| Days | 天数 |
+| Is_Gaoqian | 是否高潜 |
+| content | 内容 |
+| url | URL |
+| fileName | 文件名 |
+| previewImgUrl | 预览图片URL |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
 
 # [EC_JD_Order] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| ordStatus | ordStatus |
-| shopId | shopId |
-| goodsQtty | goodsQtty |
-| skuId | skuId |
-| parentOrdId | parentOrdId |
-| ordStartDate | ordStartDate |
-| ordEndDate | ordEndDate |
-| sonOrdId | sonOrdId |
-| ordAmt | ordAmt |
-| goodName | goodName |
-| userLogAcct | userLogAcct |
-| createTime | createTime |
-| updateTime | updateTime |
-| newShopFlg | newShopFlg |
-| newFlg | newFlg |
-| firstTradeDate | firstTradeDate |
-| openCardDate | openCardDate |
-| level | level |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| id | id |
+| id | ID |
+| ordStatus | 订单状态 |
+| shopId | 店铺ID |
+| goodsQtty | 商品数量 |
+| skuId | SKU ID |
+| parentOrdId | 父订单ID |
+| ordStartDate | 订单开始日期 |
+| ordEndDate | 订单结束日期 |
+| sonOrdId | 子订单ID |
+| ordAmt | 订单金额 |
+| goodName | 商品名称 |
+| userLogAcct | 用户登录账户 |
+| createTime | 创建时间 |
+| updateTime | 更新时间 |
+| newShopFlg | 新店铺标志 |
+| newFlg | 新标志 |
+| firstTradeDate | 首次交易日期 |
+| openCardDate | 开卡日期 |
+| level | 等级 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
+| id | ID |
 
 # [EC_JD_Pinyou_Log] 字段注释说明
 本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。

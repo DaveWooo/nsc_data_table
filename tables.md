@@ -3183,747 +3183,747 @@
 | id | ID |
 
 # [ims_nestle_business_xh_cus_refund_goods_detail] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢业务星火客户退款商品详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| refund_id | refund_id |
-| cus_number | cus_number |
-| cus_uid | cus_uid |
-| tcds_code | tcds_code |
-| productcode | productcode |
-| boxcode | boxcode |
-| tankcode | tankcode |
-| cdate | cdate |
-| updatetime | updatetime |
-| id | id |
+| id | ID |
+| refund_id | 退款ID |
+| cus_number | 客户编号 |
+| cus_uid | 客户UID |
+| tcds_code | TCDS代码 |
+| productcode | 产品代码 |
+| boxcode | 箱码 |
+| tankcode | 罐码 |
+| cdate | 创建日期 |
+| updatetime | 更新时间 |
+| id | ID |
 
 # [ims_nestle_business_xh_cus_stock_detail] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢业务星火客户库存详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| order_id | order_id |
-| cus_uid | cus_uid |
-| cus_number | cus_number |
-| tcds_code | tcds_code |
-| productcode | productcode |
-| tankcode | tankcode |
-| boxcode | boxcode |
-| status | status |
-| cdate | cdate |
-| expiredate | expiredate |
-| updatetime | updatetime |
-| Comments | Comments |
-| id | id |
+| id | ID |
+| order_id | 订单ID |
+| cus_uid | 客户UID |
+| cus_number | 客户编号 |
+| tcds_code | TCDS代码 |
+| productcode | 产品代码 |
+| tankcode | 罐码 |
+| boxcode | 箱码 |
+| status | 状态 |
+| cdate | 创建日期 |
+| expiredate | 过期日期 |
+| updatetime | 更新时间 |
+| Comments | 评论 |
+| id | ID |
 
 # [ims_nestle_hanan_survey_answer] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢河南调研答案信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
-| snc | snc |
-| openid | openid |
-| unionid | unionid |
-| nickname | nickname |
-| headimgurl | headimgurl |
-| answer | answer |
-| is_answer | is_answer |
-| answer_time | answer_time |
-| answer_date | answer_date |
-| ctime | ctime |
-| cdate | cdate |
-| update_time | update_time |
+| snc | SNC |
+| openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| nickname | 昵称 |
+| headimgurl | 头像URL |
+| answer | 答案 |
+| is_answer | 是否回答 |
+| answer_time | 回答时间 |
+| answer_date | 回答日期 |
+| ctime | 创建时间 |
+| cdate | 创建日期 |
+| update_time | 更新时间 |
 
 # [ims_qrcode_stat_3] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS二维码统计信息（表3）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
 | acid | acid |
 | qid | qid |
-| openid | openid |
-| type | type |
+| openid | 用户微信Openid |
+| type | 类型 |
 | qrcid | qrcid |
-| scene_str | scene_str |
-| name | name |
-| createtime | createtime |
-| addtime | addtime |
-| updatetime | updatetime |
-| unionid | unionid |
-| serial_number | serial_number |
+| scene_str | 场景字符串 |
+| name | 名称 |
+| createtime | 创建时间 |
+| addtime | 添加时间 |
+| updatetime | 更新时间 |
+| unionid | 用户微信Unionid |
+| serial_number | 序列号 |
 
 # [ims_qrcode_stat_3_Last] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS二维码统计信息（表3，最新）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| serial_number | serial_number |
-| Unionid | Unionid |
+| serial_number | 序列号 |
+| Unionid | 用户微信Unionid |
 | uniacid | uniacid |
-| addtime | addtime |
-| id | id |
+| addtime | 添加时间 |
+| id | ID |
 
 # [IncentiveTins] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了激励罐数信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | 购买SNC | 购买SNC |
-| 1-18听 | 1-18听 |
-| 19-36听 | 19-36听 |
-| 37-42听 | 37-42听 |
-| 43-100听 | 43-100听 |
-| 100听以上 | 100听以上 |
+| 1-18听 | 1-18罐 |
+| 19-36听 | 19-36罐 |
+| 37-42听 | 37-42罐 |
+| 43-100听 | 43-100罐 |
+| 100听以上 | 100罐以上 |
 
 # [Insert_Error_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了插入错误日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Payload | Payload |
-| TargetTable | TargetTable |
-| Createdon | Createdon |
-| SyncToTargetTableOn | SyncToTargetTableOn |
-| Id | Id |
+| Id | ID |
+| Payload | 有效负载 |
+| TargetTable | 目标表 |
+| Createdon | 创建于 |
+| SyncToTargetTableOn | 同步到目标表时间 |
+| Id | ID |
 
 # [IQC_KPI_Scan_Rate] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IQC KPI扫描率信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| MemberLevel | MemberLevel |
-| Brand | Brand |
+| MemberLevel | 会员等级 |
+| Brand | 品牌 |
 | 分子 | 分子 |
 | 分母 | 分母 |
-| ScanRate | ScanRate |
-| rn | rn |
-| CurrentDate | CurrentDate |
-| CreatedOn | CreatedOn |
+| ScanRate | 扫描率 |
+| rn | 行号 |
+| CurrentDate | 当前日期 |
+| CreatedOn | 创建时间 |
 
 # [IQC_KPI_Scan_Rate_tin] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IQC KPI扫描率（罐）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| MemberLevel | MemberLevel |
-| Brand | Brand |
+| MemberLevel | 会员等级 |
+| Brand | 品牌 |
 | 分子 | 分子 |
 | 分母 | 分母 |
-| ScanRate | ScanRate |
-| rn | rn |
-| CurrentDate | CurrentDate |
-| CreatedOn | CreatedOn |
+| ScanRate | 扫描率 |
+| rn | 行号 |
+| CurrentDate | 当前日期 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [KSF_DATA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了KSF数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| KSFId | KSFId |
-| JoinDate | JoinDate |
-| OriginalBatchNo | OriginalBatchNo |
-| Channel | Channel |
-| BigArea | BigArea |
-| Province | Province |
-| CityLevel | CityLevel |
-| CityGroup | CityGroup |
-| City | City |
-| District | District |
-| StoreID | StoreID |
-| StoreName | StoreName |
-| SSRCode | SSRCode |
-| SSRName | SSRName |
-| MobileEnterTime | MobileEnterTime |
-| ApproveTime | ApproveTime |
-| SupervisorName | SupervisorName |
-| SupervisorCode | SupervisorCode |
-| NewCustomerType | NewCustomerType |
-| MamaName | MamaName |
-| BabyBirthday | BabyBirthday |
-| BabyBirthday2 | BabyBirthday2 |
-| Mobile1 | Mobile1 |
-| Mobile2 | Mobile2 |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| BuyTime | BuyTime |
-| GiftReason | GiftReason |
-| Remark | Remark |
-| IsNewCustomer | IsNewCustomer |
-| FaildReason | FaildReason |
-| InvalidReason | InvalidReason |
-| CreatedDate | CreatedDate |
-| ByTokenID | ByTokenID |
-| IsSentToCRM | IsSentToCRM |
-| IsAcknowledged | IsAcknowledged |
-| SentToCRMDate | SentToCRMDate |
-| GiftCode | GiftCode |
-| GiftName | GiftName |
-| GiftReceivedTime | GiftReceivedTime |
-| ReferrerPhone | ReferrerPhone |
-| GiftMechanism | GiftMechanism |
-| Openid | Openid |
-| PurchaseStatus | PurchaseStatus |
-| FirstBindingDate | FirstBindingDate |
-| ModifiedOn | ModifiedOn |
-| S_MOBILE | S_MOBILE |
-| Completed_Info | Completed_Info |
-| Completed_ARI | Completed_ARI |
-| Completed_S1S2_Ratting | Completed_S1S2_Ratting |
-| Consumer_Validation_Date | Consumer_Validation_Date |
-| SNC_Validation_Date | SNC_Validation_Date |
-| LastChange | LastChange |
-| IdentityName | IdentityName |
-| UserGroup | UserGroup |
-| CinemaLine | CinemaLine |
-| StoreTypeName | StoreTypeName |
-| CSR_CallResult | CSR_CallResult |
-| OrderNumber | OrderNumber |
-| Unionid | Unionid |
-| BU | BU |
-| Comments | Comments |
-| Vip_Level | Vip_Level |
-| Cus_Number | Cus_Number |
-| Cus_Uid | Cus_Uid |
-| Is_Spark | Is_Spark |
-| Tcds_Id | Tcds_Id |
-| KSFId | KSFId |
+| KSFId | KSFID |
+| JoinDate | 加入日期 |
+| OriginalBatchNo | 原始批次号 |
+| Channel | 渠道 |
+| BigArea | 大区 |
+| Province | 省份 |
+| CityLevel | 城市级别 |
+| CityGroup | 城市组 |
+| City | 城市 |
+| District | 区/县 |
+| StoreID | 门店ID |
+| StoreName | 门店名称 |
+| SSRCode | SSR代码 |
+| SSRName | SSR名称 |
+| MobileEnterTime | 手机录入时间 |
+| ApproveTime | 审批时间 |
+| SupervisorName | 主管姓名 |
+| SupervisorCode | 主管代码 |
+| NewCustomerType | 新客户类型 |
+| MamaName | 妈妈姓名 |
+| BabyBirthday | 宝宝生日 |
+| BabyBirthday2 | 宝宝生日2 |
+| Mobile1 | 手机号码1 |
+| Mobile2 | 手机号码2 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| BuyTime | 购买时间 |
+| GiftReason | 赠品原因 |
+| Remark | 备注 |
+| IsNewCustomer | 是否新客户 |
+| FaildReason | 失败原因 |
+| InvalidReason | 无效原因 |
+| CreatedDate | 创建日期 |
+| ByTokenID | 通过令牌ID |
+| IsSentToCRM | 是否已发送至CRM |
+| IsAcknowledged | 是否已确认 |
+| SentToCRMDate | 发送至CRM日期 |
+| GiftCode | 礼品码 |
+| GiftName | 礼品名称 |
+| GiftReceivedTime | 礼品接收时间 |
+| ReferrerPhone | 推荐人手机 |
+| GiftMechanism | 礼品机制 |
+| Openid | 用户微信Openid |
+| PurchaseStatus | 购买状态 |
+| FirstBindingDate | 首次绑定日期 |
+| ModifiedOn | 修改时间 |
+| S_MOBILE | S端手机号 |
+| Completed_Info | 完成信息 |
+| Completed_ARI | 完成ARI |
+| Completed_S1S2_Ratting | 完成S1S2评分 |
+| Consumer_Validation_Date | 消费者验证日期 |
+| SNC_Validation_Date | SNC验证日期 |
+| LastChange | 最后更改时间 |
+| IdentityName | 身份名称 |
+| UserGroup | 用户组 |
+| CinemaLine | 院线 |
+| StoreTypeName | 门店类型名称 |
+| CSR_CallResult | 客服外呼结果 |
+| OrderNumber | 订单号 |
+| Unionid | 用户微信Unionid |
+| BU | 业务单元 |
+| Comments | 评论 |
+| Vip_Level | 会员等级 |
+| Cus_Number | 客户编号 |
+| Cus_Uid | 客户UID |
+| Is_Spark | 是否Spark |
+| Tcds_Id | TCDS ID |
+| KSFId | KSFID |
 
 # [KSF_DATA_2022] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年的KSF数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| KSFId | KSFId |
-| JoinDate | JoinDate |
-| NewCustomerType | NewCustomerType |
-| IsNewCustomer | IsNewCustomer |
-| FaildReason | FaildReason |
-| Openid | Openid |
-| Mobile1 | Mobile1 |
-| S_MOBILE | S_MOBILE |
-| OriginalBatchNo | OriginalBatchNo |
-| Channel | Channel |
-| StoreID | StoreID |
-| SSRCode | SSRCode |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ByTokenID | ByTokenID |
-| FirstBindingDate | FirstBindingDate |
-| Completed_ARI | Completed_ARI |
-| Consumer_Validation_Date | Consumer_Validation_Date |
-| SNC_Validation_Date | SNC_Validation_Date |
-| Completed_Questionnaire2_Date | Completed_Questionnaire2_Date |
-| Completed_Questionnaire2_SNC | Completed_Questionnaire2_SNC |
-| Comments | Comments |
-| LastChange_Azure | LastChange_Azure |
-| CreatedDate | CreatedDate |
-| IsDouble | IsDouble |
-| Completed_Group_Date | Completed_Group_Date |
-| GiftCode | GiftCode |
-| GiftName | GiftName |
-| FirstEnterGroupDate | FirstEnterGroupDate |
-| SNC_Validation_2022_Date | SNC_Validation_2022_Date |
-| BuyTime_2 | BuyTime_2 |
-| Remark | Remark |
-| Unionid | Unionid |
-| BU | BU |
-| ModifiedOn | ModifiedOn |
-| Xinke_Tag | Xinke_Tag |
-| Cus_Number | Cus_Number |
-| Cus_Uid | Cus_Uid |
-| Is_Spark | Is_Spark |
-| Tcds_Id | Tcds_Id |
-| KSFId | KSFId |
+| KSFId | KSFID |
+| JoinDate | 加入日期 |
+| NewCustomerType | 新客户类型 |
+| IsNewCustomer | 是否新客户 |
+| FaildReason | 失败原因 |
+| Openid | 用户微信Openid |
+| Mobile1 | 手机号码1 |
+| S_MOBILE | S端手机号 |
+| OriginalBatchNo | 原始批次号 |
+| Channel | 渠道 |
+| StoreID | 门店ID |
+| SSRCode | SSR代码 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ByTokenID | 通过令牌ID |
+| FirstBindingDate | 首次绑定日期 |
+| Completed_ARI | 完成ARI |
+| Consumer_Validation_Date | 消费者验证日期 |
+| SNC_Validation_Date | SNC验证日期 |
+| Completed_Questionnaire2_Date | 完成问卷2日期 |
+| Completed_Questionnaire2_SNC | 完成问卷2SNC |
+| Comments | 评论 |
+| LastChange_Azure | Azure端最后更改时间 |
+| CreatedDate | 创建日期 |
+| IsDouble | 是否双倍 |
+| Completed_Group_Date | 完成组日期 |
+| GiftCode | 礼品码 |
+| GiftName | 礼品名称 |
+| FirstEnterGroupDate | 首次入组日期 |
+| SNC_Validation_2022_Date | 2022年SNC验证日期 |
+| BuyTime_2 | 第二次购买时间 |
+| Remark | 备注 |
+| Unionid | 用户微信Unionid |
+| BU | 业务单元 |
+| ModifiedOn | 修改时间 |
+| Xinke_Tag | 新客标签 |
+| Cus_Number | 客户编号 |
+| Cus_Uid | 客户UID |
+| Is_Spark | 是否Spark |
+| Tcds_Id | TCDS ID |
+| KSFId | KSFID |
 
 # [KSF_DATA_CC] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了KSF数据（CC）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | KSFID | KSFID |
-| Joindate | Joindate |
-| Unionid | Unionid |
-| S_Mobile | S_Mobile |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| Brand | Brand |
-| Qty | Qty |
-| BuyTime | BuyTime |
-| Source | Source |
-| SncCode | SncCode |
-| SncName | SncName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| Channel | Channel |
-| BigArea | BigArea |
-| Province | Province |
-| CityGroup | CityGroup |
-| City | City |
-| MamaName | MamaName |
-| BabyBirthday | BabyBirthday |
-| PMamaId | PMamaId |
-| NewCustomerType | NewCustomerType |
-| OriginalBatchNo | OriginalBatchNo |
-| CreatedOn | CreatedOn |
-| SentToCRMOn | SentToCRMOn |
-| 是否购买了IMF | 是否购买了IMF |
-| SNC_Validation_Date | SNC_Validation_Date |
+| Joindate | 加入日期 |
+| Unionid | 用户微信Unionid |
+| S_Mobile | S端手机号 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| Brand | 品牌 |
+| Qty | 数量 |
+| BuyTime | 购买时间 |
+| Source | 来源 |
+| SncCode | SNC代码 |
+| SncName | SNC名称 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| Channel | 渠道 |
+| BigArea | 大区 |
+| Province | 省份 |
+| CityGroup | 城市组 |
+| City | 城市 |
+| MamaName | 妈妈姓名 |
+| BabyBirthday | 宝宝生日 |
+| PMamaId | P端妈妈ID |
+| NewCustomerType | 新客户类型 |
+| OriginalBatchNo | 原始批次号 |
+| CreatedOn | 创建时间 |
+| SentToCRMOn | 发送至CRM时间 |
+| 是否购买了IMF | 是否购买了婴幼儿配方奶粉 |
+| SNC_Validation_Date | SNC验证日期 |
 | KSFID | KSFID |
 
 # [KSF_DATA_CMPA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了KSF数据（CMPA）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | KSFID | KSFID |
-| Joindate | Joindate |
-| Unionid | Unionid |
-| S_Mobile | S_Mobile |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| Brand | Brand |
-| Qty | Qty |
-| BuyTime | BuyTime |
-| Source | Source |
-| SncCode | SncCode |
-| SncName | SncName |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| Channel | Channel |
-| BigArea | BigArea |
-| Province | Province |
-| CityGroup | CityGroup |
-| City | City |
-| MamaName | MamaName |
-| BabyBirthday | BabyBirthday |
-| PMamaId | PMamaId |
-| NewCustomerType | NewCustomerType |
-| OriginalBatchNo | OriginalBatchNo |
-| CreatedOn | CreatedOn |
-| 是否购买了IMF | 是否购买了IMF |
+| Joindate | 加入日期 |
+| Unionid | 用户微信Unionid |
+| S_Mobile | S端手机号 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| Brand | 品牌 |
+| Qty | 数量 |
+| BuyTime | 购买时间 |
+| Source | 来源 |
+| SncCode | SNC代码 |
+| SncName | SNC名称 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| Channel | 渠道 |
+| BigArea | 大区 |
+| Province | 省份 |
+| CityGroup | 城市组 |
+| City | 城市 |
+| MamaName | 妈妈姓名 |
+| BabyBirthday | 宝宝生日 |
+| PMamaId | P端妈妈ID |
+| NewCustomerType | 新客户类型 |
+| OriginalBatchNo | 原始批次号 |
+| CreatedOn | 创建时间 |
+| 是否购买了IMF | 是否购买了婴幼儿配方奶粉 |
 
 # [Linda_Gerber_20231024] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年10月24日Linda提供的嘉宝数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| BabyBirthday | BabyBirthday |
-| Buy_Brand | Buy_Brand |
-| Has_buy_IMF | Has_buy_IMF |
-| 最近Starter OR Optima购买时间 | 最近Starter OR Optima购买时间 |
-| CMamaId | CMamaId |
+| Unionid | 用户微信Unionid |
+| BabyBirthday | 宝宝生日 |
+| Buy_Brand | 购买品牌 |
+| Has_buy_IMF | 是否购买婴幼儿配方奶粉 |
+| 最近Starter OR Optima购买时间 | 最近Starter或Optima购买时间 |
+| CMamaId | C端妈妈ID |
 | 购买时月龄 | 购买时月龄 |
 | 当前月龄 | 当前月龄 |
-| S_MOBILE | S_MOBILE |
+| S_MOBILE | S端手机号 |
 
 # [Linda_GerberNoIMF_20231024] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年10月24日Linda提供的未购买IMF的嘉宝数据。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| BabyBirthday | BabyBirthday |
-| Buy_Brand | Buy_Brand |
-| Has_buy_IMF | Has_buy_IMF |
-| 最近Starter OR Optima购买时间 | 最近Starter OR Optima购买时间 |
-| CMamaId | CMamaId |
+| Unionid | 用户微信Unionid |
+| BabyBirthday | 宝宝生日 |
+| Buy_Brand | 购买品牌 |
+| Has_buy_IMF | 是否购买婴幼儿配方奶粉 |
+| 最近Starter OR Optima购买时间 | 最近Starter或Optima购买时间 |
+| CMamaId | C端妈妈ID |
 | 购买时月龄 | 购买时月龄 |
 | 当前月龄 | 当前月龄 |
-| S_MOBILE | S_MOBILE |
+| S_MOBILE | S端手机号 |
 
 # [Member_IQC_Tag] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员IQC标签信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| IQC_2gou_1_QrCode | IQC_2gou_1_QrCode |
-| IQC_2gou_1_Time | IQC_2gou_1_Time |
-| IQC_2gou_Last_QrCode | IQC_2gou_Last_QrCode |
-| IQC_2gou_Last_Time | IQC_2gou_Last_Time |
-| IQC_3zhuanduan_1_QrCode | IQC_3zhuanduan_1_QrCode |
-| IQC_3zhuanduan_1_Time | IQC_3zhuanduan_1_Time |
-| IQC_3zhuanduan_Last_QrCode | IQC_3zhuanduan_Last_QrCode |
-| IQC_3zhuanduan_Last_Time | IQC_3zhuanduan_Last_Time |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| IQC_2gou_1_QrCode | IQC二次购买第一次二维码 |
+| IQC_2gou_1_Time | IQC二次购买第一次时间 |
+| IQC_2gou_Last_QrCode | IQC二次购买最后一次二维码 |
+| IQC_2gou_Last_Time | IQC二次购买最后一次时间 |
+| IQC_3zhuanduan_1_QrCode | IQC三段转换第一次二维码 |
+| IQC_3zhuanduan_1_Time | IQC三段转换第一次时间 |
+| IQC_3zhuanduan_Last_QrCode | IQC三段转换最后一次二维码 |
+| IQC_3zhuanduan_Last_Time | IQC三段转换最后一次时间 |
+| Unionid | 用户微信Unionid |
 
 # [MEMBER_Level] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员等级信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| Vip_Level | Vip_Level |
-| Total_Tins | Total_Tins |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| Vip_Level | 会员等级 |
+| Total_Tins | 总罐数 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Unionid | 用户微信Unionid |
 
 # [Members] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Name | Name |
-| Phone | Phone |
-| Email | Email |
-| Birthday | Birthday |
-| CreatedAt | CreatedAt |
-| UpdatedAt | UpdatedAt |
-| Remarks | Remarks |
-| Status | Status |
-| JoinDate | JoinDate |
-| Id | Id |
+| Id | ID |
+| Name | 名称 |
+| Phone | 电话 |
+| Email | 电子邮箱 |
+| Birthday | 生日 |
+| CreatedAt | 创建于 |
+| UpdatedAt | 更新于 |
+| Remarks | 备注 |
+| Status | 状态 |
+| JoinDate | 加入日期 |
+| Id | ID |
 
 # [MobileCol] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT_CDP] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT CDP手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT_CRMPlus] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT CRMPlus手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT_Dashboard] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT Dashboard手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT_Test] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT测试手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_CMT_Wechat] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了CMT微信手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_GerberWechat] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了嘉宝微信手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_GerberWechatOpr] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了嘉宝微信运营手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_Archive] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC归档手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_Daiy_Backup] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC每日备份手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_DATA_DW] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC数据仓库手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_EC] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC电商手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_OLTP] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC OLTP手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_Report] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC报表手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_NSC_TempDB] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了NSC临时数据库手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_PS_Data] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了PS数据手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileCol_Utility] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了Utility手机号列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
-| mobile | mobile |
+| tablename | 表名 |
+| colname | 列名 |
+| mobile | 手机号码 |
 
 # [MobileTemp] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了临时手机号信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| tablename | tablename |
-| colname | colname |
+| tablename | 表名 |
+| colname | 列名 |
 | NM | NM |
 
 # [MONITOR_JOBS] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了监控作业信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Date | Date |
-| Group | Group |
-| Category | Category |
-| ProducerValue | ProducerValue |
-| ConsumerValue | ConsumerValue |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| LastChange_Azure | LastChange_Azure |
+| Date | 日期 |
+| Group | 组 |
+| Category | 类别 |
+| ProducerValue | 生产者值 |
+| ConsumerValue | 消费者值 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 | ID | ID |
-| Date | Date |
+| Date | 日期 |
 
 # [Monitor_System] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了系统监控信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Name | Name |
-| Value | Value |
-| CreatedOn | CreatedOn |
+| Name | 名称 |
+| Value | 值 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [MOT] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了关键时刻（MOT）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_ID | MOT_ID |
-| MOT_DEF_No | MOT_DEF_No |
-| Category | Category |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Mobile | TA_Mobile |
-| TA_Openid | TA_Openid |
-| TA_User_Name | TA_User_Name |
-| JoinDate | JoinDate |
-| Baby_BirthDay | Baby_BirthDay |
-| Stage | Stage |
-| Current_Stage | Current_Stage |
-| Cross_Stage | Cross_Stage |
-| Offset_Day | Offset_Day |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| ON_EC | ON_EC |
-| Sent_To_CMT_On | Sent_To_CMT_On |
-| Sent_To_CRMPlus_On | Sent_To_CRMPlus_On |
-| TAG | TAG |
-| Buy_History | Buy_History |
-| Due_Date | Due_Date |
-| Due_Stage | Due_Stage |
-| Status | Status |
-| Remark | Remark |
-| Created_On | Created_On |
-| Modified_On | Modified_On |
-| Sent_Update_Status_On | Sent_Update_Status_On |
-| SNC_Code_LastBuy | SNC_Code_LastBuy |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| Recent_Buy_Date | Recent_Buy_Date |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| S_Mobile | S_Mobile |
-| MOT_PID | MOT_PID |
-| Unionid | Unionid |
-| TouchPoint | TouchPoint |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| StoreID | StoreID |
-| NewCustomerType | NewCustomerType |
-| XinkeTag | XinkeTag |
-| ON_CSR | ON_CSR |
-| Sent_To_CSR_On | Sent_To_CSR_On |
-| ExternalUserID | ExternalUserID |
-| WeChatName | WeChatName |
-| Avatar | Avatar |
-| MOT_ID | MOT_ID |
+| MOT_ID | MOT ID |
+| MOT_DEF_No | MOT定义编号 |
+| Category | 类别 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Mobile | TA手机 |
+| TA_Openid | TA Openid |
+| TA_User_Name | TA用户名 |
+| JoinDate | 加入日期 |
+| Baby_BirthDay | 宝宝生日 |
+| Stage | 阶段 |
+| Current_Stage | 当前阶段 |
+| Cross_Stage | 跨阶段 |
+| Offset_Day | 偏移天数 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| ON_EC | 在EC上 |
+| Sent_To_CMT_On | 发送至CMT时间 |
+| Sent_To_CRMPlus_On | 发送至CRM Plus时间 |
+| TAG | 标签 |
+| Buy_History | 购买历史 |
+| Due_Date | 到期日期 |
+| Due_Stage | 到期阶段 |
+| Status | 状态 |
+| Remark | 备注 |
+| Created_On | 创建于 |
+| Modified_On | 修改于 |
+| Sent_Update_Status_On | 发送更新状态时间 |
+| SNC_Code_LastBuy | SNC代码最后购买 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| Recent_Buy_Date | 最近购买日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| S_Mobile | S端手机号 |
+| MOT_PID | MOT PID |
+| Unionid | 用户微信Unionid |
+| TouchPoint | 触点 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| StoreID | 门店ID |
+| NewCustomerType | 新客户类型 |
+| XinkeTag | 新客标签 |
+| ON_CSR | 在CSR上 |
+| Sent_To_CSR_On | 发送至CSR时间 |
+| ExternalUserID | 外部用户ID |
+| WeChatName | 微信名 |
+| Avatar | 头像 |
+| MOT_ID | MOT ID |
 
 # [MOT_18_42_gt_30] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT 18-42大于30的信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| ExternalUserID | ExternalUserID |
+| Unionid | 用户微信Unionid |
+| ExternalUserID | 外部用户ID |
 
 # [MOT_18_42_gt_30_20250327] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年3月27日的MOT 18-42大于30的信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| ExternalUserID | ExternalUserID |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| ExternalUserID | 外部用户ID |
+| Unionid | 用户微信Unionid |
 
 # [MOT_AL110_Bochu_TA_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了AL110铂初每日目标受众信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Current_Day | Current_Day |
-| Unionid | Unionid |
-| type | type |
-| Offset_Day | Offset_Day |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| TA_Mobile | TA_Mobile |
-| RegisterChannel | RegisterChannel |
-| SUB_USER_NAME | SUB_USER_NAME |
-| Baby_BirthDay | Baby_BirthDay |
-| current_stage | current_stage |
-| Stage | Stage |
-| joindate | joindate |
-| Tag | Tag |
-| Buy_History | Buy_History |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| Touch_Point | Touch_Point |
-| Store_Number | Store_Number |
-| Sent2OADate | Sent2OADate |
-| CreatedOn | CreatedOn |
-| Remark | Remark |
+| Current_Day | 当前日期 |
+| Unionid | 用户微信Unionid |
+| type | 类型 |
+| Offset_Day | 偏移天数 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| TA_Mobile | TA手机 |
+| RegisterChannel | 注册渠道 |
+| SUB_USER_NAME | 子用户名 |
+| Baby_BirthDay | 宝宝生日 |
+| current_stage | 当前阶段 |
+| Stage | 阶段 |
+| joindate | 加入日期 |
+| Tag | 标签 |
+| Buy_History | 购买历史 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| Touch_Point | 触点 |
+| Store_Number | 门店编号 |
+| Sent2OADate | 发送至OA日期 |
+| CreatedOn | 创建时间 |
+| Remark | 备注 |
 | ID | ID |
 
 # [MOT_AL110_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT AL110标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| RunDay | RunDay |
-| RecruitDate | RecruitDate |
-| Is_Buy_IMF | Is_Buy_IMF |
-| Is_Allow_UseBohu_From_Link | Is_Allow_UseBohu_From_Link |
-| Is_Sample_Bochu_200g | Is_Sample_Bochu_200g |
-| Is_Chg_Milk | Is_Chg_Milk |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| RunDay | 运行天数 |
+| RecruitDate | 招募日期 |
+| Is_Buy_IMF | 是否购买婴幼儿配方奶粉 |
+| Is_Allow_UseBohu_From_Link | 是否允许通过链接使用铂护 |
+| Is_Sample_Bochu_200g | 是否为铂初200g样品 |
+| Is_Chg_Milk | 是否转奶 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_AL110_TagTable2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT AL110标签表2信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| RunDay | RunDay |
-| RecruitDate | RecruitDate |
-| Is_Buy_IMF | Is_Buy_IMF |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| RunDay | 运行天数 |
+| RecruitDate | 招募日期 |
+| Is_Buy_IMF | 是否购买婴幼儿配方奶粉 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
 
 # [MOT_Base] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT基础信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Openid | Openid |
-| unionid | unionid |
-| Mobile | Mobile |
-| Current_Stage | Current_Stage |
-| StageByCRM | StageByCRM |
-| 是否正在关注 | 是否正在关注 |
-| BabyBirthday | BabyBirthday |
-| Offset_Day | Offset_Day |
+| Openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| Current_Stage | 当前阶段 |
+| StageByCRM | CRM中的阶段 |
+| 是否正在关注 | 是否正在关注公众号 |
+| BabyBirthday | 宝宝生日 |
+| Offset_Day | 距离生日天数 |
 
 # [MOT_Birthday_Reminder] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT生日提醒信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | PID | PID |
-| id | id |
-| unionid | unionid |
-| openid | openid |
-| name | name |
-| serial_number | serial_number |
-| ha12_answer | ha12_answer |
-| member_type | member_type |
-| remember_type | remember_type |
-| reminder_num | reminder_num |
-| reminder_date | reminder_date |
-| follow | follow |
-| close | close |
-| cdate | cdate |
-| finish_date | finish_date |
-| first_send | first_send |
-| first_send_date | first_send_date |
-| batch | batch |
-| CreatedOn | CreatedOn |
-| touch_point | touch_point |
-| ha12_type | ha12_type |
-| unionid | unionid |
-| remember_type | remember_type |
-| reminder_num | reminder_num |
-| reminder_date | reminder_date |
-| batch | batch |
+| id | ID |
+| unionid | 用户微信Unionid |
+| openid | 用户微信Openid |
+| name | 名称 |
+| serial_number | 序列号 |
+| ha12_answer | HA12答案 |
+| member_type | 会员类型 |
+| remember_type | 提醒类型 |
+| reminder_num | 提醒次数 |
+| reminder_date | 提醒日期 |
+| follow | 跟进 |
+| close | 关闭 |
+| cdate | 创建日期 |
+| finish_date | 完成日期 |
+| first_send | 首次发送 |
+| first_send_date | 首次发送日期 |
+| batch | 批次 |
+| CreatedOn | 创建时间 |
+| touch_point | 触点 |
+| ha12_type | HA12类型 |
+| unionid | 用户微信Unionid |
+| remember_type | 提醒类型 |
+| reminder_num | 提醒次数 |
+| reminder_date | 提醒日期 |
+| batch | 批次 |
 
 # [MOT_BoChu_AdvocacyTA] 字段注释说明
 本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。

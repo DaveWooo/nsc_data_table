@@ -3926,636 +3926,636 @@
 | batch | 批次 |
 
 # [MOT_BoChu_AdvocacyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初宣传TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| AdvocacyDate | AdvocacyDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| AdvocacyDate | 宣传日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BoChu_CallBackTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初电话回访TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
-| RemindBuyDate | RemindBuyDate |
-| RemindBuyDateUpdate | RemindBuyDateUpdate |
-| Status | Status |
-| CallBackDate | CallBackDate |
-| CampaleteDate | CampaleteDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindBuyDateUpdate | 提醒购买日期更新 |
+| Status | 状态 |
+| CallBackDate | 回访日期 |
+| CampaleteDate | 完成日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
 
 # [MOT_BoChu_PurchaseBoChu] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | S1 | S1 |
 | S2 | S2 |
 | S3 | S3 |
 
 # [MOT_BoChu_RecentPurchase] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初最近购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| EmptyDay | EmptyDay |
-| RemindDay | RemindDay |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| EmptyDay | 空罐天数 |
+| RemindDay | 提醒天数 |
+| UpdateDate | 更新日期 |
 
 # [MOT_BoChu_RecentPurchaseS23] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初最近购买S23信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| RecentPurchaseS23Date | RecentPurchaseS23Date |
+| Unionid | 用户微信Unionid |
+| RecentPurchaseS23Date | 最近购买S23日期 |
 
 # [MOT_BoChu_RemindBuyS23TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初提醒购买S23的TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| RecruitDate | RecruitDate |
-| RecentPurchaseS23Date | RecentPurchaseS23Date |
-| ReBuyTimes | ReBuyTimes |
-| CreatedDate | CreatedDate |
+| Unionid | 用户微信Unionid |
+| RecruitDate | 招募日期 |
+| RecentPurchaseS23Date | 最近购买S23日期 |
+| ReBuyTimes | 复购次数 |
+| CreatedDate | 创建日期 |
 | ID | ID |
-| Unionid | Unionid |
-| RecentPurchaseS23Date | RecentPurchaseS23Date |
+| Unionid | 用户微信Unionid |
+| RecentPurchaseS23Date | 最近购买S23日期 |
 
 # [MOT_BoChu_RemindBuyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初提醒购买TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
-| RecruitDate | RecruitDate |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindBuyDate | RemindBuyDate |
-| Status | Status |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
+| RecruitDate | 招募日期 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindBuyDate | 提醒购买日期 |
+| Status | 状态 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
 
 # [MOT_BoChu_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| RunDay | RunDay |
-| TargetType | TargetType |
-| RecentPurchaseS23Date | RecentPurchaseS23Date |
-| IsBuyBoChuS3 | IsBuyBoChuS3 |
-| IsBuyBoChuS2 | IsBuyBoChuS2 |
-| IsBuyBoChuS1 | IsBuyBoChuS1 |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| RemindBuyDate | RemindBuyDate |
-| ReBuyTimes | ReBuyTimes |
-| StageGroup | StageGroup |
-| RemindCSDate1 | RemindCSDate1 |
-| RemindCSDate2 | RemindCSDate2 |
-| RemindCSDate3 | RemindCSDate3 |
-| RemindCSDate4 | RemindCSDate4 |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| RunDay | 运行天数 |
+| TargetType | 目标类型 |
+| RecentPurchaseS23Date | 最近购买S23日期 |
+| IsBuyBoChuS3 | 是否购买铂初S3 |
+| IsBuyBoChuS2 | 是否购买铂初S2 |
+| IsBuyBoChuS1 | 是否购买铂初S1 |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| RemindBuyDate | 提醒购买日期 |
+| ReBuyTimes | 复购次数 |
+| StageGroup | 阶段组 |
+| RemindCSDate1 | 提醒CS日期1 |
+| RemindCSDate2 | 提醒CS日期2 |
+| RemindCSDate3 | 提醒CS日期3 |
+| RemindCSDate4 | 提醒CS日期4 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BoChu_WOM_OldTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初口碑（WOM）旧TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| Mobile | Mobile |
-| ABGroup | ABGroup |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThirdRemindDate | ThirdRemindDate |
-| ForthRemindDate | ForthRemindDate |
-| FifthRemindDate | FifthRemindDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| ABGroupNew | ABGroupNew |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| ABGroup | AB组 |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThirdRemindDate | 第三次提醒日期 |
+| ForthRemindDate | 第四次提醒日期 |
+| FifthRemindDate | 第五次提醒日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| ABGroupNew | 新AB组 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BochuGerber_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初嘉宝TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Runday | Runday |
-| TargetType | TargetType |
-| BrandGroup | BrandGroup |
-| Purchase_Starter | Purchase_Starter |
-| Purchase_谷启嘉贝 | Purchase_谷启嘉贝 |
-| Purchase_米粥 | Purchase_米粥 |
-| Coupon_Usetime | Coupon_Usetime |
-| StartersFirstRemindDate | StartersFirstRemindDate |
-| StartersSecondRemindDate | StartersSecondRemindDate |
-| OptimaFirstRemindDate | OptimaFirstRemindDate |
-| OptimaSecondRemindDate | OptimaSecondRemindDate |
-| AmberFirstRemindDate | AmberFirstRemindDate |
-| AmberSecondRemindDate | AmberSecondRemindDate |
-| EndDate | EndDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Runday | 运行天数 |
+| TargetType | 目标类型 |
+| BrandGroup | 品牌组 |
+| Purchase_Starter | 购买Starter |
+| Purchase_谷启嘉贝 | 购买谷启嘉贝 |
+| Purchase_米粥 | 购买米粥 |
+| Coupon_Usetime | 优惠券使用时间 |
+| StartersFirstRemindDate | Starters第一次提醒日期 |
+| StartersSecondRemindDate | Starters第二次提醒日期 |
+| OptimaFirstRemindDate | Optima第一次提醒日期 |
+| OptimaSecondRemindDate | Optima第二次提醒日期 |
+| AmberFirstRemindDate | Amber第一次提醒日期 |
+| AmberSecondRemindDate | Amber第二次提醒日期 |
+| EndDate | 结束日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BochuGerber_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初嘉宝标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| GetBochuTime | GetBochuTime |
-| Purchase_嘉宝产品 | Purchase_嘉宝产品 |
-| RecentBuyBrand | RecentBuyBrand |
-| RecentBuyTime | RecentBuyTime |
-| CreateDate | CreateDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| GetBochuTime | 获取铂初时间 |
+| Purchase_嘉宝产品 | 购买嘉宝产品 |
+| RecentBuyBrand | 最近购买品牌 |
+| RecentBuyTime | 最近购买时间 |
+| CreateDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BoChuSample_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初样品TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| TargetType | TargetType |
-| GetSampleTime | GetSampleTime |
-| RecentBuyTime | RecentBuyTime |
-| RecentBuyCount | RecentBuyCount |
-| EmptyDate | EmptyDate |
-| FirstTriggerDate | FirstTriggerDate |
-| SecondTriggerDate | SecondTriggerDate |
-| BoChuHABuyPID | BoChuHABuyPID |
-| EndDate | EndDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| TargetType | 目标类型 |
+| GetSampleTime | 获取样品时间 |
+| RecentBuyTime | 最近购买时间 |
+| RecentBuyCount | 最近购买数量 |
+| EmptyDate | 空罐日期 |
+| FirstTriggerDate | 第一次触发日期 |
+| SecondTriggerDate | 第二次触发日期 |
+| BoChuHABuyPID | 铂初HA购买PID |
+| EndDate | 结束日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_BoChuSample_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT铂初样品标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| GetSampleTime | GetSampleTime |
-| RecentBuyBrand | RecentBuyBrand |
-| RecentBuyCount | RecentBuyCount |
-| RecentBuyTime | RecentBuyTime |
-| EmptyDate | EmptyDate |
-| GapDay | GapDay |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| GetSampleTime | 获取样品时间 |
+| RecentBuyBrand | 最近购买品牌 |
+| RecentBuyCount | 最近购买数量 |
+| RecentBuyTime | 最近购买时间 |
+| EmptyDate | 空罐日期 |
+| GapDay | 间隔天数 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Call_Center] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT呼叫中心信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Mobile | Mobile |
-| QuestionnaireType | QuestionnaireType |
-| MOT_DEF_No | MOT_DEF_No |
-| CreatedOn | CreatedOn |
-| SentToCRMOn | SentToCRMOn |
-| Mobile | Mobile |
-| QuestionnaireType | QuestionnaireType |
-| MOT_DEF_No | MOT_DEF_No |
+| Mobile | 手机号码 |
+| QuestionnaireType | 问卷类型 |
+| MOT_DEF_No | MOT定义编号 |
+| CreatedOn | 创建时间 |
+| SentToCRMOn | 发送至CRM时间 |
+| Mobile | 手机号码 |
+| QuestionnaireType | 问卷类型 |
+| MOT_DEF_No | MOT定义编号 |
 
 # [MOT_Defination] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| No | No |
-| Category | Category |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| Status | Status |
-| CTA | CTA |
-| TouchPoints | TouchPoints |
-| Descriptions | Descriptions |
-| Due_Date | Due_Date |
-| Remark | Remark |
-| Enabled | Enabled |
-| Due_Stage | Due_Stage |
-| Brand | Brand |
-| Product | Product |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Label_Level_3 | Label_Level_3 |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| Phase | Phase |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Stage | Stage |
-| No | No |
+| No | 编号 |
+| Category | 类别 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| Status | 状态 |
+| CTA | 行动号召 |
+| TouchPoints | 触点 |
+| Descriptions | 描述 |
+| Due_Date | 到期日期 |
+| Remark | 备注 |
+| Enabled | 是否启用 |
+| Due_Stage | 到期阶段 |
+| Brand | 品牌 |
+| Product | 产品 |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Label_Level_3 | 标签级别3 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| Phase | 阶段 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Stage | 阶段 |
+| No | 编号 |
 
 # [MOT_Defination_20230401] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年4月1日的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| No | No |
-| Category | Category |
-| Label_Level_2 | Label_Level_2 |
-| Label_Level_3 | Label_Level_3 |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| TouchPoints | TouchPoints |
-| Description | Description |
-| Due_Date | Due_Date |
-| Remark | Remark |
-| Enabled | Enabled |
-| TA | TA |
-| Tagging | Tagging |
-| old Descriptions | old Descriptions |
-| new Descriptions | new Descriptions |
+| No | 编号 |
+| Category | 类别 |
+| Label_Level_2 | 标签级别2 |
+| Label_Level_3 | 标签级别3 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| TouchPoints | 触点 |
+| Description | 描述 |
+| Due_Date | 到期日期 |
+| Remark | 备注 |
+| Enabled | 是否启用 |
+| TA | 目标受众 |
+| Tagging | 标记 |
+| old Descriptions | 旧描述 |
+| new Descriptions | 新描述 |
 
 # [MOT_Defination_20240903] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月3日的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| No | No |
-| Category | Category |
-| Label_Level_2 | Label_Level_2 |
-| Label_Level_3 | Label_Level_3 |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| TouchPoints | TouchPoints |
-| Descriptions | Descriptions |
-| Due_Date | Due_Date |
-| Remark | Remark |
-| Enabled | Enabled |
-| TA | TA |
-| LastChange | LastChange |
-| Due_Stage | Due_Stage |
-| Brand | Brand |
-| Product | Product |
-| Phase | Phase |
-| CreatedOn | CreatedOn |
+| No | 编号 |
+| Category | 类别 |
+| Label_Level_2 | 标签级别2 |
+| Label_Level_3 | 标签级别3 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| TouchPoints | 触点 |
+| Descriptions | 描述 |
+| Due_Date | 到期日期 |
+| Remark | 备注 |
+| Enabled | 是否启用 |
+| TA | 目标受众 |
+| LastChange | 最后更改时间 |
+| Due_Stage | 到期阶段 |
+| Brand | 品牌 |
+| Product | 产品 |
+| Phase | 阶段 |
+| CreatedOn | 创建时间 |
 
 # [MOT_Defination_20240903_1] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月3日的MOT定义信息（表1）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_No | MOT_DEF_No |
-| CD_Trigger_Qty | CD_Trigger_Qty |
-| CD_Trigger_Min_Date | CD_Trigger_Min_Date |
-| CD_Trigger_Last_Date | CD_Trigger_Last_Date |
-| Status | Status |
-| Brand | Brand |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| CTA or not | CTA or not |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Descriptions | Descriptions |
-| Remark | Remark |
-| Category | Category |
-| TouchPoints | TouchPoints |
+| MOT_DEF_No | MOT定义编号 |
+| CD_Trigger_Qty | CD触发数量 |
+| CD_Trigger_Min_Date | CD触发最小日期 |
+| CD_Trigger_Last_Date | CD触发最后日期 |
+| Status | 状态 |
+| Brand | 品牌 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| CTA or not | 是否CTA |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Descriptions | 描述 |
+| Remark | 备注 |
+| Category | 类别 |
+| TouchPoints | 触点 |
 | 备注说明 | 备注说明 |
 
 # [MOT_Defination_20240904_Xia] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月4日Xia提供的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_No | MOT_DEF_No |
-| CD_Trigger_Qty | CD_Trigger_Qty |
-| CD_Trigger_Min_Date | CD_Trigger_Min_Date |
-| CD_Trigger_Last_Date | CD_Trigger_Last_Date |
-| Status | Status |
-| Brand | Brand |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Descriptions | Descriptions |
-| Remark | Remark |
-| Category | Category |
-| TouchPoints | TouchPoints |
+| MOT_DEF_No | MOT定义编号 |
+| CD_Trigger_Qty | CD触发数量 |
+| CD_Trigger_Min_Date | CD触发最小日期 |
+| CD_Trigger_Last_Date | CD触发最后日期 |
+| Status | 状态 |
+| Brand | 品牌 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Descriptions | 描述 |
+| Remark | 备注 |
+| Category | 类别 |
+| TouchPoints | 触点 |
 | 备注说明 | 备注说明 |
 
 # [MOT_Defination_20240906] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月6日的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_No | MOT_DEF_No |
-| CD_Trigger_Qty | CD_Trigger_Qty |
-| CD_Trigger_Min_Date | CD_Trigger_Min_Date |
-| CD_Trigger_Last_Date | CD_Trigger_Last_Date |
-| Status | Status |
-| Enabled | Enabled |
-| Brand | Brand |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| CTA or not | CTA or not |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Descriptions | Descriptions |
-| Remark | Remark |
-| Category | Category |
-| TouchPoints | TouchPoints |
+| MOT_DEF_No | MOT定义编号 |
+| CD_Trigger_Qty | CD触发数量 |
+| CD_Trigger_Min_Date | CD触发最小日期 |
+| CD_Trigger_Last_Date | CD触发最后日期 |
+| Status | 状态 |
+| Enabled | 是否启用 |
+| Brand | 品牌 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| CTA or not | 是否CTA |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Descriptions | 描述 |
+| Remark | 备注 |
+| Category | 类别 |
+| TouchPoints | 触点 |
 | MOT话术 | MOT话术 |
 | 备注说明 | 备注说明 |
 
 # [MOT_Defination_20240906_Kaylee] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月6日Kaylee提供的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_No | MOT_DEF_No |
-| CD_Trigger_Qty | CD_Trigger_Qty |
-| CD_Trigger_Min_Date | CD_Trigger_Min_Date |
-| CD_Trigger_Last_Date | CD_Trigger_Last_Date |
-| Status | Status |
-| Enabled | Enabled |
-| Brand | Brand |
-| Stage | Stage |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| CTA or not | CTA or not |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Descriptions | Descriptions |
-| Remark | Remark |
-| Category | Category |
-| TouchPoints | TouchPoints |
+| MOT_DEF_No | MOT定义编号 |
+| CD_Trigger_Qty | CD触发数量 |
+| CD_Trigger_Min_Date | CD触发最小日期 |
+| CD_Trigger_Last_Date | CD触发最后日期 |
+| Status | 状态 |
+| Enabled | 是否启用 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| CTA or not | 是否CTA |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Descriptions | 描述 |
+| Remark | 备注 |
+| Category | 类别 |
+| TouchPoints | 触点 |
 | MOT话术 | MOT话术 |
 | 备注说明 | 备注说明 |
 
 # [MOT_Defination_20240906_XiaLan] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月6日XiaLan提供的MOT定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_No | MOT_DEF_No |
-| CD_Trigger_Qty | CD_Trigger_Qty |
-| CD_Trigger_Min_Date | CD_Trigger_Min_Date |
-| CD_Trigger_Last_Date | CD_Trigger_Last_Date |
-| Status | Status |
-| Enabled | Enabled |
-| Brand | Brand |
-| Stage | Stage |
-| Objective | Objective |
-| Mot_Type | Mot_Type |
-| CTA or not | CTA or not |
-| TA | TA |
-| Label_Level_2 | Label_Level_2 |
-| Descriptions | Descriptions |
-| Remark | Remark |
-| Category | Category |
-| TouchPoints | TouchPoints |
+| MOT_DEF_No | MOT定义编号 |
+| CD_Trigger_Qty | CD触发数量 |
+| CD_Trigger_Min_Date | CD触发最小日期 |
+| CD_Trigger_Last_Date | CD触发最后日期 |
+| Status | 状态 |
+| Enabled | 是否启用 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| Objective | 目的 |
+| Mot_Type | MOT类型 |
+| CTA or not | 是否CTA |
+| TA | 目标受众 |
+| Label_Level_2 | 标签级别2 |
+| Descriptions | 描述 |
+| Remark | 备注 |
+| Category | 类别 |
+| TouchPoints | 触点 |
 | MOT话术 | MOT话术 |
 | 备注说明 | 备注说明 |
 
 # [MOT_Gerber_CNYTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝春节TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThiredRemindDate | ThiredRemindDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThiredRemindDate | 第三次提醒日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Gerber_Information] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Openid | Openid |
-| unionid | unionid |
-| Mobile | Mobile |
-| Current_Stage | Current_Stage |
-| StageByCRM | StageByCRM |
-| 是否正在关注 | 是否正在关注 |
-| BabyBirthday | BabyBirthday |
-| Offset_Day | Offset_Day |
-| CouponUseTime | CouponUseTime |
-| TouchPoint | TouchPoint |
-| PureStarter | PureStarter |
-| Purchase_嘉宝产品 | Purchase_嘉宝产品 |
-| Purchase_谷启嘉贝 | Purchase_谷启嘉贝 |
-| Purchase_米粥 | Purchase_米粥 |
-| 绑定导购 | 绑定导购 |
+| Openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| Current_Stage | 当前阶段 |
+| StageByCRM | CRM中的阶段 |
+| 是否正在关注 | 是否正在关注公众号 |
+| BabyBirthday | 宝宝生日 |
+| Offset_Day | 距离生日天数 |
+| CouponUseTime | 优惠券使用时间 |
+| TouchPoint | 触点 |
+| PureStarter | 纯Starter |
+| Purchase_嘉宝产品 | 购买嘉宝产品 |
+| Purchase_谷启嘉贝 | 购买谷启嘉贝 |
+| Purchase_米粥 | 购买米粥 |
+| 绑定导购 | 绑定的导购 |
 | 导购是否在职 | 导购是否在职 |
-| 绑定导购门店 | 绑定导购门店 |
-| UpdateDate | UpdateDate |
+| 绑定导购门店 | 绑定的导购门店 |
+| UpdateDate | 更新日期 |
 
 # [MOT_Gerber_IsPureStarter] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝是否为纯Starter的信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| Purchase_嘉宝产品 | Purchase_嘉宝产品 |
-| PureStarter | PureStarter |
-| Purchase_Starter | Purchase_Starter |
-| Purchase_谷启嘉贝 | Purchase_谷启嘉贝 |
-| Purchase_米粥 | Purchase_米粥 |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| Purchase_嘉宝产品 | 购买嘉宝产品 |
+| PureStarter | 纯Starter |
+| Purchase_Starter | 购买Starter |
+| Purchase_谷启嘉贝 | 购买谷启嘉贝 |
+| Purchase_米粥 | 购买米粥 |
+| UpdateDate | 更新日期 |
 
 # [MOT_Gerber_IsUseCoupon] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝是否使用优惠券的信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| unionid | unionid |
-| use_time | use_time |
-| snc_code | snc_code |
-| TouchPoint | TouchPoint |
+| unionid | 用户微信Unionid |
+| use_time | 使用时间 |
+| snc_code | SNC代码 |
+| TouchPoint | 触点 |
 
 # [MOT_Gerber_JiaoYaoTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝嚼咬TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| TargetType | TargetType |
-| RunDay | RunDay |
-| CouponUseTimes | CouponUseTimes |
-| JourneyEndDate | JourneyEndDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| TargetType | 目标类型 |
+| RunDay | 运行天数 |
+| CouponUseTimes | 优惠券使用次数 |
+| JourneyEndDate | 旅程结束日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Gerber_NewCustomer] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝新客信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| UseDate | UseDate |
-| CreatedDate | CreatedDate |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| UseDate | 使用日期 |
+| CreatedDate | 创建日期 |
 | 筛选时最近绑定导购 | 筛选时最近绑定导购 |
 | 筛选时导购是否在职 | 筛选时导购是否在职 |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Gerber_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| CreatedDate | CreatedDate |
-| RunDay | RunDay |
-| EndDate | EndDate |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| CreatedDate | 创建日期 |
+| RunDay | 运行天数 |
+| EndDate | 结束日期 |
 | 筛选时最近绑定导购 | 筛选时最近绑定导购 |
 | 筛选时导购是否在职 | 筛选时导购是否在职 |
-| Type | Type |
-| UpdateDate | UpdateDate |
-| Unionid | Unionid |
+| Type | 类型 |
+| UpdateDate | 更新日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Gerber_TunMoTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝吞咽TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| RunDay | RunDay |
-| CouponUseTimes | CouponUseTimes |
-| JourneyEndDate | JourneyEndDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| RunDay | 运行天数 |
+| CouponUseTimes | 优惠券使用次数 |
+| JourneyEndDate | 旅程结束日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_1842Tin_TA2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA 18-42罐TA2信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| UNIONID | UNIONID |
-| TAG | TAG |
-| Sent2CRMPlus | Sent2CRMPlus |
-| Sent2CRMPlus_2 | Sent2CRMPlus_2 |
-| Sent2CRMPlus_3 | Sent2CRMPlus_3 |
-| Sent2CRMPlus_4 | Sent2CRMPlus_4 |
-| Sent2CRMPlus_5 | Sent2CRMPlus_5 |
-| Sent2CRMPlus_6 | Sent2CRMPlus_6 |
-| Sent2CRMPlus_7 | Sent2CRMPlus_7 |
-| Sent2CRMPlus_8 | Sent2CRMPlus_8 |
-| Sent2CRMPlus_9 | Sent2CRMPlus_9 |
-| Createdon | Createdon |
+| UNIONID | 用户微信Unionid |
+| TAG | 标签 |
+| Sent2CRMPlus | 发送至CRMPlus |
+| Sent2CRMPlus_2 | 发送至CRMPlus_2 |
+| Sent2CRMPlus_3 | 发送至CRMPlus_3 |
+| Sent2CRMPlus_4 | 发送至CRMPlus_4 |
+| Sent2CRMPlus_5 | 发送至CRMPlus_5 |
+| Sent2CRMPlus_6 | 发送至CRMPlus_6 |
+| Sent2CRMPlus_7 | 发送至CRMPlus_7 |
+| Sent2CRMPlus_8 | 发送至CRMPlus_8 |
+| Sent2CRMPlus_9 | 发送至CRMPlus_9 |
+| Createdon | 创建于 |
 
 # [MOT_HA_42Tin_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA 42罐TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | UnionidS | UnionidS |
-| Unionid | Unionid |
-| s_mobile | s_mobile |
-| CMamaId | CMamaId |
-| PMamaId | PMamaId |
-| MOBILE | MOBILE |
-| Should1_Send_Date | Should1_Send_Date |
-| Should2_Send_Date | Should2_Send_Date |
-| Insert_MOT1_Date | Insert_MOT1_Date |
-| Insert_MOT2_Date | Insert_MOT2_Date |
+| Unionid | 用户微信Unionid |
+| s_mobile | S端手机号 |
+| CMamaId | C端妈妈ID |
+| PMamaId | P端妈妈ID |
+| MOBILE | 手机号码 |
+| Should1_Send_Date | 应发送日期1 |
+| Should2_Send_Date | 应发送日期2 |
+| Insert_MOT1_Date | 插入MOT1日期 |
+| Insert_MOT2_Date | 插入MOT2日期 |
 
 # [MOT_HA_AdvocacyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA宣传TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| AdvocacyDate | AdvocacyDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| AdvocacyDate | 宣传日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_CallBackTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA电话回访TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
-| RemindBuyDate | RemindBuyDate |
-| RemindBuyDateUpdate | RemindBuyDateUpdate |
-| CallBackDate | CallBackDate |
-| CampaleteDate | CampaleteDate |
-| Remark | Remark |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindBuyDateUpdate | 提醒购买日期更新 |
+| CallBackDate | 回访日期 |
+| CampaleteDate | 完成日期 |
+| Remark | 备注 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
 
 # [MOT_HA_CrossStageTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA跨阶段TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| Tag | Tag |
-| IsBirthdayS3TA | IsBirthdayS3TA |
-| IsBirthdayS4TA | IsBirthdayS4TA |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThirdRemindDate | ThirdRemindDate |
-| ForthRemindDate | ForthRemindDate |
-| UpdateDate | UpdateDate |
-| CreateDate | CreateDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| Tag | 标签 |
+| IsBirthdayS3TA | 是否生日S3 TA |
+| IsBirthdayS4TA | 是否生日S4 TA |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThirdRemindDate | 第三次提醒日期 |
+| ForthRemindDate | 第四次提醒日期 |
+| UpdateDate | 更新日期 |
+| CreateDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_EmptyABTestTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA空罐AB测试TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| SNCCode | SNCCode |
-| IsOnJob | IsOnJob |
-| StoreCode | StoreCode |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| RemindDate | RemindDate |
-| ABGroup | ABGroup |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| SNCCode | SNC代码 |
+| IsOnJob | 是否在职 |
+| StoreCode | 门店代码 |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| RemindDate | 提醒日期 |
+| ABGroup | AB组 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_EmptyABTestTA_0801] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年8月1日的MOT HA空罐AB测试TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| SNCCode | SNCCode |
-| IsOnJob | IsOnJob |
-| StoreCode | StoreCode |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| RemindDate | RemindDate |
-| ABgroup | ABgroup |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| SNCCode | SNC代码 |
+| IsOnJob | 是否在职 |
+| StoreCode | 门店代码 |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| RemindDate | 提醒日期 |
+| ABgroup | AB组 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_EmptyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA空罐TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 招募时间 | 招募时间 |
 | 提醒复购时最近购买时间 | 提醒复购时最近购买时间 |
 | 提醒复购时最近购买罐数 | 提醒复购时最近购买罐数 |
@@ -4564,120 +4564,120 @@
 | 空罐日期 | 空罐日期 |
 
 # [MOT_HA_NNSTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA NNSTA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| Mobile | Mobile |
-| TargetType | TargetType |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThiredRemindDate | ThiredRemindDate |
-| ForthRemindDate | ForthRemindDate |
-| IsNewDate | IsNewDate |
-| Status | Status |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| TargetType | 目标类型 |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThiredRemindDate | 第三次提醒日期 |
+| ForthRemindDate | 第四次提醒日期 |
+| IsNewDate | 是否新日期 |
+| Status | 状态 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_PurchaseS3] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA S3购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| NoS3Purchase | NoS3Purchase |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| NoS3Purchase | 无S3购买 |
+| UpdateDate | 更新日期 |
 
 # [MOT_HA_PurchaseS4] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA S4购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| NoS4Purchase | NoS4Purchase |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| NoS4Purchase | 无S4购买 |
+| UpdateDate | 更新日期 |
 
 # [MOT_HA_QuestionnaireTag] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA问卷标签信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| QuestionnaireType | QuestionnaireType |
-| TagQuestion2_DXW | TagQuestion2_DXW |
-| TagQuestion1_C | TagQuestion1_C |
-| Tag_DXW_New | Tag_DXW_New |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
-| QuestionnaireType | QuestionnaireType |
+| Unionid | 用户微信Unionid |
+| QuestionnaireType | 问卷类型 |
+| TagQuestion2_DXW | 标签问题2_DXW |
+| TagQuestion1_C | 标签问题1_C |
+| Tag_DXW_New | 新DXW标签 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
+| QuestionnaireType | 问卷类型 |
 
 # [MOT_HA_RecentPurchase] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA最近购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| EmptyDay | EmptyDay |
-| RemindDay | RemindDay |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| EmptyDay | 空罐天数 |
+| RemindDay | 提醒天数 |
+| UpdateDate | 更新日期 |
 
 # [MOT_HA_RemindBuy_Overlap] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA提醒购买重叠信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_ID | MOT_ID |
-| MOT_DEF_No | MOT_DEF_No |
-| Category | Category |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Mobile | TA_Mobile |
-| TA_Openid | TA_Openid |
-| TA_User_Name | TA_User_Name |
-| JoinDate | JoinDate |
-| Baby_BirthDay | Baby_BirthDay |
-| Stage | Stage |
-| Current_Stage | Current_Stage |
-| Cross_Stage | Cross_Stage |
-| Offset_Day | Offset_Day |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| ON_EC | ON_EC |
-| Sent_To_CMT_On | Sent_To_CMT_On |
-| Sent_To_CRMPlus_On | Sent_To_CRMPlus_On |
-| TAG | TAG |
-| Buy_History | Buy_History |
-| Due_Date | Due_Date |
-| Due_Stage | Due_Stage |
-| Status | Status |
-| Remark | Remark |
-| Created_On | Created_On |
-| Modified_On | Modified_On |
-| Sent_Update_Status_On | Sent_Update_Status_On |
-| SNC_Code_LastBuy | SNC_Code_LastBuy |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| Recent_Buy_Date | Recent_Buy_Date |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| S_Mobile | S_Mobile |
-| MOT_PID | MOT_PID |
-| Unionid | Unionid |
-| TouchPoint | TouchPoint |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| StoreID | StoreID |
-| NewCustomerType | NewCustomerType |
-| XinkeTag | XinkeTag |
-| ON_CSR | ON_CSR |
-| Sent_To_CSR_On | Sent_To_CSR_On |
+| MOT_ID | MOT ID |
+| MOT_DEF_No | MOT定义编号 |
+| Category | 类别 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Mobile | TA手机 |
+| TA_Openid | TA Openid |
+| TA_User_Name | TA用户名 |
+| JoinDate | 加入日期 |
+| Baby_BirthDay | 宝宝生日 |
+| Stage | 阶段 |
+| Current_Stage | 当前阶段 |
+| Cross_Stage | 跨阶段 |
+| Offset_Day | 偏移天数 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| ON_EC | 在EC上 |
+| Sent_To_CMT_On | 发送至CMT时间 |
+| Sent_To_CRMPlus_On | 发送至CRM Plus时间 |
+| TAG | 标签 |
+| Buy_History | 购买历史 |
+| Due_Date | 到期日期 |
+| Due_Stage | 到期阶段 |
+| Status | 状态 |
+| Remark | 备注 |
+| Created_On | 创建于 |
+| Modified_On | 修改于 |
+| Sent_Update_Status_On | 发送更新状态时间 |
+| SNC_Code_LastBuy | SNC代码最后购买 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| Recent_Buy_Date | 最近购买日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| S_Mobile | S端手机号 |
+| MOT_PID | MOT PID |
+| Unionid | 用户微信Unionid |
+| TouchPoint | 触点 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| StoreID | 门店ID |
+| NewCustomerType | 新客户类型 |
+| XinkeTag | 新客标签 |
+| ON_CSR | 在CSR上 |
+| Sent_To_CSR_On | 发送至CSR时间 |
 
 # [MOT_HA_RemindBuyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA提醒购买TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 招募时间 | 招募时间 |
 | 提醒复购时最近购买时间 | 提醒复购时最近购买时间 |
 | 提醒复购时最近购买罐数 | 提醒复购时最近购买罐数 |
@@ -4685,971 +4685,971 @@
 | 本次提醒应空罐日期 | 本次提醒应空罐日期 |
 | 复购次数 | 复购次数 |
 | 创建时间 | 创建时间 |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
 | 复购次数 | 复购次数 |
 
 # [MOT_HA_Review] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA回顾信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_DEF_NO | MOT_DEF_NO |
-| BeginDate | BeginDate |
-| EndDate | EndDate |
-| Receive | Receive |
-| Success | Success |
+| MOT_DEF_NO | MOT定义编号 |
+| BeginDate | 开始日期 |
+| EndDate | 结束日期 |
+| Receive | 接收 |
+| Success | 成功 |
 | S1 | S1 |
 | S2 | S2 |
 | S3 | S3 |
-| Avg | Avg |
+| Avg | 平均值 |
 
 # [MOT_HA_S2_Sample_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA S2样品TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| Day1_Date | Day1_Date |
-| Day3_Date | Day3_Date |
-| Is_Buy_HAS2 | Is_Buy_HAS2 |
-| Is_PreNAN_User | Is_PreNAN_User |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| Unionid | 用户微信Unionid |
+| Day1_Date | 第1天日期 |
+| Day3_Date | 第3天日期 |
+| Is_Buy_HAS2 | 是否购买HA S2 |
+| Is_PreNAN_User | 是否PreNAN用户 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | ID | ID |
 
 # [MOT_HA_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| 绑定导购 | 绑定导购 |
+| Unionid | 用户微信Unionid |
+| 绑定导购 | 绑定的导购 |
 | 导购是否在职 | 导购是否在职 |
-| 绑定导购门店 | 绑定导购门店 |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| RunDay | RunDay |
-| TargetType | TargetType |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| EmptyDay | EmptyDay |
-| RemindBuyDate | RemindBuyDate |
-| RemindEmptyDate | RemindEmptyDate |
-| ReBuyTimes | ReBuyTimes |
-| Group | Group |
-| NoS3Purchase | NoS3Purchase |
-| NoS4Purchase | NoS4Purchase |
-| IsNew | IsNew |
-| IsNewDate | IsNewDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| Unionid | Unionid |
+| 绑定导购门店 | 绑定的导购门店 |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| RunDay | 运行天数 |
+| TargetType | 目标类型 |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| EmptyDay | 空罐天数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindEmptyDate | 提醒空罐日期 |
+| ReBuyTimes | 复购次数 |
+| Group | 组 |
+| NoS3Purchase | 无S3购买 |
+| NoS4Purchase | 无S4购买 |
+| IsNew | 是否新 |
+| IsNewDate | 是否新日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_WOM_OldTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA口碑（WOM）旧TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThiredRemindDate | ThiredRemindDate |
-| ForthRemindDate | ForthRemindDate |
-| FifthRemindDate | FifthRemindDate |
-| SixthRemindDate | SixthRemindDate |
-| SeventhRemindDate | SeventhRemindDate |
-| Status | Status |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThiredRemindDate | 第三次提醒日期 |
+| ForthRemindDate | 第四次提醒日期 |
+| FifthRemindDate | 第五次提醒日期 |
+| SixthRemindDate | 第六次提醒日期 |
+| SeventhRemindDate | 第七次提醒日期 |
+| Status | 状态 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_HA_WOM_OldTA_Wrong] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HA口碑（WOM）旧TA错误信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| FirstRemindDate | FirstRemindDate |
-| SecondRemindDate | SecondRemindDate |
-| ThiredRemindDate | ThiredRemindDate |
-| ForthRemindDate | ForthRemindDate |
-| Status | Status |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
+| Unionid | 用户微信Unionid |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThiredRemindDate | 第三次提醒日期 |
+| ForthRemindDate | 第四次提醒日期 |
+| Status | 状态 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
 
 # [MOT_HAS3_720_KAB_TA_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HAS3 720 KAB每日TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Current_Day | Current_Day |
-| Unionid | Unionid |
-| Offset_Day | Offset_Day |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| TA_Mobile | TA_Mobile |
-| RegisterChannel | RegisterChannel |
-| SUB_USER_NAME | SUB_USER_NAME |
-| Baby_BirthDay | Baby_BirthDay |
-| current_stage | current_stage |
-| Stage | Stage |
-| joindate | joindate |
-| Tag | Tag |
-| Buy_History | Buy_History |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| Touch_Point | Touch_Point |
-| Store_Number | Store_Number |
-| CreatedOn | CreatedOn |
-| is_Maizhi | is_Maizhi |
+| Current_Day | 当前日期 |
+| Unionid | 用户微信Unionid |
+| Offset_Day | 偏移天数 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| TA_Mobile | TA手机 |
+| RegisterChannel | 注册渠道 |
+| SUB_USER_NAME | 子用户名 |
+| Baby_BirthDay | 宝宝生日 |
+| current_stage | 当前阶段 |
+| Stage | 阶段 |
+| joindate | 加入日期 |
+| Tag | 标签 |
+| Buy_History | 购买历史 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| Touch_Point | 触点 |
+| Store_Number | 门店编号 |
+| CreatedOn | 创建时间 |
+| is_Maizhi | 是否麦智 |
 | ID | ID |
 
 # [MOT_HAS3_760_Laoke_TA_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HAS3 760老客每日TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Current_Day | Current_Day |
-| Unionid | Unionid |
-| Offset_Day | Offset_Day |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| TA_Mobile | TA_Mobile |
-| RegisterChannel | RegisterChannel |
-| SUB_USER_NAME | SUB_USER_NAME |
-| Baby_BirthDay | Baby_BirthDay |
-| current_stage | current_stage |
-| Stage | Stage |
-| joindate | joindate |
-| Tag | Tag |
-| Buy_History | Buy_History |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| Touch_Point | Touch_Point |
-| Store_Number | Store_Number |
-| Sent2OADate | Sent2OADate |
-| CreatedOn | CreatedOn |
-| is_month_invalid | is_month_invalid |
+| Current_Day | 当前日期 |
+| Unionid | 用户微信Unionid |
+| Offset_Day | 偏移天数 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| TA_Mobile | TA手机 |
+| RegisterChannel | 注册渠道 |
+| SUB_USER_NAME | 子用户名 |
+| Baby_BirthDay | 宝宝生日 |
+| current_stage | 当前阶段 |
+| Stage | 阶段 |
+| joindate | 加入日期 |
+| Tag | 标签 |
+| Buy_History | 购买历史 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| Touch_Point | 触点 |
+| Store_Number | 门店编号 |
+| Sent2OADate | 发送至OA日期 |
+| CreatedOn | 创建时间 |
+| is_month_invalid | 月份是否无效 |
 | ID | ID |
 
 # [MOT_HAS3_760_Xinke_TA_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT HAS3 760新客每日TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Current_Day | Current_Day |
-| Unionid | Unionid |
-| Offset_Day | Offset_Day |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| TA_Mobile | TA_Mobile |
-| RegisterChannel | RegisterChannel |
-| SUB_USER_NAME | SUB_USER_NAME |
-| Baby_BirthDay | Baby_BirthDay |
-| current_stage | current_stage |
-| Stage | Stage |
-| joindate | joindate |
-| Tag | Tag |
-| Buy_History | Buy_History |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| Touch_Point | Touch_Point |
-| Store_Number | Store_Number |
-| CreatedOn | CreatedOn |
+| Current_Day | 当前日期 |
+| Unionid | 用户微信Unionid |
+| Offset_Day | 偏移天数 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| TA_Mobile | TA手机 |
+| RegisterChannel | 注册渠道 |
+| SUB_USER_NAME | 子用户名 |
+| Baby_BirthDay | 宝宝生日 |
+| current_stage | 当前阶段 |
+| Stage | 阶段 |
+| joindate | 加入日期 |
+| Tag | 标签 |
+| Buy_History | 购买历史 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| Touch_Point | 触点 |
+| Store_Number | 门店编号 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [MOT_ICEF_Sample_Potential_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT ICEF样品潜在TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| Potential_Sample_Type | Potential_Sample_Type |
-| LastBuy_Date | LastBuy_Date |
-| BabyBirthday | BabyBirthday |
-| StageByCRM | StageByCRM |
-| Buy_ICEF_DATE | Buy_ICEF_DATE |
-| Receive_Sample_Date | Receive_Sample_Date |
-| InsertMOT_6M | InsertMOT_6M |
-| InsertMOT_7M | InsertMOT_7M |
-| InsertMOT_8M | InsertMOT_8M |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Unionid | Unionid |
-| Potential_Sample_Type | Potential_Sample_Type |
+| Unionid | 用户微信Unionid |
+| Potential_Sample_Type | 潜在样品类型 |
+| LastBuy_Date | 最后购买日期 |
+| BabyBirthday | 宝宝生日 |
+| StageByCRM | CRM中的阶段 |
+| Buy_ICEF_DATE | 购买ICEF日期 |
+| Receive_Sample_Date | 接收样品日期 |
+| InsertMOT_6M | 插入MOT 6M |
+| InsertMOT_7M | 插入MOT 7M |
+| InsertMOT_8M | 插入MOT 8M |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Unionid | 用户微信Unionid |
+| Potential_Sample_Type | 潜在样品类型 |
 
 # [MOT_ICEF_Sample_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT ICEF样品TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| ICEF_Sample_Type | ICEF_Sample_Type |
-| Ordernum | Ordernum |
-| TouchPoint | TouchPoint |
-| StoreCode | StoreCode |
-| StoreName | StoreName |
-| OrderCreateTime | OrderCreateTime |
-| IsReturn | IsReturn |
-| Return_ICEF | Return_ICEF |
-| Return_Date | Return_Date |
-| Buy_ICEF | Buy_ICEF |
-| Buy_ICEF_date | Buy_ICEF_date |
-| InsertMOT | InsertMOT |
-| InsertMOT_Day1 | InsertMOT_Day1 |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Unionid | Unionid |
-| ICEF_Sample_Type | ICEF_Sample_Type |
+| Unionid | 用户微信Unionid |
+| ICEF_Sample_Type | ICEF样品类型 |
+| Ordernum | 订单号 |
+| TouchPoint | 触点 |
+| StoreCode | 门店代码 |
+| StoreName | 门店名称 |
+| OrderCreateTime | 订单创建时间 |
+| IsReturn | 是否退货 |
+| Return_ICEF | 退货ICEF |
+| Return_Date | 退货日期 |
+| Buy_ICEF | 购买ICEF |
+| Buy_ICEF_date | 购买ICEF日期 |
+| InsertMOT | 插入MOT |
+| InsertMOT_Day1 | 插入MOT第一天 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Unionid | 用户微信Unionid |
+| ICEF_Sample_Type | ICEF样品类型 |
 
 # [MOT_ICEF_TA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT ICEF TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| UnionId | UnionId |
-| PSampleDate | PSampleDate |
-| ASampleDate | ASampleDate |
-| IsBuyPHW | IsBuyPHW |
-| IsBuyA2 | IsBuyA2 |
-| HALastBuyTime | HALastBuyTime |
-| ABLastBuyTime | ABLastBuyTime |
-| BabyBirthday | BabyBirthday |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| UnionId | 用户微信Unionid |
+| PSampleDate | P样品日期 |
+| ASampleDate | A样品日期 |
+| IsBuyPHW | 是否购买PHW |
+| IsBuyA2 | 是否购买A2 |
+| HALastBuyTime | HA最后购买时间 |
+| ABLastBuyTime | AB最后购买时间 |
+| BabyBirthday | 宝宝生日 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | ID | ID |
 
 # [MOT_ICEF_TA_Daily] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT ICEF每日TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| UnionId | UnionId |
-| Tag | Tag |
-| PSampleDate | PSampleDate |
-| PHW_RunDay | PHW_RunDay |
-| ASampleDate | ASampleDate |
-| A2_RunDay | A2_RunDay |
-| BabyStage | BabyStage |
-| BabyStageRunDay | BabyStageRunDay |
-| FirstBuyICEF | FirstBuyICEF |
-| FirstBuyICEFRunDay | FirstBuyICEFRunDay |
-| Is_Recent | Is_Recent |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| UnionId | 用户微信Unionid |
+| Tag | 标签 |
+| PSampleDate | P样品日期 |
+| PHW_RunDay | PHW运行天数 |
+| ASampleDate | A样品日期 |
+| A2_RunDay | A2运行天数 |
+| BabyStage | 宝宝阶段 |
+| BabyStageRunDay | 宝宝阶段运行天数 |
+| FirstBuyICEF | 首次购买ICEF |
+| FirstBuyICEFRunDay | 首次购买ICEF运行天数 |
+| Is_Recent | 是否最近 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | ID | ID |
 
 # [MOT_Incentive_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT激励标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| FirstBrandTag | FirstBrandTag |
-| FirstRemindDate | FirstRemindDate |
-| SecondBrandTag | SecondBrandTag |
-| SecondRemindDate | SecondRemindDate |
-| ThirdBrandTag | ThirdBrandTag |
-| ThirdRemindDate | ThirdRemindDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| FirstBrandTag | 第一品牌标签 |
+| FirstRemindDate | 第一次提醒日期 |
+| SecondBrandTag | 第二品牌标签 |
+| SecondRemindDate | 第二次提醒日期 |
+| ThirdBrandTag | 第三品牌标签 |
+| ThirdRemindDate | 第三次提醒日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_IQC_HA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT IQC HA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| MOT_ID | MOT_ID |
-| MOT_DEF_No | MOT_DEF_No |
-| Category | Category |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Mobile | TA_Mobile |
-| TA_Openid | TA_Openid |
-| TA_User_Name | TA_User_Name |
-| JoinDate | JoinDate |
-| Baby_BirthDay | Baby_BirthDay |
-| Stage | Stage |
-| Current_Stage | Current_Stage |
-| Cross_Stage | Cross_Stage |
-| Offset_Day | Offset_Day |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| ON_EC | ON_EC |
-| Sent_To_CMT_On | Sent_To_CMT_On |
-| Sent_To_CRMPlus_On | Sent_To_CRMPlus_On |
-| TAG | TAG |
-| Buy_History | Buy_History |
-| Due_Date | Due_Date |
-| Due_Stage | Due_Stage |
-| Status | Status |
-| Remark | Remark |
-| Created_On | Created_On |
-| Modified_On | Modified_On |
-| Sent_Update_Status_On | Sent_Update_Status_On |
-| SNC_Code_LastBuy | SNC_Code_LastBuy |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| Recent_Buy_Date | Recent_Buy_Date |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| S_Mobile | S_Mobile |
-| MOT_PID | MOT_PID |
-| Unionid | Unionid |
-| TouchPoint | TouchPoint |
-| Priority | Priority |
-| Generating_Frequency | Generating_Frequency |
-| StoreID | StoreID |
-| NewCustomerType | NewCustomerType |
-| XinkeTag | XinkeTag |
-| ON_CSR | ON_CSR |
-| Sent_To_CSR_On | Sent_To_CSR_On |
-| ExternalUserID | ExternalUserID |
-| WeChatName | WeChatName |
-| Avatar | Avatar |
-| Is_Pushed | Is_Pushed |
-| MOT_ID | MOT_ID |
+| MOT_ID | MOT ID |
+| MOT_DEF_No | MOT定义编号 |
+| Category | 类别 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Mobile | TA手机 |
+| TA_Openid | TA Openid |
+| TA_User_Name | TA用户名 |
+| JoinDate | 加入日期 |
+| Baby_BirthDay | 宝宝生日 |
+| Stage | 阶段 |
+| Current_Stage | 当前阶段 |
+| Cross_Stage | 跨阶段 |
+| Offset_Day | 偏移天数 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| ON_EC | 在EC上 |
+| Sent_To_CMT_On | 发送至CMT时间 |
+| Sent_To_CRMPlus_On | 发送至CRM Plus时间 |
+| TAG | 标签 |
+| Buy_History | 购买历史 |
+| Due_Date | 到期日期 |
+| Due_Stage | 到期阶段 |
+| Status | 状态 |
+| Remark | 备注 |
+| Created_On | 创建于 |
+| Modified_On | 修改于 |
+| Sent_Update_Status_On | 发送更新状态时间 |
+| SNC_Code_LastBuy | SNC代码最后购买 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| Recent_Buy_Date | 最近购买日期 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| S_Mobile | S端手机号 |
+| MOT_PID | MOT PID |
+| Unionid | 用户微信Unionid |
+| TouchPoint | 触点 |
+| Priority | 优先级 |
+| Generating_Frequency | 生成频率 |
+| StoreID | 门店ID |
+| NewCustomerType | 新客户类型 |
+| XinkeTag | 新客标签 |
+| ON_CSR | 在CSR上 |
+| Sent_To_CSR_On | 发送至CSR时间 |
+| ExternalUserID | 外部用户ID |
+| WeChatName | 微信名 |
+| Avatar | 头像 |
+| Is_Pushed | 是否已推送 |
+| MOT_ID | MOT ID |
 
 # [MOT_IQC_HA_Buy_Scan_Tar] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT IQC HA购买扫描目标信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Mobile | Mobile |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| SUB_USER_NAME | SUB_USER_NAME |
-| joindate | joindate |
-| Baby_BirthDay | Baby_BirthDay |
-| Buy_Stage | Buy_Stage |
-| Current_stage | Current_stage |
-| Offset_Day | Offset_Day |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| TAG | TAG |
-| Store_Number | Store_Number |
-| ON_CRM_Plus | ON_CRM_Plus |
-| TankBarCode | TankBarCode |
-| Buy_RN | Buy_RN |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Mobile | 手机号码 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| SUB_USER_NAME | 子用户名 |
+| joindate | 加入日期 |
+| Baby_BirthDay | 宝宝生日 |
+| Buy_Stage | 购买阶段 |
+| Current_stage | 当前阶段 |
+| Offset_Day | 偏移天数 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| TAG | 标签 |
+| Store_Number | 门店编号 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| TankBarCode | 罐条码 |
+| Buy_RN | 购买行号 |
 | 购买日期 | 购买日期 |
-| BuyTime | BuyTime |
-| Can_Count | Can_Count |
-| QRCode_Internal | QRCode_Internal |
-| QrCode | QrCode |
-| Scanning_Time | Scanning_Time |
-| Scan_Brand | Scan_Brand |
-| Scan_Stage | Scan_Stage |
-| Scan_TA_User_Name | Scan_TA_User_Name |
-| Scan_RN | Scan_RN |
-| MAX_ScanRN | MAX_ScanRN |
-| FirstScanIsHA | FirstScanIsHA |
-| ProductCode | ProductCode |
-| Create_Time | Create_Time |
-| Last_Modify_Time | Last_Modify_Time |
-| Product_Stage | Product_Stage |
+| BuyTime | 购买时间 |
+| Can_Count | 罐数 |
+| QRCode_Internal | 内部二维码 |
+| QrCode | 二维码 |
+| Scanning_Time | 扫描时间 |
+| Scan_Brand | 扫描品牌 |
+| Scan_Stage | 扫描阶段 |
+| Scan_TA_User_Name | 扫描TA用户名 |
+| Scan_RN | 扫描行号 |
+| MAX_ScanRN | 最大扫描行号 |
+| FirstScanIsHA | 首次扫描是否为HA |
+| ProductCode | 产品代码 |
+| Create_Time | 创建时间 |
+| Last_Modify_Time | 最后修改时间 |
+| Product_Stage | 产品阶段 |
 | ID | ID |
 
 # [MOT_IQC_HA_Buy_Scan_Tar_V2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT IQC HA购买扫描目标信息V2。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Mobile | Mobile |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| SUB_USER_NAME | SUB_USER_NAME |
-| joindate | joindate |
-| Baby_BirthDay | Baby_BirthDay |
-| Buy_Stage | Buy_Stage |
-| Current_stage | Current_stage |
-| Offset_Day | Offset_Day |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| TAG | TAG |
-| Store_Number | Store_Number |
-| ON_CRM_Plus | ON_CRM_Plus |
-| TankBarCode | TankBarCode |
-| Buy_RN | Buy_RN |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Mobile | 手机号码 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| SUB_USER_NAME | 子用户名 |
+| joindate | 加入日期 |
+| Baby_BirthDay | 宝宝生日 |
+| Buy_Stage | 购买阶段 |
+| Current_stage | 当前阶段 |
+| Offset_Day | 偏移天数 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| TAG | 标签 |
+| Store_Number | 门店编号 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| TankBarCode | 罐条码 |
+| Buy_RN | 购买行号 |
 | 购买日期 | 购买日期 |
-| BuyTime | BuyTime |
-| Can_Count | Can_Count |
-| QRCode_Internal | QRCode_Internal |
-| QrCode | QrCode |
-| Scanning_Time | Scanning_Time |
-| Scan_Brand | Scan_Brand |
-| Scan_Stage | Scan_Stage |
-| Scan_TA_User_Name | Scan_TA_User_Name |
-| Scan_RN | Scan_RN |
-| MAX_ScanRN | MAX_ScanRN |
-| FirstScanIsHA | FirstScanIsHA |
-| ProductCode | ProductCode |
-| Create_Time | Create_Time |
-| Last_Modify_Time | Last_Modify_Time |
-| Product_Stage | Product_Stage |
+| BuyTime | 购买时间 |
+| Can_Count | 罐数 |
+| QRCode_Internal | 内部二维码 |
+| QrCode | 二维码 |
+| Scanning_Time | 扫描时间 |
+| Scan_Brand | 扫描品牌 |
+| Scan_Stage | 扫描阶段 |
+| Scan_TA_User_Name | 扫描TA用户名 |
+| Scan_RN | 扫描行号 |
+| MAX_ScanRN | 最大扫描行号 |
+| FirstScanIsHA | 首次扫描是否为HA |
+| ProductCode | 产品代码 |
+| Create_Time | 创建时间 |
+| Last_Modify_Time | 最后修改时间 |
+| Product_Stage | 产品阶段 |
 | ID | ID |
 
 # [MOT_JD_CallBackTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东电话回访TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| ExternalUserId | ExternalUserId |
-| TargetType | TargetType |
-| Openid | Openid |
-| Executor | Executor |
-| ReBuyTimes | ReBuyTimes |
-| RemindBuyDate | RemindBuyDate |
-| RemindBuyDateUpdate | RemindBuyDateUpdate |
-| Status | Status |
-| CallBackDate | CallBackDate |
-| CampaleteDate | CampaleteDate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| ExternalUserId | ExternalUserId |
-| TargetType | TargetType |
+| ExternalUserId | 外部用户ID |
+| TargetType | 目标类型 |
+| Openid | 用户微信Openid |
+| Executor | 执行人 |
+| ReBuyTimes | 复购次数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindBuyDateUpdate | 提醒购买日期更新 |
+| Status | 状态 |
+| CallBackDate | 回访日期 |
+| CampaleteDate | 完成日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| ExternalUserId | 外部用户ID |
+| TargetType | 目标类型 |
 
 # [MOT_JD_HighPotentialTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东高潜力TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| ExternalUserId | ExternalUserId |
-| RunDay | RunDay |
-| Executor | Executor |
-| TagName | TagName |
-| TagCreateTime | TagCreateTime |
-| IsBeDevelopingTA | IsBeDevelopingTA |
-| BeDevelopingDate | BeDevelopingDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| ExternalUserId | ExternalUserId |
-| TagName | TagName |
+| ExternalUserId | 外部用户ID |
+| RunDay | 运行天数 |
+| Executor | 执行人 |
+| TagName | 标签名称 |
+| TagCreateTime | 标签创建时间 |
+| IsBeDevelopingTA | 是否发展中TA |
+| BeDevelopingDate | 发展中日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| ExternalUserId | 外部用户ID |
+| TagName | 标签名称 |
 
 # [MOT_JD_PurchaseTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东购买TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Openid | Openid |
-| ExternalUserId | ExternalUserId |
-| Executor | Executor |
-| TargetType | TargetType |
-| RunDay | RunDay |
-| PurchaseGroup | PurchaseGroup |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| RemindBuyDate | RemindBuyDate |
-| ReBuyTimes | ReBuyTimes |
-| BeDevelopingTADate | BeDevelopingTADate |
-| BeLoyalTADate | BeLoyalTADate |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| ExternalUserId | ExternalUserId |
-| TargetType | TargetType |
+| Openid | 用户微信Openid |
+| ExternalUserId | 外部用户ID |
+| Executor | 执行人 |
+| TargetType | 目标类型 |
+| RunDay | 运行天数 |
+| PurchaseGroup | 购买组 |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| RemindBuyDate | 提醒购买日期 |
+| ReBuyTimes | 复购次数 |
+| BeDevelopingTADate | 发展中TA日期 |
+| BeLoyalTADate | 忠诚TA日期 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| ExternalUserId | 外部用户ID |
+| TargetType | 目标类型 |
 
 # [MOT_JD_RecentPurchase_HA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东最近购买HA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| UserLogAcct | UserLogAcct |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| UpdateDate | UpdateDate |
-| UserLogAcct | UserLogAcct |
+| UserLogAcct | 用户登录账户 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| UpdateDate | 更新日期 |
+| UserLogAcct | 用户登录账户 |
 
 # [MOT_JD_RecentPurchase_PreNan] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东最近购买PreNan信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| userLogAcct | userLogAcct |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| UpdateDate | UpdateDate |
+| userLogAcct | 用户登录账户 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| UpdateDate | 更新日期 |
 
 # [MOT_JD_RemindBuyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT京东提醒购买TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| ExternalUserId | ExternalUserId |
-| TargetType | TargetType |
-| Openid | Openid |
-| Executor | Executor |
-| RecruitDate | RecruitDate |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindBuyDate | RemindBuyDate |
-| ReBuyTimes | ReBuyTimes |
-| Status | Status |
-| CreatedDate | CreatedDate |
-| ExternalUserId | ExternalUserId |
-| TargetType | TargetType |
-| ReBuyTimes | ReBuyTimes |
+| ExternalUserId | 外部用户ID |
+| TargetType | 目标类型 |
+| Openid | 用户微信Openid |
+| Executor | 执行人 |
+| RecruitDate | 招募日期 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindBuyDate | 提醒购买日期 |
+| ReBuyTimes | 复购次数 |
+| Status | 状态 |
+| CreatedDate | 创建日期 |
+| ExternalUserId | 外部用户ID |
+| TargetType | 目标类型 |
+| ReBuyTimes | 复购次数 |
 
 # [MOT_Member_Temp] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT临时会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| CMT_ID | CMT_ID |
-| Openid | Openid |
-| Unionid | Unionid |
-| Mobile | Mobile |
-| SUB_USER_NAME | SUB_USER_NAME |
-| SNC_Code | SNC_Code |
-| JoinDate | JoinDate |
-| Current_Stage | Current_Stage |
-| StageByCRM | StageByCRM |
-| Always_Follow | Always_Follow |
-| Refollow | Refollow |
-| RegisterChannel | RegisterChannel |
-| Specialty | Specialty |
-| Tag | Tag |
-| SUB_IS_RCV_MOBILE | SUB_IS_RCV_MOBILE |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| SNC_Code_Show_TOB | SNC_Code_Show_TOB |
-| babyBirthday | babyBirthday |
-| PreNAN_Recruit_BabyBirthDay | PreNAN_Recruit_BabyBirthDay |
-| Offset_Day | Offset_Day |
-| First_week | First_week |
-| HA_RecruitTime | HA_RecruitTime |
-| AL110_RecruitTime | AL110_RecruitTime |
-| PreNAN_RecruitTime | PreNAN_RecruitTime |
-| Specialty_Al110 | Specialty_Al110 |
-| Specialty_PreNan | Specialty_PreNan |
-| GC_PT_RecruitTime | GC_PT_RecruitTime |
-| GC_LN_RecruitTime | GC_LN_RecruitTime |
-| PreNAN_Wight | PreNAN_Wight |
-| Recent_Buy_SNC | Recent_Buy_SNC |
-| RECENT_BUY_PRODUCT_BRAND | RECENT_BUY_PRODUCT_BRAND |
-| RECENT_BUY_PRODUCT_STAGE | RECENT_BUY_PRODUCT_STAGE |
-| RECENT_BUY_PRODUCT_NET_WEIGHT | RECENT_BUY_PRODUCT_NET_WEIGHT |
-| RECENT_BUY_PRODUCT_Qty | RECENT_BUY_PRODUCT_Qty |
-| Recent_Buy_Product_BUYTIME | Recent_Buy_Product_BUYTIME |
-| Recent_Buy_Product_ProductCode | Recent_Buy_Product_ProductCode |
-| Recent_Buy_Product_ProductName | Recent_Buy_Product_ProductName |
-| Recent_Buy_AL110_Is_First | Recent_Buy_AL110_Is_First |
-| Recent_Buy_HA_S1S2_Is_First | Recent_Buy_HA_S1S2_Is_First |
-| Recent_Buy_PT_S1S2_Is_First | Recent_Buy_PT_S1S2_Is_First |
-| Recent_Buy_NAN_S1S2_Is_First | Recent_Buy_NAN_S1S2_Is_First |
-| Recent_Buy_PreNAN_Is_First | Recent_Buy_PreNAN_Is_First |
-| Recent_Buy_CMPA_Is_First | Recent_Buy_CMPA_Is_First |
-| NON_PURCHASE_IMF | NON_PURCHASE_IMF |
-| Recent_Buy_Store | Recent_Buy_Store |
-| PREGNANT_Baby6M | PREGNANT_Baby6M |
-| CreatedOn | CreatedOn |
+| CMT_ID | CMT ID |
+| Openid | 用户微信Openid |
+| Unionid | 用户微信Unionid |
+| Mobile | 手机号码 |
+| SUB_USER_NAME | 子用户名 |
+| SNC_Code | SNC代码 |
+| JoinDate | 加入日期 |
+| Current_Stage | 当前阶段 |
+| StageByCRM | CRM中的阶段 |
+| Always_Follow | 始终关注 |
+| Refollow | 重新关注 |
+| RegisterChannel | 注册渠道 |
+| Specialty | 专业 |
+| Tag | 标签 |
+| SUB_IS_RCV_MOBILE | 是否接收手机推送 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| SNC_Code_Show_TOB | SNC代码显示TOB |
+| babyBirthday | 宝宝生日 |
+| PreNAN_Recruit_BabyBirthDay | PreNAN招募宝宝生日 |
+| Offset_Day | 偏移天数 |
+| First_week | 第一周 |
+| HA_RecruitTime | HA招募时间 |
+| AL110_RecruitTime | AL110招募时间 |
+| PreNAN_RecruitTime | PreNAN招募时间 |
+| Specialty_Al110 | 专业Al110 |
+| Specialty_PreNan | 专业PreNan |
+| GC_PT_RecruitTime | GC PT招募时间 |
+| GC_LN_RecruitTime | GC LN招募时间 |
+| PreNAN_Wight | PreNAN重量 |
+| Recent_Buy_SNC | 最近购买SNC |
+| RECENT_BUY_PRODUCT_BRAND | 最近购买产品品牌 |
+| RECENT_BUY_PRODUCT_STAGE | 最近购买产品阶段 |
+| RECENT_BUY_PRODUCT_NET_WEIGHT | 最近购买产品净重 |
+| RECENT_BUY_PRODUCT_Qty | 最近购买产品数量 |
+| Recent_Buy_Product_BUYTIME | 最近购买产品购买时间 |
+| Recent_Buy_Product_ProductCode | 最近购买产品代码 |
+| Recent_Buy_Product_ProductName | 最近购买产品名称 |
+| Recent_Buy_AL110_Is_First | 最近购买AL110是否首次 |
+| Recent_Buy_HA_S1S2_Is_First | 最近购买HA S1S2是否首次 |
+| Recent_Buy_PT_S1S2_Is_First | 最近购买PT S1S2是否首次 |
+| Recent_Buy_NAN_S1S2_Is_First | 最近购买NAN S1S2是否首次 |
+| Recent_Buy_PreNAN_Is_First | 最近购买PreNAN是否首次 |
+| Recent_Buy_CMPA_Is_First | 最近购买CMPA是否首次 |
+| NON_PURCHASE_IMF | 未购买婴幼儿配方奶粉 |
+| Recent_Buy_Store | 最近购买门店 |
+| PREGNANT_Baby6M | 怀孕宝宝6个月 |
+| CreatedOn | 创建时间 |
 
 # [MOT_PreNan_RecentPurchase] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT PreNan最近购买信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| EmptyDay | EmptyDay |
-| RemindDay | RemindDay |
-| UpdateDate | UpdateDate |
+| Unionid | 用户微信Unionid |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| EmptyDay | 空罐天数 |
+| RemindDay | 提醒天数 |
+| UpdateDate | 更新日期 |
 
 # [MOT_PreNan_RemindBuyTA] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT PreNan提醒购买TA信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
-| RecruitDate | RecruitDate |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindBuyDate | RemindBuyDate |
-| RemindEmptyDate | RemindEmptyDate |
-| CreatedDate | CreatedDate |
-| Unionid | Unionid |
-| ReBuyTimes | ReBuyTimes |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
+| RecruitDate | 招募日期 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindEmptyDate | 提醒空罐日期 |
+| CreatedDate | 创建日期 |
+| Unionid | 用户微信Unionid |
+| ReBuyTimes | 复购次数 |
 
 # [MOT_PreNan_TagTable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT PreNan标签表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Unionid | Unionid |
-| StageByCRM | StageByCRM |
-| Offset_Day | Offset_Day |
-| Is_Weight | Is_Weight |
-| RunDay | RunDay |
-| RecruitDate | RecruitDate |
-| RecruitTin | RecruitTin |
-| RecentPurchaseDate | RecentPurchaseDate |
-| RecentPurchaseTin | RecentPurchaseTin |
-| RemindDay | RemindDay |
-| EmptyDay | EmptyDay |
-| RemindBuyDate | RemindBuyDate |
-| RemindEmptyDate | RemindEmptyDate |
-| ReBuyTimes | ReBuyTimes |
-| UpdateDate | UpdateDate |
-| CreatedDate | CreatedDate |
-| JourneyEndDate | JourneyEndDate |
-| Unionid | Unionid |
+| Unionid | 用户微信Unionid |
+| StageByCRM | CRM中的阶段 |
+| Offset_Day | 偏移天数 |
+| Is_Weight | 是否称重 |
+| RunDay | 运行天数 |
+| RecruitDate | 招募日期 |
+| RecruitTin | 招募罐数 |
+| RecentPurchaseDate | 最近购买日期 |
+| RecentPurchaseTin | 最近购买罐数 |
+| RemindDay | 提醒天数 |
+| EmptyDay | 空罐天数 |
+| RemindBuyDate | 提醒购买日期 |
+| RemindEmptyDate | 提醒空罐日期 |
+| ReBuyTimes | 复购次数 |
+| UpdateDate | 更新日期 |
+| CreatedDate | 创建日期 |
+| JourneyEndDate | 旅程结束日期 |
+| Unionid | 用户微信Unionid |
 
 # [MOT_Products_Info] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
-| CategoryCode | CategoryCode |
-| Anti_Cheating | Anti_Cheating |
-| is_spark_sale | is_spark_sale |
-| is_report | is_report |
-| report_period | report_period |
-| RRP | RRP |
-| ProductCode | ProductCode |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
+| CategoryCode | 类别代码 |
+| Anti_Cheating | 反作弊 |
+| is_spark_sale | 是否spark销售 |
+| is_report | 是否报告 |
+| report_period | 报告期 |
+| RRP | 建议零售价 |
+| ProductCode | 产品代码 |
 
 # [MOT_Products_Info_20221011] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年10月11日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
+| Gerber | 嘉宝 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
 
 # [MOT_Products_Info_20231211] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年12月11日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
 
 # [MOT_Products_Info_20240105] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年1月5日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
 
 # [MOT_Products_Info_20240115] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年1月15日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
 
 # [MOT_Products_Info_20250120] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年1月20日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
-| CategoryCode | CategoryCode |
-| Anti_Cheating | Anti_Cheating |
-| is_spark_sale | is_spark_sale |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
+| CategoryCode | 类别代码 |
+| Anti_Cheating | 反作弊 |
+| is_spark_sale | 是否spark销售 |
 
 # [MOT_Products_Info_20250416] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年4月16日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
-| CategoryCode | CategoryCode |
-| Anti_Cheating | Anti_Cheating |
-| is_spark_sale | is_spark_sale |
-| is_report | is_report |
-| report_period | report_period |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
+| CategoryCode | 类别代码 |
+| Anti_Cheating | 反作弊 |
+| is_spark_sale | 是否spark销售 |
+| is_report | 是否报告 |
+| report_period | 报告期 |
 
 # [MOT_Products_Info_20250416_Earl] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年4月16日Earl提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| Price | Price |
+| ProductCode | 产品代码 |
+| Price | 价格 |
 
 # [MOT_Products_Info_20250417_Earl] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年4月17日Earl提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| Price | Price |
+| ProductCode | 产品代码 |
+| Price | 价格 |
 
 # [MOT_Products_Info_20250528_Jonathan] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年5月28日Jonathan提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| Brand | Brand |
-| Stage | Stage |
-| NetWeight | NetWeight |
-| NPS_Price | NPS_Price |
-| RRP_Price | RRP_Price |
-| Specifications | Specifications |
-| CreatedOn | CreatedOn |
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| NetWeight | 净重 |
+| NPS_Price | NPS价格 |
+| RRP_Price | RRP价格 |
+| Specifications | 规格 |
+| CreatedOn | 创建时间 |
+| ProductCode | 产品代码 |
 
 # [MOT_Products_Info_20250603_Jonathan] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年6月3日Jonathan提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | NPS | NPS |
 | RRP | RRP |
 
 # [MOT_Products_Info_20250613_Vicy] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年6月13日Vicy提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | NPS | NPS |
 
 # [MOT_Products_Info_20250619_Vicky] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年6月19日Vicky提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | NPS | NPS |
 | RRP | RRP |
 
 # [MOT_Products_Info_20250630] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年6月30日的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| ProductShortName | ProductShortName |
-| NewCustomerType | NewCustomerType |
-| NewCustomerType2022 | NewCustomerType2022 |
-| Premium_2022 | Premium_2022 |
-| Brand | Brand |
-| Stage | Stage |
-| MS_GP_Tag | MS_GP_Tag |
-| NetWeight | NetWeight |
-| Price | Price |
-| Specifications | Specifications |
-| ConsumeDay | ConsumeDay |
-| Comments | Comments |
-| Enable | Enable |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| ProductShortName | 产品简称 |
+| NewCustomerType | 新客户类型 |
+| NewCustomerType2022 | 2022年新客户类型 |
+| Premium_2022 | 2022年保费 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| MS_GP_Tag | MS GP标签 |
+| NetWeight | 净重 |
+| Price | 价格 |
+| Specifications | 规格 |
+| ConsumeDay | 消耗天数 |
+| Comments | 评论 |
+| Enable | 是否启用 |
 | NSC | NSC |
-| IMF | IMF |
+| IMF | 婴幼儿配方奶粉 |
 | NIN | NIN |
-| Gerber | Gerber |
-| Gerber_Stage | Gerber_Stage |
-| Gerber_Type | Gerber_Type |
-| WeShop | WeShop |
-| LastChange | LastChange |
-| CreatedOn | CreatedOn |
-| Premium | Premium |
-| CategoryCode | CategoryCode |
-| Anti_Cheating | Anti_Cheating |
-| is_spark_sale | is_spark_sale |
-| is_report | is_report |
-| report_period | report_period |
-| RRP | RRP |
+| Gerber | 嘉宝 |
+| Gerber_Stage | 嘉宝阶段 |
+| Gerber_Type | 嘉宝类型 |
+| WeShop | 微店 |
+| LastChange | 最后更改时间 |
+| CreatedOn | 创建时间 |
+| Premium | 保费 |
+| CategoryCode | 类别代码 |
+| Anti_Cheating | 反作弊 |
+| is_spark_sale | 是否spark销售 |
+| is_report | 是否报告 |
+| report_period | 报告期 |
+| RRP | 建议零售价 |
 
 # [MOT_Products_Info_20250630_Vicky] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年6月30日Vicky提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | 2025年有无销售额产品 | 2025年有无销售额产品 |
-| productname | productname |
-| NPS 价格（商家端当前价格） | NPS 价格（商家端当前价格） |
+| productname | 产品名称 |
+| NPS 价格（商家端当前价格） | NPS价格（商家端当前价格） |
 | NPS价格（Vicky） | NPS价格（Vicky） |
 | RRP价格（Vicky） | RRP价格（Vicky） |
 
 # [MOT_Products_info_20250704_Earl] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年7月4日Earl提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | NPS | NPS |
 | RRP | RRP |
 
 # [MOT_Products_Info_Gerber] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT嘉宝产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| MaterialDescription | MaterialDescription |
-| ChineseDescription | ChineseDescription |
+| ProductCode | 产品代码 |
+| MaterialDescription | 材料描述 |
+| ChineseDescription | 中文描述 |
 | 中文简称 | 中文简称 |
 | 产品分类 | 产品分类 |
 | 产品单价 | 产品单价 |
@@ -5663,28 +5663,28 @@
 | 目标分类 | 目标分类 |
 | 品牌名称 | 品牌名称 |
 | 产品类别名称 | 产品类别名称 |
-| CreatedOn | CreatedOn |
-| ProductCode | ProductCode |
+| CreatedOn | 创建时间 |
+| ProductCode | 产品代码 |
 
 # [MOT_Products_Info_Sanyar] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了Sanyar提供的MOT产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| Brand | Brand |
-| Stage | Stage |
-| NetWeight | NetWeight |
-| Day | Day |
-| Comments | Comments |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| NetWeight | 净重 |
+| Day | 天 |
+| Comments | 评论 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [MOT_Products_NSC_20220223] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2022年2月23日的MOT NSC产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | 产品简称 | 产品简称 |
 | 产品名称 | 产品名称 |
 | 产品品牌 | 产品品牌 |
@@ -5692,37 +5692,37 @@
 | 售卖渠道 | 售卖渠道 |
 | 产品原单价 | 产品原单价 |
 | 产品指导价 | 产品指导价 |
-| nsc | nsc |
-| Premium_2022 | Premium_2022 |
+| nsc | NSC |
+| Premium_2022 | 2022年保费 |
 | F11 | F11 |
 
 # [MOT_UGU_Relation] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT UGU关系信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| SNC_ID | SNC_ID |
+| SNC_ID | SNC ID |
 | UnionID | UnionID |
-| MOT_ID | MOT_ID |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Brand | Brand |
+| MOT_ID | MOT ID |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Brand | 品牌 |
 | ID | ID |
 
 # [MOT_UGU_Relation_Detail] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了MOT UGU关系详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| SNC_ID | SNC_ID |
-| Source_UnionID | Source_UnionID |
-| Target_UnionID | Target_UnionID |
-| MOT_ID | MOT_ID |
-| Invite_Date | Invite_Date |
-| Status | Status |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Brand | Brand |
+| SNC_ID | SNC ID |
+| Source_UnionID | 源UnionID |
+| Target_UnionID | 目标UnionID |
+| MOT_ID | MOT ID |
+| Invite_Date | 邀请日期 |
+| Status | 状态 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Brand | 品牌 |
 | ID | ID |
 
 # [NEW_Mama] 字段注释说明

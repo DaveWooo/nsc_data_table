@@ -2217,511 +2217,511 @@
 | id | ID |
 
 # [EC_JD_Pinyou_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东品友日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | KSFID | KSFID |
-| Joindate | Joindate |
-| S_Mobile | S_Mobile |
-| JD_Mobile | JD_Mobile |
-| IsNewCustomer | IsNewCustomer |
-| NewCustomerType | NewCustomerType |
-| Consumer_Validation_Date | Consumer_Validation_Date |
-| CreatedOn | CreatedOn |
-| SentToPinYouOn | SentToPinYouOn |
+| Joindate | 加入日期 |
+| S_Mobile | S端手机号 |
+| JD_Mobile | 京东手机号 |
+| IsNewCustomer | 是否新客户 |
+| NewCustomerType | 新客户类型 |
+| Consumer_Validation_Date | 消费者验证日期 |
+| CreatedOn | 创建于 |
+| SentToPinYouOn | 发送至品友时间 |
 | KSFID | KSFID |
 
 # [EC_JD_PointIncs] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东积分增加信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| pin | pin |
-| phoneNo | phoneNo |
-| pointInc | pointInc |
-| type | type |
-| recordId | recordId |
-| content | content |
-| ext | ext |
-| xid | xid |
-| createdOn | createdOn |
-| id | id |
+| id | ID |
+| customerId | 客户ID |
+| pin | PIN码 |
+| phoneNo | 手机号 |
+| pointInc | 积分增加 |
+| type | 类型 |
+| recordId | 记录ID |
+| content | 内容 |
+| ext | 扩展信息 |
+| xid | XID |
+| createdOn | 创建于 |
+| id | ID |
 
 # [EC_JD_Products_Info] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| skuId | skuId |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| skuId | skuId |
+| skuId | SKU ID |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| skuId | SKU ID |
 
 # [EC_JD_QW_BindInfo] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东企微绑定信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| externalUserId | externalUserId |
-| executor | executor |
-| openId | openId |
-| addDate | addDate |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| id | ID |
+| externalUserId | 外部用户ID |
+| executor | 执行人 |
+| openId | OpenID |
+| addDate | 添加日期 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
 
 # [EC_JD_SCRM_IntentionTag] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东SCRM意向标签信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| avatar | avatar |
-| external_user_id | external_user_id |
-| name | name |
-| user_id | user_id |
-| assign_user_name | assign_user_name |
-| tag_create_time | tag_create_time |
-| tag_id | tag_id |
-| tag_name | tag_name |
-| tag_group_name | tag_group_name |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| id | id |
+| id | ID |
+| avatar | 头像 |
+| external_user_id | 外部用户ID |
+| name | 名称 |
+| user_id | 用户ID |
+| assign_user_name | 分配的用户名 |
+| tag_create_time | 标签创建时间 |
+| tag_id | 标签ID |
+| tag_name | 标签名称 |
+| tag_group_name | 标签组名称 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
+| id | ID |
 
 # [EC_JD_WDY_CustomerContact] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东WDY客户联系人信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| contacts_record_id | contacts_record_id |
-| name | name |
-| contact_remark | contact_remark |
-| contact_headimgurl | contact_headimgurl |
-| contacts_type | contacts_type |
-| corp_name | corp_name |
-| gender | gender |
-| personal_record_id | personal_record_id |
-| personal_name | personal_name |
-| assign_user_name | assign_user_name |
-| group_name | group_name |
-| client_status | client_status |
-| work_status | work_status |
-| customer_add_time | customer_add_time |
-| user_id | user_id |
-| personal_remote_id | personal_remote_id |
-| remote_id | remote_id |
-| external_userid | external_userid |
-| Tag | Tag |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| id | ID |
+| contacts_record_id | 联系人记录ID |
+| name | 名称 |
+| contact_remark | 联系人备注 |
+| contact_headimgurl | 联系人头像URL |
+| contacts_type | 联系人类型 |
+| corp_name | 公司名称 |
+| gender | 性别 |
+| personal_record_id | 个人记录ID |
+| personal_name | 个人姓名 |
+| assign_user_name | 分配的用户名 |
+| group_name | 组名 |
+| client_status | 客户端状态 |
+| work_status | 工作状态 |
+| customer_add_time | 客户添加时间 |
+| user_id | 用户ID |
+| personal_remote_id | 个人远程ID |
+| remote_id | 远程ID |
+| external_userid | 外部用户ID |
+| Tag | 标签 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
 
 # [EC_JD_WDY_MOTSend] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东WDY MOT发送信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| userId | userId |
-| enterpriseId | enterpriseId |
-| corpId | corpId |
-| targetType | targetType |
-| targetId | targetId |
-| remoteId | remoteId |
-| personalId | personalId |
-| personalRemoteId | personalRemoteId |
-| contentType | contentType |
-| content | content |
-| url | url |
-| fileName | fileName |
-| previewImgUrl | previewImgUrl |
-| msgSource | msgSource |
-| sendTime | sendTime |
-| mot_def_no | mot_def_no |
-| status | status |
-| msg | msg |
-| contactTime | contactTime |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| id | ID |
+| userId | 用户ID |
+| enterpriseId | 企业ID |
+| corpId | 公司ID |
+| targetType | 目标类型 |
+| targetId | 目标ID |
+| remoteId | 远程ID |
+| personalId | 个人ID |
+| personalRemoteId | 个人远程ID |
+| contentType | 内容类型 |
+| content | 内容 |
+| url | URL |
+| fileName | 文件名 |
+| previewImgUrl | 预览图片URL |
+| msgSource | 消息来源 |
+| sendTime | 发送时间 |
+| mot_def_no | MOT定义编号 |
+| status | 状态 |
+| msg | 消息 |
+| contactTime | 联系时间 |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
 
 # [EC_JD_WDY_SysTag] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东WDY系统标签信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| tagGroupId | tagGroupId |
-| tagGroupName | tagGroupName |
-| tagGroupCreateTime | tagGroupCreateTime |
-| tagGroupOrderNo | tagGroupOrderNo |
-| tagId | tagId |
-| tagName | tagName |
-| createTime | createTime |
-| updateTime | updateTime |
-| orderNo | orderNo |
+| id | ID |
+| tagGroupId | 标签组ID |
+| tagGroupName | 标签组名称 |
+| tagGroupCreateTime | 标签组创建时间 |
+| tagGroupOrderNo | 标签组排序号 |
+| tagId | 标签ID |
+| tagName | 标签名称 |
+| createTime | 创建时间 |
+| updateTime | 更新时间 |
+| orderNo | 排序号 |
 
 # [EC_JD_WDY_Tag] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC京东WDY标签信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| RunDate | RunDate |
-| RunDays | RunDays |
-| LastBuyDate | LastBuyDate |
-| LastUseDays | LastUseDays |
-| KongDate | KongDate |
-| LastsonOrdId | LastsonOrdId |
-| Is_Shougou | Is_Shougou |
-| Tag | Tag |
-| Brand | Brand |
-| Category | Category |
-| Is_Gaoqian | Is_Gaoqian |
-| externalUserId | externalUserId |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| RunDate | 运行日期 |
+| RunDays | 运行天数 |
+| LastBuyDate | 最后购买日期 |
+| LastUseDays | 最后使用天数 |
+| KongDate | 空罐日期 |
+| LastsonOrdId | 最后子订单ID |
+| Is_Shougou | 是否首购 |
+| Tag | 标签 |
+| Brand | 品牌 |
+| Category | 类别 |
+| Is_Gaoqian | 是否高潜 |
+| externalUserId | 外部用户ID |
+| CreatedOn | 创建于 |
+| ModifiedOn | 修改于 |
 
 # [EC_NewCustomerType_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了EC新客户类型日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| S_Mobile | S_Mobile |
-| NewCustomerType | NewCustomerType |
-| TouchPoint | TouchPoint |
-| BuyTime | BuyTime |
-| Payload | Payload |
-| Result | Result |
-| CreatedOn | CreatedOn |
+| S_Mobile | S端手机号 |
+| NewCustomerType | 新客户类型 |
+| TouchPoint | 触点 |
+| BuyTime | 购买时间 |
+| Payload | 有效负载 |
+| Result | 结果 |
+| CreatedOn | 创建于 |
 | ID | ID |
 
 # [ec_taobao_grade] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝等级信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| planId | planId |
-| gradeHierarchyId | gradeHierarchyId |
-| memberId | memberId |
-| currentGradeDefinitionId | currentGradeDefinitionId |
-| effectDate | effectDate |
-| overdueDate | overdueDate |
-| created | created |
-| planName | planName |
-| gradeHierarchyName | gradeHierarchyName |
-| currentGradeName | currentGradeName |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| planId | 计划ID |
+| gradeHierarchyId | 等级层次ID |
+| memberId | 会员ID |
+| currentGradeDefinitionId | 当前等级定义ID |
+| effectDate | 生效日期 |
+| overdueDate | 过期日期 |
+| created | 创建时间 |
+| planName | 计划名称 |
+| gradeHierarchyName | 等级层次名称 |
+| currentGradeName | 当前等级名称 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_graderecord] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝等级记录信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| planId | planId |
-| planName | planName |
-| memberGradeId | memberGradeId |
-| gradeHierarchyId | gradeHierarchyId |
-| gradeHierarchyName | gradeHierarchyName |
-| memberId | memberId |
-| originalGradeId | originalGradeId |
-| originalGradeName | originalGradeName |
-| originalEffectDate | originalEffectDate |
-| originalOverdueDate | originalOverdueDate |
-| currentGradeId | currentGradeId |
-| currentGradeName | currentGradeName |
-| currentEffectDate | currentEffectDate |
-| currentOverdueDate | currentOverdueDate |
-| recordType | recordType |
-| changeWay | changeWay |
-| triggerId | triggerId |
-| traceId | traceId |
-| recordSourceDetail | recordSourceDetail |
-| operator | operator |
-| description | description |
-| extraInfo | extraInfo |
-| created | created |
-| channel | channel |
-| eventTypeName | eventTypeName |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| planId | 计划ID |
+| planName | 计划名称 |
+| memberGradeId | 会员等级ID |
+| gradeHierarchyId | 等级层次ID |
+| gradeHierarchyName | 等级层次名称 |
+| memberId | 会员ID |
+| originalGradeId | 原始等级ID |
+| originalGradeName | 原始等级名称 |
+| originalEffectDate | 原始生效日期 |
+| originalOverdueDate | 原始过期日期 |
+| currentGradeId | 当前等级ID |
+| currentGradeName | 当前等级名称 |
+| currentEffectDate | 当前生效日期 |
+| currentOverdueDate | 当前过期日期 |
+| recordType | 记录类型 |
+| changeWay | 变更方式 |
+| triggerId | 触发器ID |
+| traceId | 追踪ID |
+| recordSourceDetail | 记录来源详情 |
+| operator | 操作员 |
+| description | 描述 |
+| extraInfo | 额外信息 |
+| created | 创建时间 |
+| channel | 渠道 |
+| eventTypeName | 事件类型名称 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_history_member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝历史会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| shopId | shopId |
-| snapshotInfo | snapshotInfo |
-| gradeName | gradeName |
-| grade | grade |
-| buyerNick | buyerNick |
-| gmtModified | gmtModified |
-| points | points |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| shopId | 店铺ID |
+| snapshotInfo | 快照信息 |
+| gradeName | 等级名称 |
+| grade | 等级 |
+| buyerNick | 买家昵称 |
+| gmtModified | 修改时间 |
+| points | 积分 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| memberId | memberId |
-| memberName | memberName |
-| unionId | unionId |
-| headImgUrl | headImgUrl |
-| wechatNick | wechatNick |
-| gender | gender |
-| mobile | mobile |
-| phone | phone |
-| cardNo | cardNo |
-| email | email |
-| identityCard | identityCard |
-| dateOfBirth | dateOfBirth |
-| country | country |
-| provinceCode | provinceCode |
-| provinceName | provinceName |
-| cityCode | cityCode |
-| cityName | cityName |
-| districtCode | districtCode |
-| districtName | districtName |
-| address | address |
-| job | job |
-| shopCode | shopCode |
-| shopName | shopName |
-| shopTypeCode | shopTypeCode |
-| registerTime | registerTime |
-| createTime | createTime |
-| updateTime | updateTime |
-| firstRegisterChannelType | firstRegisterChannelType |
-| contactTel | contactTel |
-| babyBirthday | babyBirthday |
-| unBindTime | unBindTime |
-| last_sync_new | last_sync_new |
-| buyerNick | buyerNick |
-| ouid | ouid |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| memberId | memberId |
+| memberId | 会员ID |
+| memberName | 会员名称 |
+| unionId | UnionID |
+| headImgUrl | 头像URL |
+| wechatNick | 微信昵称 |
+| gender | 性别 |
+| mobile | 手机号码 |
+| phone | 电话 |
+| cardNo | 卡号 |
+| email | 电子邮箱 |
+| identityCard | 身份证 |
+| dateOfBirth | 出生日期 |
+| country | 国家 |
+| provinceCode | 省份代码 |
+| provinceName | 省份名称 |
+| cityCode | 城市代码 |
+| cityName | 城市名称 |
+| districtCode | 区/县代码 |
+| districtName | 区/县名称 |
+| address | 地址 |
+| job | 工作 |
+| shopCode | 店铺代码 |
+| shopName | 店铺名称 |
+| shopTypeCode | 店铺类型代码 |
+| registerTime | 注册时间 |
+| createTime | 创建时间 |
+| updateTime | 更新时间 |
+| firstRegisterChannelType | 首次注册渠道类型 |
+| contactTel | 联系电话 |
+| babyBirthday | 宝宝生日 |
+| unBindTime | 解绑时间 |
+| last_sync_new | 最新同步时间 |
+| buyerNick | 买家昵称 |
+| ouid | OUID |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| memberId | 会员ID |
 
 # [ec_taobao_order] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| memberId | memberId |
-| tid | tid |
-| shopId | shopId |
-| adjustFee | adjustFee |
-| alipayNo | alipayNo |
-| buyerAlipayNo | buyerAlipayNo |
-| buyerCodFee | buyerCodFee |
-| buyerEmail | buyerEmail |
-| buyerMessage | buyerMessage |
-| buyerNick | buyerNick |
-| buyerObtainPointFee | buyerObtainPointFee |
-| buyerRate | buyerRate |
-| codFee | codFee |
-| codStatus | codStatus |
-| commissionFee | commissionFee |
-| consignTime | consignTime |
-| created | created |
-| discountFee | discountFee |
-| endTime | endTime |
-| expressAgencyFee | expressAgencyFee |
-| lastSync | lastSync |
-| modified | modified |
-| num | num |
-| payment | payment |
-| payTime | payTime |
-| pointFee | pointFee |
-| postFee | postFee |
-| realPointFee | realPointFee |
-| receivedPayment | receivedPayment |
-| receiverAddress | receiverAddress |
-| receiverCity | receiverCity |
-| receiverDistrict | receiverDistrict |
-| receiverMobile | receiverMobile |
-| receiverName | receiverName |
-| receiverPhone | receiverPhone |
-| receiverState | receiverState |
-| receiverZip | receiverZip |
-| refundFee | refundFee |
-| sellerCodFee | sellerCodFee |
-| sellerFlag | sellerFlag |
-| sellerMemo | sellerMemo |
-| sellerNick | sellerNick |
-| sellerRate | sellerRate |
-| shippingType | shippingType |
-| status | status |
-| stepTradeStatus | stepTradeStatus |
-| totalFee | totalFee |
-| tradeFrom | tradeFrom |
-| type | type |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| memberId | 会员ID |
+| tid | 交易ID |
+| shopId | 店铺ID |
+| adjustFee | 调整费用 |
+| alipayNo | 支付宝号 |
+| buyerAlipayNo | 买家支付宝号 |
+| buyerCodFee | 买家COD费用 |
+| buyerEmail | 买家邮箱 |
+| buyerMessage | 买家留言 |
+| buyerNick | 买家昵称 |
+| buyerObtainPointFee | 买家获得积分费用 |
+| buyerRate | 买家评分 |
+| codFee | COD费用 |
+| codStatus | COD状态 |
+| commissionFee | 佣金费用 |
+| consignTime | 发货时间 |
+| created | 创建时间 |
+| discountFee | 折扣费用 |
+| endTime | 结束时间 |
+| expressAgencyFee | 快递代理费 |
+| lastSync | 最后同步时间 |
+| modified | 修改时间 |
+| num | 数量 |
+| payment | 支付金额 |
+| payTime | 支付时间 |
+| pointFee | 积分费用 |
+| postFee | 邮费 |
+| realPointFee | 实际积分费用 |
+| receivedPayment | 已收支付金额 |
+| receiverAddress | 收货人地址 |
+| receiverCity | 收货人城市 |
+| receiverDistrict | 收货人区/县 |
+| receiverMobile | 收货人手机 |
+| receiverName | 收货人姓名 |
+| receiverPhone | 收货人电话 |
+| receiverState | 收货人省份 |
+| receiverZip | 收货人邮编 |
+| refundFee | 退款费用 |
+| sellerCodFee | 卖家COD费用 |
+| sellerFlag | 卖家标志 |
+| sellerMemo | 卖家备注 |
+| sellerNick | 卖家昵称 |
+| sellerRate | 卖家评分 |
+| shippingType | 配送方式 |
+| status | 状态 |
+| stepTradeStatus | 步骤交易状态 |
+| totalFee | 总费用 |
+| tradeFrom | 交易来源 |
+| type | 类型 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_orderitem] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝订单项目信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| tid | tid |
-| memberId | memberId |
-| cid | cid |
-| numIid | numIid |
-| oid | oid |
-| outerIid | outerIid |
-| refundId | refundId |
-| shopId | shopId |
-| skuId | skuId |
-| adjustFee | adjustFee |
-| buyerNick | buyerNick |
-| buyerRate | buyerRate |
-| consignTime | consignTime |
-| created | created |
-| discountFee | discountFee |
-| divideOrderFee | divideOrderFee |
-| endTime | endTime |
-| invoiceNo | invoiceNo |
-| isOversold | isOversold |
-| itemMealId | itemMealId |
-| itemMealName | itemMealName |
-| lastSync | lastSync |
-| logisticsCompany | logisticsCompany |
-| modified | modified |
-| num | num |
-| partMjzDiscount | partMjzDiscount |
-| payment | payment |
-| payTime | payTime |
-| picPath | picPath |
-| price | price |
-| refundFee | refundFee |
-| refundStatus | refundStatus |
-| sellerNick | sellerNick |
-| sellerRate | sellerRate |
-| skuPropertiesName | skuPropertiesName |
-| status | status |
-| stepTradeStatus | stepTradeStatus |
-| title | title |
-| totalFee | totalFee |
-| tradeFrom | tradeFrom |
-| type | type |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| tid | 交易ID |
+| memberId | 会员ID |
+| cid | 类目ID |
+| numIid | 商品数字ID |
+| oid | 订单ID |
+| outerIid | 外部商品ID |
+| refundId | 退款ID |
+| shopId | 店铺ID |
+| skuId | SKU ID |
+| adjustFee | 调整费用 |
+| buyerNick | 买家昵称 |
+| buyerRate | 买家评分 |
+| consignTime | 发货时间 |
+| created | 创建时间 |
+| discountFee | 折扣费用 |
+| divideOrderFee | 分摊订单费用 |
+| endTime | 结束时间 |
+| invoiceNo | 发票号 |
+| isOversold | 是否超卖 |
+| itemMealId | 套餐ID |
+| itemMealName | 套餐名称 |
+| lastSync | 最后同步时间 |
+| logisticsCompany | 物流公司 |
+| modified | 修改时间 |
+| num | 数量 |
+| partMjzDiscount | 部分满减折扣 |
+| payment | 支付金额 |
+| payTime | 支付时间 |
+| picPath | 图片路径 |
+| price | 价格 |
+| refundFee | 退款费用 |
+| refundStatus | 退款状态 |
+| sellerNick | 卖家昵称 |
+| sellerRate | 卖家评分 |
+| skuPropertiesName | SKU属性名称 |
+| status | 状态 |
+| stepTradeStatus | 步骤交易状态 |
+| title | 标题 |
+| totalFee | 总费用 |
+| tradeFrom | 交易来源 |
+| type | 类型 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_point] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝积分信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| planId | planId |
-| pointPlanId | pointPlanId |
-| memberId | memberId |
-| point | point |
-| modified | modified |
-| created | created |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| planId | 计划ID |
+| pointPlanId | 积分计划ID |
+| memberId | 会员ID |
+| point | 积分 |
+| modified | 修改时间 |
+| created | 创建时间 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_pointrecord] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝积分记录信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| planId | planId |
-| pointPlanId | pointPlanId |
-| memberPointId | memberPointId |
-| memberId | memberId |
-| point | point |
-| totalPoint | totalPoint |
-| recordType | recordType |
-| recordSourceDetail | recordSourceDetail |
-| effectiveDate | effectiveDate |
-| overdueDate | overdueDate |
-| extralInfo | extralInfo |
-| recordDetail | recordDetail |
-| desc | desc |
-| fromStatus | fromStatus |
-| operator | operator |
-| operatorId | operatorId |
-| modified | modified |
-| created | created |
-| channel | channel |
-| key | key |
-| ruleGroup | ruleGroup |
-| ruleName | ruleName |
-| ruleId | ruleId |
-| changeMode | changeMode |
-| planName | planName |
-| pointPlanName | pointPlanName |
-| traceId | traceId |
-| eventTypeName | eventTypeName |
-| actionName | actionName |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| planId | 计划ID |
+| pointPlanId | 积分计划ID |
+| memberPointId | 会员积分ID |
+| memberId | 会员ID |
+| point | 积分 |
+| totalPoint | 总积分 |
+| recordType | 记录类型 |
+| recordSourceDetail | 记录来源详情 |
+| effectiveDate | 生效日期 |
+| overdueDate | 过期日期 |
+| extralInfo | 额外信息 |
+| recordDetail | 记录详情 |
+| desc | 描述 |
+| fromStatus | 来源状态 |
+| operator | 操作员 |
+| operatorId | 操作员ID |
+| modified | 修改时间 |
+| created | 创建时间 |
+| channel | 渠道 |
+| key | 键 |
+| ruleGroup | 规则组 |
+| ruleName | 规则名称 |
+| ruleId | 规则ID |
+| changeMode | 变更模式 |
+| planName | 计划名称 |
+| pointPlanName | 积分计划名称 |
+| traceId | 追踪ID |
+| eventTypeName | 事件类型名称 |
+| actionName | 操作名称 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [ec_taobao_product] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| approveStatus | approveStatus |
-| cid | cid |
-| created | created |
-| delistTime | delistTime |
-| detailUrl | detailUrl |
-| inputPids | inputPids |
-| inputStr | inputStr |
-| isFenxiao | isFenxiao |
-| lastSync | lastSync |
-| listTime | listTime |
-| modified | modified |
-| numIid | numIid |
-| outerId | outerId |
-| picUrl | picUrl |
-| price | price |
-| props | props |
-| propsName | propsName |
-| sellerCids | sellerCids |
-| shopId | shopId |
-| title | title |
-| last_sync_new | last_sync_new |
-| productCode | productCode |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| Comments | Comments |
-| id | id |
+| id | ID |
+| approveStatus | 审批状态 |
+| cid | 类目ID |
+| created | 创建时间 |
+| delistTime | 下架时间 |
+| detailUrl | 详情URL |
+| inputPids | 输入的PID |
+| inputStr | 输入字符串 |
+| isFenxiao | 是否分销 |
+| lastSync | 最后同步时间 |
+| listTime | 上架时间 |
+| modified | 修改时间 |
+| numIid | 商品数字ID |
+| outerId | 外部ID |
+| picUrl | 图片URL |
+| price | 价格 |
+| props | 属性 |
+| propsName | 属性名称 |
+| sellerCids | 卖家类目ID |
+| shopId | 店铺ID |
+| title | 标题 |
+| last_sync_new | 最新同步时间 |
+| productCode | 产品代码 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| Comments | 评论 |
+| id | ID |
 
 # [ec_taobao_product_info2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝产品信息2。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
+| ProductCode | 产品代码 |
 | 商品货号 | 商品货号 |
 | 商品货号V2 | 商品货号V2 |
-| ProductName | ProductName |
-| Qty | Qty |
-| Brand | Brand |
-| Stage | Stage |
-| Netweight | Netweight |
+| ProductName | 产品名称 |
+| Qty | 数量 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| Netweight | 净重 |
 | 一口价 | 一口价 |
 | NPS单价 | NPS单价 |
 | NPS价 | NPS价 |
 | QIP价 | QIP价 |
 | 备注 | 备注 |
-| LastChange | LastChange |
+| LastChange | 最后更改时间 |
 
 # [ec_taobao_Products_Info_20231121_Sanyar] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年11月21日Sanyar提供的淘宝产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | 天猫店铺名称 | 天猫店铺名称 |
@@ -2730,11 +2730,11 @@
 | 商品标题 | 商品标题 |
 | 商家编码 | 商家编码 |
 | CODE码 | CODE码 |
-| F7 | F7 |
-| F8 | F8 |
+| F7 | 字段7 |
+| F8 | 字段8 |
 
 # [ec_taobao_Products_Info_20231121_Sanyar_2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2023年11月21日Sanyar提供的淘宝产品信息（表2）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | 天猫店铺名称 | 天猫店铺名称 |
@@ -2745,275 +2745,275 @@
 | CODE码 | CODE码 |
 
 # [EC_taobao_Products_Info_Gerber] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝嘉宝产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| Title | Title |
-| ProductCode | ProductCode |
+| Title | 标题 |
+| ProductCode | 产品代码 |
 | 数量 | 数量 |
-| NPS_Price | NPS_Price |
-| Comments | Comments |
+| NPS_Price | NPS价格 |
+| Comments | 评论 |
 | ID | ID |
 
 # [ec_taobao_productskus] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝产品SKU信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| created | created |
-| lastSync | lastSync |
-| numIid | numIid |
-| outerId | outerId |
-| price | price |
-| properties | properties |
-| propertiesName | propertiesName |
-| quantity | quantity |
-| shopId | shopId |
-| skuId | skuId |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| id | id |
+| id | ID |
+| created | 创建时间 |
+| lastSync | 最后同步时间 |
+| numIid | 商品数字ID |
+| outerId | 外部ID |
+| price | 价格 |
+| properties | 属性 |
+| propertiesName | 属性名称 |
+| quantity | 数量 |
+| shopId | 店铺ID |
+| skuId | SKU ID |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| id | ID |
 
 # [ec_taobao_refund] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了淘宝退款信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| tid | tid |
-| memberId | memberId |
-| numIid | numIid |
-| refundId | refundId |
-| sid | sid |
-| shopId | shopId |
-| oid | oid |
-| buyerNick | buyerNick |
-| companyName | companyName |
-| created | created |
-| csStatus | csStatus |
-| exitsTimeout | exitsTimeout |
-| goodReturnTime | goodReturnTime |
-| hasGoodReturn | hasGoodReturn |
-| lastSync | lastSync |
-| modified | modified |
-| num | num |
-| orderStatus | orderStatus |
-| payment | payment |
-| price | price |
-| reason | reason |
-| refundDesc | refundDesc |
-| refundFee | refundFee |
-| remindType | remindType |
-| sellerNick | sellerNick |
-| status | status |
-| timeout | timeout |
-| title | title |
-| totalFee | totalFee |
-| last_sync_new | last_sync_new |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| id | id |
+| id | ID |
+| tid | 交易ID |
+| memberId | 会员ID |
+| numIid | 商品数字ID |
+| refundId | 退款ID |
+| sid | SID |
+| shopId | 店铺ID |
+| oid | 订单ID |
+| buyerNick | 买家昵称 |
+| companyName | 公司名称 |
+| created | 创建时间 |
+| csStatus | 客服状态 |
+| exitsTimeout | 存在超时 |
+| goodReturnTime | 退货时间 |
+| hasGoodReturn | 有退货 |
+| lastSync | 最后同步时间 |
+| modified | 修改时间 |
+| num | 数量 |
+| orderStatus | 订单状态 |
+| payment | 支付金额 |
+| price | 价格 |
+| reason | 原因 |
+| refundDesc | 退款描述 |
+| refundFee | 退款费用 |
+| remindType | 提醒类型 |
+| sellerNick | 卖家昵称 |
+| status | 状态 |
+| timeout | 超时 |
+| title | 标题 |
+| totalFee | 总费用 |
+| last_sync_new | 最新同步时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| id | ID |
 
 # [EC_Tmall_DW_MegaNan_Member] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了天猫DW MegaNan会员信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| memberId | memberId |
-| memberName | memberName |
-| gender | gender |
-| mobile | mobile |
-| shopCode | shopCode |
-| shopName | shopName |
-| shopTypeCode | shopTypeCode |
-| registerTime | registerTime |
-| createTime | createTime |
-| CreatedOn | CreatedOn |
-| mixMobile | mixMobile |
+| memberId | 会员ID |
+| memberName | 会员名称 |
+| gender | 性别 |
+| mobile | 手机号码 |
+| shopCode | 店铺代码 |
+| shopName | 店铺名称 |
+| shopTypeCode | 店铺类型代码 |
+| registerTime | 注册时间 |
+| createTime | 创建时间 |
+| CreatedOn | 创建于 |
+| mixMobile | 混合手机号 |
 
 # [EC_Tmall_DW_MegaNan_Order] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了天猫DW MegaNan订单信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| memberId | memberId |
-| mobile | mobile |
-| oid | oid |
-| tid | tid |
-| numIid | numIid |
-| price | price |
-| num | num |
-| totalFee | totalFee |
-| payment | payment |
-| refundFee | refundFee |
-| created | created |
-| payTime | payTime |
-| consignTime | consignTime |
-| endTime | endTime |
-| title | title |
-| Brand | Brand |
-| Stage | Stage |
-| CreatedOn | CreatedOn |
+| memberId | 会员ID |
+| mobile | 手机号码 |
+| oid | 订单ID |
+| tid | 交易ID |
+| numIid | 商品数字ID |
+| price | 价格 |
+| num | 数量 |
+| totalFee | 总费用 |
+| payment | 支付金额 |
+| refundFee | 退款费用 |
+| created | 创建时间 |
+| payTime | 支付时间 |
+| consignTime | 发货时间 |
+| endTime | 结束时间 |
+| title | 标题 |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| CreatedOn | 创建于 |
 
 # [EC_Tmall_DW_MegaNan_Product] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了天猫DW MegaNan产品信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| approveStatus | approveStatus |
-| cid | cid |
-| created | created |
-| delistTime | delistTime |
-| detailUrl | detailUrl |
-| inputPids | inputPids |
-| inputStr | inputStr |
-| isFenxiao | isFenxiao |
-| lastSync | lastSync |
-| listTime | listTime |
-| modified | modified |
-| numIid | numIid |
-| outerId | outerId |
-| picUrl | picUrl |
-| price | price |
-| props | props |
-| propsName | propsName |
-| sellerCids | sellerCids |
-| shopId | shopId |
-| title | title |
-| productCode | productCode |
-| CreatedOn | CreatedOn |
-| rn | rn |
-| Brand | Brand |
-| Stage | Stage |
+| id | ID |
+| approveStatus | 审批状态 |
+| cid | 类目ID |
+| created | 创建时间 |
+| delistTime | 下架时间 |
+| detailUrl | 详情URL |
+| inputPids | 输入的PID |
+| inputStr | 输入字符串 |
+| isFenxiao | 是否分销 |
+| lastSync | 最后同步时间 |
+| listTime | 上架时间 |
+| modified | 修改时间 |
+| numIid | 商品数字ID |
+| outerId | 外部ID |
+| picUrl | 图片URL |
+| price | 价格 |
+| props | 属性 |
+| propsName | 属性名称 |
+| sellerCids | 卖家类目ID |
+| shopId | 店铺ID |
+| title | 标题 |
+| productCode | 产品代码 |
+| CreatedOn | 创建于 |
+| rn | 行号 |
+| Brand | 品牌 |
+| Stage | 阶段 |
 
 # [ec_雀巢母婴ID_20211221] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2021年12月21日的雀巢母婴ID信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| ProductCode_Nestle | ProductCode_Nestle |
-| ProductName | ProductName |
-| Qty | Qty |
-| Brand | Brand |
-| Stage | Stage |
+| ProductCode | 产品代码 |
+| ProductCode_Nestle | 雀巢产品代码 |
+| ProductName | 产品名称 |
+| Qty | 数量 |
+| Brand | 品牌 |
+| Stage | 阶段 |
 
 # [Error_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了错误日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ID | ID |
-| Name | Name |
-| Message | Message |
-| CreatedOn | CreatedOn |
+| ID | 日志ID |
+| Name | 名称 |
+| Message | 消息 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [ErrorHandling] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了错误处理信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| pkErrorHandlingID | pkErrorHandlingID |
-| Error_Number | Error_Number |
-| Error_Message | Error_Message |
-| Error_Severity | Error_Severity |
-| Error_State | Error_State |
-| Error_Procedure | Error_Procedure |
-| Error_Line | Error_Line |
-| UserName | UserName |
-| HostName | HostName |
-| Time_Stamp | Time_Stamp |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| pkErrorHandlingID | pkErrorHandlingID |
+| pkErrorHandlingID | 错误处理主键ID |
+| Error_Number | 错误号 |
+| Error_Message | 错误消息 |
+| Error_Severity | 错误严重性 |
+| Error_State | 错误状态 |
+| Error_Procedure | 错误过程 |
+| Error_Line | 错误行号 |
+| UserName | 用户名 |
+| HostName | 主机名 |
+| Time_Stamp | 时间戳 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| pkErrorHandlingID | 错误处理主键ID |
 
 # [EWechat_CorpId] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了企业微信公司ID信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| Name | Name |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
+| id | ID |
+| Name | 名称 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
 
 # [EWechat_SNC_External] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了企业微信SNC外部联系人信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Id | Id |
-| Unionid | Unionid |
-| Openid | Openid |
-| SNCUserId | SNCUserId |
-| ToUserName | ToUserName |
-| FromUserName | FromUserName |
-| SNCCode | SNCCode |
-| ChangeType | ChangeType |
-| TimeStamp | TimeStamp |
-| State | State |
-| MsgType | MsgType |
-| Event | Event |
-| CreatedOn | CreatedOn |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| ExternalUserID | ExternalUserID |
-| Id | Id |
+| Id | ID |
+| Unionid | UnionID |
+| Openid | OpenID |
+| SNCUserId | SNC用户ID |
+| ToUserName | 接收方用户名 |
+| FromUserName | 发送方用户名 |
+| SNCCode | SNC代码 |
+| ChangeType | 变更类型 |
+| TimeStamp | 时间戳 |
+| State | 状态 |
+| MsgType | 消息类型 |
+| Event | 事件 |
+| CreatedOn | 创建时间 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| ExternalUserID | 外部用户ID |
+| Id | ID |
 
 # [EWechat_User] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了企业微信用户信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| ExternalUserID | ExternalUserID |
-| WeChatName | WeChatName |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| Avatar | Avatar |
-| Unionid | Unionid |
+| Unionid | UnionID |
+| ExternalUserID | 外部用户ID |
+| WeChatName | 微信名 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| Avatar | 头像 |
+| Unionid | UnionID |
 
 # [FAQ] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了常见问题（FAQ）信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| InfoType | InfoType |
-| Question | Question |
-| Ans | Ans |
-| ParentId | ParentId |
-| OrderID | OrderID |
-| AttName | AttName |
-| AttPath | AttPath |
-| QueryAns | QueryAns |
-| OperationFlag | OperationFlag |
-| txUser | txUser |
-| txDate | txDate |
+| InfoType | 信息类型 |
+| Question | 问题 |
+| Ans | 答案 |
+| ParentId | 父ID |
+| OrderID | 排序ID |
+| AttName | 附件名称 |
+| AttPath | 附件路径 |
+| QueryAns | 查询答案 |
+| OperationFlag | 操作标志 |
+| txUser | 交易用户 |
+| txDate | 交易日期 |
 | ID | ID |
-| LastChange | LastChange |
-| LastChange_Azure | LastChange_Azure |
-| txDate_20230214 | txDate_20230214 |
-| txDate_20230215 | txDate_20230215 |
+| LastChange | 最后更改时间 |
+| LastChange_Azure | Azure端最后更改时间 |
+| txDate_20230214 | 20230214交易日期 |
+| txDate_20230215 | 20230215交易日期 |
 | ID | ID |
 
 # [fugou_shanmu] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了复购闪促相关信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| OrderNum | OrderNum |
-| ID_CRMPlus | ID_CRMPlus |
-| Brand | Brand |
-| Stage | Stage |
-| ka_name | ka_name |
-| BuyTime | BuyTime |
-| rn2 | rn2 |
+| Unionid | 用户微信Unionid |
+| OrderNum | 订单号 |
+| ID_CRMPlus | CRMPlus ID |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| ka_name | KA名称 |
+| BuyTime | 购买时间 |
+| rn2 | 行号2 |
 
 # [HA_Sanyar] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了HA三元相关信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Unionid | Unionid |
-| BuyTime | BuyTime |
-| BuyTime_Day | BuyTime_Day |
-| StoreCode | StoreCode |
-| OrderNum | OrderNum |
-| ID_CRMPlus | ID_CRMPlus |
+| Unionid | 用户微信Unionid |
+| BuyTime | 购买时间 |
+| BuyTime_Day | 购买天数 |
+| StoreCode | 门店代码 |
+| OrderNum | 订单号 |
+| ID_CRMPlus | CRMPlus ID |
 | 订单罐数 | 订单罐数 |
-| ProductCode | ProductCode |
-| KSFId | KSFId |
+| ProductCode | 产品代码 |
+| KSFId | KSFID |
 | 招募订单中子订单顺序 | 招募订单中子订单顺序 |
 | 招募时间 | 招募时间 |
 | 招募时门店 | 招募时门店 |
@@ -3022,139 +3022,139 @@
 | 下单数 | 下单数 |
 | 复购订单属性 | 复购订单属性 |
 | 是否院线店 | 是否院线店 |
-| Price | Price |
+| Price | 价格 |
 
 # [ims_customer] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS客户信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| cus_id | cus_id |
-| cus_number | cus_number |
-| cus_name | cus_name |
-| p_cus_name | p_cus_name |
-| p_cus_number | p_cus_number |
-| mobile | mobile |
-| realname | realname |
-| area_name | area_name |
-| city_group | city_group |
-| province | province |
-| city | city |
-| city_level | city_level |
-| address | address |
-| is_active | is_active |
-| license | license |
-| cdate | cdate |
-| updatetime | updatetime |
-| cus_id | cus_id |
+| cus_id | 客户ID |
+| cus_number | 客户编号 |
+| cus_name | 客户名称 |
+| p_cus_name | P客户名称 |
+| p_cus_number | P客户编号 |
+| mobile | 手机号码 |
+| realname | 真实姓名 |
+| area_name | 区域名称 |
+| city_group | 城市组 |
+| province | 省份 |
+| city | 城市 |
+| city_level | 城市级别 |
+| address | 地址 |
+| is_active | 是否活跃 |
+| license | 许可证 |
+| cdate | 创建日期 |
+| updatetime | 更新时间 |
+| cus_id | 客户ID |
 
 # [ims_customer_rel] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS客户关系信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| cus_id | cus_id |
-| cus_uid | cus_uid |
-| is_zhu | is_zhu |
-| is_onjob | is_onjob |
-| cdate | cdate |
-| updatetime | updatetime |
-| id | id |
+| id | ID |
+| cus_id | 客户ID |
+| cus_uid | 客户UID |
+| is_zhu | 是否主要 |
+| is_onjob | 是否在职 |
+| cdate | 创建日期 |
+| updatetime | 更新时间 |
+| id | ID |
 
 # [ims_edms_stores_dtc] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS EDMS DTC门店信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| store_number | store_number |
-| store_name | store_name |
-| area_name | area_name |
-| province | province |
-| city | city |
-| city_group | city_group |
-| cityLevel | cityLevel |
+| store_number | 门店编号 |
+| store_name | 门店名称 |
+| area_name | 区域名称 |
+| province | 省份 |
+| city | 城市 |
+| city_group | 城市组 |
+| cityLevel | 城市级别 |
 | ISOAH | ISOAH |
-| ka_type | ka_type |
-| ka_name | ka_name |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| store_number | store_number |
+| ka_type | KA类型 |
+| ka_name | KA名称 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| store_number | 门店编号 |
 
 # [ims_gerber_coupon] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS嘉宝优惠券信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
-| title | title |
-| cardno | cardno |
-| gift_code | gift_code |
-| openid | openid |
-| unionid | unionid |
-| mobile | mobile |
-| money | money |
-| exp_time | exp_time |
-| use_time | use_time |
-| is_used | is_used |
-| orderno | orderno |
-| snc_code | snc_code |
-| store_number | store_number |
-| get_time | get_time |
-| updatetime | updatetime |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| get_storeno | get_storeno |
-| get_snc | get_snc |
-| id | id |
+| title | 标题 |
+| cardno | 卡号 |
+| gift_code | 礼品码 |
+| openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| mobile | 手机号码 |
+| money | 金额 |
+| exp_time | 过期时间 |
+| use_time | 使用时间 |
+| is_used | 是否已使用 |
+| orderno | 订单号 |
+| snc_code | SNC代码 |
+| store_number | 门店编号 |
+| get_time | 获取时间 |
+| updatetime | 更新时间 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| get_storeno | 获取门店编号 |
+| get_snc | 获取SNC |
+| id | ID |
 
 # [ims_gerber_coupon2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS嘉宝优惠券信息（表2）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
-| title | title |
-| cardno | cardno |
-| gift_code | gift_code |
-| openid | openid |
-| unionid | unionid |
-| mobile | mobile |
-| money | money |
-| exp_time | exp_time |
-| use_time | use_time |
-| is_used | is_used |
-| orderno | orderno |
-| snc_code | snc_code |
-| store_number | store_number |
-| get_time | get_time |
-| updatetime | updatetime |
-| post_time | post_time |
-| post_status | post_status |
-| post_res | post_res |
+| title | 标题 |
+| cardno | 卡号 |
+| gift_code | 礼品码 |
+| openid | 用户微信Openid |
+| unionid | 用户微信Unionid |
+| mobile | 手机号码 |
+| money | 金额 |
+| exp_time | 过期时间 |
+| use_time | 使用时间 |
+| is_used | 是否已使用 |
+| orderno | 订单号 |
+| snc_code | SNC代码 |
+| store_number | 门店编号 |
+| get_time | 获取时间 |
+| updatetime | 更新时间 |
+| post_time | 推送时间 |
+| post_status | 推送状态 |
+| post_res | 推送结果 |
 
 # [ims_nestle_al110_popup] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢AL110弹窗信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| unionid | unionid |
-| cdate | cdate |
-| CreatedOn | CreatedOn |
-| unionid | unionid |
+| id | ID |
+| unionid | 用户微信Unionid |
+| cdate | 创建日期 |
+| CreatedOn | 创建时间 |
+| unionid | 用户微信Unionid |
 
 # [ims_nestle_business_stores_product_3] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢业务门店产品信息（表3）。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
-| sid | sid |
-| productcode | productcode |
-| tankcode | tankcode |
-| status | status |
-| productcontent | productcontent |
-| serial_number | serial_number |
-| creattime | creattime |
-| updatetime | updatetime |
-| id | id |
+| sid | SID |
+| productcode | 产品代码 |
+| tankcode | 罐码 |
+| status | 状态 |
+| productcontent | 产品内容 |
+| serial_number | 序列号 |
+| creattime | 创建时间 |
+| updatetime | 更新时间 |
+| id | ID |
 
 # [ims_nestle_business_xh_book_goods_detail] 字段注释说明
 本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。

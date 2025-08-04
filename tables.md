@@ -3157,30 +3157,30 @@
 | id | ID |
 
 # [ims_nestle_business_xh_book_goods_detail] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了IMS雀巢业务星火预订商品详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| book_id | book_id |
-| sid | sid |
-| is_crm | is_crm |
-| cus_number | cus_number |
-| cus_uid | cus_uid |
-| tcds_code | tcds_code |
-| cus_uid_gx | cus_uid_gx |
-| productcode | productcode |
-| tankcode | tankcode |
-| status | status |
-| is_allot | is_allot |
-| receive_serial_number | receive_serial_number |
-| receive_tcds_code | receive_tcds_code |
-| receive_cus_uid_gx | receive_cus_uid_gx |
-| receive_date | receive_date |
-| receive_type | receive_type |
-| cdate | cdate |
-| updatetime | updatetime |
-| Comments | Comments |
-| id | id |
+| id | ID |
+| book_id | 预订ID |
+| sid | SID |
+| is_crm | 是否CRM |
+| cus_number | 客户编号 |
+| cus_uid | 客户UID |
+| tcds_code | TCDS代码 |
+| cus_uid_gx | 客户UID GX |
+| productcode | 产品代码 |
+| tankcode | 罐码 |
+| status | 状态 |
+| is_allot | 是否分配 |
+| receive_serial_number | 接收序列号 |
+| receive_tcds_code | 接收TCDS代码 |
+| receive_cus_uid_gx | 接收客户UID GX |
+| receive_date | 接收日期 |
+| receive_type | 接收类型 |
+| cdate | 创建日期 |
+| updatetime | 更新时间 |
+| Comments | 评论 |
+| id | ID |
 
 # [ims_nestle_business_xh_cus_refund_goods_detail] 字段注释说明
 本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。

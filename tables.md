@@ -8138,219 +8138,219 @@
 | ID | ID |
 
 # [SNC_PERP_KPI_Incentive_Tins_History] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了SNC PERP KPI激励罐数历史信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买SNC | 购买SNC |
-| 1-18听 | 1-18听 |
-| 19-36听 | 19-36听 |
-| 37-42听 | 37-42听 |
-| 43-100听 | 43-100听 |
-| 100听以上 | 100听以上 |
-| Months | Months |
-| CreatedOn | CreatedOn |
-| IQC_1-18听 | IQC_1-18听 |
-| IQC_19-36听 | IQC_19-36听 |
-| IQC_37-42听 | IQC_37-42听 |
-| IQC_43-100听 | IQC_43-100听 |
-| IQC_当月大于18M的听数 | IQC_当月大于18M的听数 |
+| 1-18听 | 1-18罐 |
+| 19-36听 | 19-36罐 |
+| 37-42听 | 37-42罐 |
+| 43-100听 | 43-100罐 |
+| 100听以上 | 100罐以上 |
+| Months | 月份 |
+| CreatedOn | 创建时间 |
+| IQC_1-18听 | IQC_1-18罐 |
+| IQC_19-36听 | IQC_19-36罐 |
+| IQC_37-42听 | IQC_37-42罐 |
+| IQC_43-100听 | IQC_43-100罐 |
+| IQC_当月大于18M的听数 | IQC_当月大于18M的罐数 |
 | ID | ID |
 
 # [SNC_PERP_KPI_Incentive_Tins_History_20250519] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年5月19日的SNC PERP KPI激励罐数历史信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买SNC | 购买SNC |
-| 1-18听 | 1-18听 |
-| 19-36听 | 19-36听 |
-| 37-42听 | 37-42听 |
-| 43-100听 | 43-100听 |
-| 100听以上 | 100听以上 |
-| Months | Months |
-| CreatedOn | CreatedOn |
-| IQC_1-18听 | IQC_1-18听 |
-| IQC_19-36听 | IQC_19-36听 |
-| IQC_37-42听 | IQC_37-42听 |
-| IQC_43-100听 | IQC_43-100听 |
+| 1-18听 | 1-18罐 |
+| 19-36听 | 19-36罐 |
+| 37-42听 | 37-42罐 |
+| 43-100听 | 43-100罐 |
+| 100听以上 | 100罐以上 |
+| Months | 月份 |
+| CreatedOn | 创建时间 |
+| IQC_1-18听 | IQC_1-18罐 |
+| IQC_19-36听 | IQC_19-36罐 |
+| IQC_37-42听 | IQC_37-42罐 |
+| IQC_43-100听 | IQC_43-100罐 |
 
 # [SNC_Rating] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了SNC评分信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
+| id | ID |
 | uniacid | uniacid |
-| serial_number | serial_number |
+| serial_number | 序列号 |
 | openid | openid |
-| stage | stage |
-| realname | realname |
-| num | num |
-| content | content |
-| addtime | addtime |
-| updatetime | updatetime |
-| sendtime | sendtime |
-| status | status |
-| is_sync | is_sync |
-| sync_time | sync_time |
-| order_num | order_num |
-| source | source |
-| update_time | update_time |
-| giftcode | giftcode |
-| ans1 | ans1 |
-| ans2 | ans2 |
-| ans2_other | ans2_other |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| stage | 阶段 |
+| realname | 真实姓名 |
+| num | 数量 |
+| content | 内容 |
+| addtime | 添加时间 |
+| updatetime | 更新时间 |
+| sendtime | 发送时间 |
+| status | 状态 |
+| is_sync | 是否同步 |
+| sync_time | 同步时间 |
+| order_num | 订单号 |
+| source | 来源 |
+| update_time | 更新时间 |
+| giftcode | 礼品码 |
+| ans1 | 答案1 |
+| ans2 | 答案2 |
+| ans2_other | 答案2其他 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | Unionid | Unionid |
-| completed_questionnaire_date | completed_questionnaire_date |
-| newcustomer_type | newcustomer_type |
-| id | id |
+| completed_questionnaire_date | 完成问卷日期 |
+| newcustomer_type | 新客户类型 |
+| id | ID |
 
 # [SNC_TAG_Defination] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了SNC标签定义信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 名称 | 名称 |
 | 标签类型 | 标签类型 |
-| 标签类型Code | 标签类型Code |
-| CreatedOn | CreatedOn |
-| LastChange | LastChange |
+| 标签类型Code | 标签类型代码 |
+| CreatedOn | 创建时间 |
+| LastChange | 最后更改时间 |
 | ID | ID |
 
 # [SNC_Tagging] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了SNC打标信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | Unionid | Unionid |
-| Tags | Tags |
-| Source | Source |
-| SNCCode | SNCCode |
-| Store_number | Store_number |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
+| Tags | 标签 |
+| Source | 来源 |
+| SNCCode | SNC代码 |
+| Store_number | 门店编号 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
 | Unionid | Unionid |
 
 # [Source] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了来源信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | Unionid | Unionid |
-| Offset_Day | Offset_Day |
-| TA_CMT_ID | TA_CMT_ID |
-| TA_Openid | TA_Openid |
-| TA_Mobile | TA_Mobile |
-| RegisterChannel | RegisterChannel |
-| SUB_USER_NAME | SUB_USER_NAME |
-| Baby_BirthDay | Baby_BirthDay |
-| Current_stage | Current_stage |
-| Stage | Stage |
-| joindate | joindate |
-| Tag | Tag |
-| Buy_History | Buy_History |
-| SNC_Code | SNC_Code |
-| SNC_Code_ExternalContact | SNC_Code_ExternalContact |
-| SNC_Code_Show | SNC_Code_Show |
-| ON_CMT | ON_CMT |
-| ON_CRM_Plus | ON_CRM_Plus |
-| Touch_Point | Touch_Point |
-| Store_Number | Store_Number |
+| Offset_Day | 偏移天数 |
+| TA_CMT_ID | TA CMT ID |
+| TA_Openid | TA Openid |
+| TA_Mobile | TA手机 |
+| RegisterChannel | 注册渠道 |
+| SUB_USER_NAME | 子用户名 |
+| Baby_BirthDay | 宝宝生日 |
+| Current_stage | 当前阶段 |
+| Stage | 阶段 |
+| joindate | 加入日期 |
+| Tag | 标签 |
+| Buy_History | 购买历史 |
+| SNC_Code | SNC代码 |
+| SNC_Code_ExternalContact | SNC代码外部联系人 |
+| SNC_Code_Show | SNC代码显示 |
+| ON_CMT | 在CMT上 |
+| ON_CRM_Plus | 在CRM Plus上 |
+| Touch_Point | 触点 |
+| Store_Number | 门店编号 |
 
 # [SQL_ErrorLog] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了SQL错误日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| TEXT | TEXT |
+| TEXT | 文本 |
 
 # [t_bi_channel] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了BI渠道信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| QRCode_Internal | QRCode_Internal |
-| QrCode | QrCode |
-| CustomerNumberL7 | CustomerNumberL7 |
+| QRCode_Internal | 内部二维码 |
+| QrCode | 二维码 |
+| CustomerNumberL7 | 7级客户编号 |
 
 # [TBPromoterInspection2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了TB促销员检查信息2。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| IsOnDuty | IsOnDuty |
-| Photo | Photo |
-| FK_Store_ID | FK_Store_ID |
-| FK_SystemUser_ID | FK_SystemUser_ID |
-| IsDelete | IsDelete |
-| CreateTime | CreateTime |
-| FK_SystemUser_Create_ID | FK_SystemUser_Create_ID |
-| ModifyTime | ModifyTime |
-| FK_SystemUser_Modify_ID | FK_SystemUser_Modify_ID |
-| FK_SystemUserDepartment_Create_ID | FK_SystemUserDepartment_Create_ID |
-| IsValid | IsValid |
-| LastChange | LastChange |
+| IsOnDuty | 是否在职 |
+| Photo | 照片 |
+| FK_Store_ID | 门店外键ID |
+| FK_SystemUser_ID | 系统用户外键ID |
+| IsDelete | 是否删除 |
+| CreateTime | 创建时间 |
+| FK_SystemUser_Create_ID | 创建系统用户外键ID |
+| ModifyTime | 修改时间 |
+| FK_SystemUser_Modify_ID | 修改系统用户外键ID |
+| FK_SystemUserDepartment_Create_ID | 创建系统用户部门外键ID |
+| IsValid | 是否有效 |
+| LastChange | 最后更改时间 |
 
 # [TestCol] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了测试列信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| table | table |
-| columns | columns |
+| table | 表 |
+| columns | 列 |
 
 # [testtable] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了测试表信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Name | Name |
-| Rows | Rows |
+| Name | 名称 |
+| Rows | 行数 |
 
 # [TOB_HAS3扫码出库记录] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了TOB HAS3扫码出库记录。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | 订单编号 | 订单编号 |
-| gift_code | gift_code |
+| gift_code | 礼品码 |
 | 会员unionid | 会员unionid |
 | 会员加密手机号 | 会员加密手机号 |
 | 门店编码 | 门店编码 |
 | 门店名称 | 门店名称 |
 | 区域 | 区域 |
 | 城市组 | 城市组 |
-| KA Type | KA Type |
-| KA Name | KA Name |
-| vip_level | vip_level |
+| KA Type | KA类型 |
+| KA Name | KA名称 |
+| vip_level | VIP等级 |
 | 店主店员编号 | 店主店员编号 |
 | 罐码 | 罐码 |
 | 达成 | 达成 |
 | 说明 | 说明 |
 | 备注 | 备注 |
-| cdate | cdate |
+| cdate | 创建日期 |
 
 # [Trigger_Log] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了触发器日志信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| TableName | TableName |
-| DDLType | DDLType |
-| CreatedOn | CreatedOn |
+| TableName | 表名 |
+| DDLType | DDL类型 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [TX_AntiCheat] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了腾讯反作弊信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买时间 | 购买时间 |
 | unionid | unionid |
-| mobile_md5 | mobile_md5 |
-| ip | ip |
-| is_send | is_send |
-| payload | payload |
-| response | response |
-| sent2tcdate | sent2tcdate |
-| RiskLevel | RiskLevel |
-| mobile | mobile |
-| s_mobile | s_mobile |
+| mobile_md5 | 手机号md5 |
+| ip | ip地址 |
+| is_send | 是否发送 |
+| payload | 有效负载 |
+| response | 响应 |
+| sent2tcdate | 发送至腾讯日期 |
+| RiskLevel | 风险等级 |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
 | 验证日期1 | 验证日期1 |
 | ksfid | ksfid |
 | 区域 | 区域 |
@@ -8369,27 +8369,27 @@
 | 会员招募时间 | 会员招募时间 |
 | 家长姓名 | 家长姓名 |
 | 新客类型 | 新客类型 |
-| createdon | createdon |
-| Comments | Comments |
-| RiskType | RiskType |
+| createdon | 创建于 |
+| Comments | 评论 |
+| RiskType | 风险类型 |
 | ID | ID |
 
 # [TX_AntiCheat_20241011_snc] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年10月11日的腾讯反作弊SNC信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买时间 | 购买时间 |
 | unionid | unionid |
-| mobile_md5 | mobile_md5 |
-| ip | ip |
-| is_send | is_send |
-| payload | payload |
-| response | response |
-| sent2tcdate | sent2tcdate |
-| RiskLevel | RiskLevel |
-| mobile | mobile |
-| s_mobile | s_mobile |
+| mobile_md5 | 手机号md5 |
+| ip | ip地址 |
+| is_send | 是否发送 |
+| payload | 有效负载 |
+| response | 响应 |
+| sent2tcdate | 发送至腾讯日期 |
+| RiskLevel | 风险等级 |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
 | 验证日期1 | 验证日期1 |
 | ksfid | ksfid |
 | 区域 | 区域 |
@@ -8408,25 +8408,25 @@
 | 会员招募时间 | 会员招募时间 |
 | 家长姓名 | 家长姓名 |
 | 新客类型 | 新客类型 |
-| createdon | createdon |
-| Comments | Comments |
+| createdon | 创建于 |
+| Comments | 评论 |
 
 # [TX_AntiCheat_20241011_snc_xinke] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年10月11日的腾讯反作弊SNC新客信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买时间 | 购买时间 |
 | unionid | unionid |
-| mobile_md5 | mobile_md5 |
-| ip | ip |
-| is_send | is_send |
-| payload | payload |
-| response | response |
-| sent2tcdate | sent2tcdate |
-| RiskLevel | RiskLevel |
-| mobile | mobile |
-| s_mobile | s_mobile |
+| mobile_md5 | 手机号md5 |
+| ip | ip地址 |
+| is_send | 是否发送 |
+| payload | 有效负载 |
+| response | 响应 |
+| sent2tcdate | 发送至腾讯日期 |
+| RiskLevel | 风险等级 |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
 | 验证日期1 | 验证日期1 |
 | ksfid | ksfid |
 | 区域 | 区域 |
@@ -8445,25 +8445,25 @@
 | 会员招募时间 | 会员招募时间 |
 | 家长姓名 | 家长姓名 |
 | 新客类型 | 新客类型 |
-| createdon | createdon |
-| Comments | Comments |
+| createdon | 创建于 |
+| Comments | 评论 |
 
 # [TX_AntiCheat_20241021] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年10月21日的腾讯反作弊信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买时间 | 购买时间 |
 | unionid | unionid |
-| mobile_md5 | mobile_md5 |
-| ip | ip |
-| is_send | is_send |
-| payload | payload |
-| response | response |
-| sent2tcdate | sent2tcdate |
-| RiskLevel | RiskLevel |
-| mobile | mobile |
-| s_mobile | s_mobile |
+| mobile_md5 | 手机号md5 |
+| ip | ip地址 |
+| is_send | 是否发送 |
+| payload | 有效负载 |
+| response | 响应 |
+| sent2tcdate | 发送至腾讯日期 |
+| RiskLevel | 风险等级 |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
 | 验证日期1 | 验证日期1 |
 | ksfid | ksfid |
 | 区域 | 区域 |
@@ -8482,26 +8482,26 @@
 | 会员招募时间 | 会员招募时间 |
 | 家长姓名 | 家长姓名 |
 | 新客类型 | 新客类型 |
-| createdon | createdon |
-| Comments | Comments |
-| RiskType | RiskType |
+| createdon | 创建于 |
+| Comments | 评论 |
+| RiskType | 风险类型 |
 
 # [TX_AntiCheat_20241023] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年10月23日的腾讯反作弊信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
 | 购买时间 | 购买时间 |
 | unionid | unionid |
-| mobile_md5 | mobile_md5 |
-| ip | ip |
-| is_send | is_send |
-| payload | payload |
-| response | response |
-| sent2tcdate | sent2tcdate |
-| RiskLevel | RiskLevel |
-| mobile | mobile |
-| s_mobile | s_mobile |
+| mobile_md5 | 手机号md5 |
+| ip | ip地址 |
+| is_send | 是否发送 |
+| payload | 有效负载 |
+| response | 响应 |
+| sent2tcdate | 发送至腾讯日期 |
+| RiskLevel | 风险等级 |
+| mobile | 手机号码 |
+| s_mobile | S端手机号 |
 | 验证日期1 | 验证日期1 |
 | ksfid | ksfid |
 | 区域 | 区域 |
@@ -8520,263 +8520,263 @@
 | 会员招募时间 | 会员招募时间 |
 | 家长姓名 | 家长姓名 |
 | 新客类型 | 新客类型 |
-| createdon | createdon |
-| Comments | Comments |
-| RiskType | RiskType |
+| createdon | 创建于 |
+| Comments | 评论 |
+| RiskType | 风险类型 |
 
 # [TX_MOT_Session] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了腾讯MOT会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| motId | motId |
-| motType | motType |
-| motScene | motScene |
-| motBrand | motBrand |
-| motProduct | motProduct |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| customerMsgCount | customerMsgCount |
-| id | id |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| motId | MOT ID |
+| motType | MOT类型 |
+| motScene | MOT场景 |
+| motBrand | MOT品牌 |
+| motProduct | MOT产品 |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| customerMsgCount | 客户消息数 |
+| id | ID |
 
 # [TX_MOT_Session_20241014] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年10月14日的腾讯MOT会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| motId | motId |
-| motType | motType |
-| motScene | motScene |
-| motBrand | motBrand |
-| motProduct | motProduct |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| customerMsgCount | customerMsgCount |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| motId | MOT ID |
+| motType | MOT类型 |
+| motScene | MOT场景 |
+| motBrand | MOT品牌 |
+| motProduct | MOT产品 |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| customerMsgCount | 客户消息数 |
 
 # [TX_MOT_Session_20241216] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年12月16日的腾讯MOT会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| motId | motId |
-| motType | motType |
-| motScene | motScene |
-| motBrand | motBrand |
-| motProduct | motProduct |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| customerMsgCount | customerMsgCount |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| motId | MOT ID |
+| motType | MOT类型 |
+| motScene | MOT场景 |
+| motBrand | MOT品牌 |
+| motProduct | MOT产品 |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| customerMsgCount | 客户消息数 |
 
 # [TX_MOT_Session_20250326] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年3月26日的腾讯MOT会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| motId | motId |
-| motType | motType |
-| motScene | motScene |
-| motBrand | motBrand |
-| motProduct | motProduct |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| customerMsgCount | customerMsgCount |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| motId | MOT ID |
+| motType | MOT类型 |
+| motScene | MOT场景 |
+| motBrand | MOT品牌 |
+| motProduct | MOT产品 |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| customerMsgCount | 客户消息数 |
 
 # [TX_MOT_Supplement] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了腾讯MOT补充信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| sessionId | sessionId |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| motSendTime | motSendTime |
-| motSendTimeCD | motSendTimeCD |
-| content | content |
-| sendTime | sendTime |
-| sendTimeCD | sendTimeCD |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| sessionId | sessionId |
+| sessionId | 会话ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| motSendTime | MOT发送时间 |
+| motSendTimeCD | MOT发送时间CD |
+| content | 内容 |
+| sendTime | 发送时间 |
+| sendTimeCD | 发送时间CD |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| sessionId | 会话ID |
 
 # [TX_Session] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了腾讯会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| responseTime | responseTime |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
-| id | id |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| responseTime | 响应时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
+| id | ID |
 
 # [TX_Session_20250326] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2025年3月26日的腾讯会话信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| id | id |
-| customerId | customerId |
-| fellowId | fellowId |
-| departmentId | departmentId |
-| roundCount | roundCount |
-| msgCount | msgCount |
-| duration | duration |
-| responseTime | responseTime |
-| initiator | initiator |
-| terminator | terminator |
-| beginTime | beginTime |
-| endTime | endTime |
-| beginTimeCD | beginTimeCD |
-| endTimeCD | endTimeCD |
-| isConversation | isConversation |
-| orders | orders |
-| Is_Delete | Is_Delete |
-| CreatedOn | CreatedOn |
-| ModifiedOn | ModifiedOn |
-| comments | comments |
+| id | ID |
+| customerId | 客户ID |
+| fellowId | 同事ID |
+| departmentId | 部门ID |
+| roundCount | 回合数 |
+| msgCount | 消息数 |
+| duration | 持续时间 |
+| responseTime | 响应时间 |
+| initiator | 发起者 |
+| terminator | 终止者 |
+| beginTime | 开始时间 |
+| endTime | 结束时间 |
+| beginTimeCD | 开始时间CD |
+| endTimeCD | 结束时间CD |
+| isConversation | 是否对话 |
+| orders | 订单 |
+| Is_Delete | 是否删除 |
+| CreatedOn | 创建时间 |
+| ModifiedOn | 修改时间 |
+| comments | 评论 |
 
 # [TX_SSE_SSR_20241107] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年11月7日的腾讯SSE SSR信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Store_Code | Store_Code |
-| Store_Name | Store_Name |
-| Region | Region |
-| CG | CG |
-| Province | Province |
-| City | City |
-| City_Level | City_Level |
-| Vip_Level | Vip_Level |
-| Client Group | Client Group |
-| OAH/Non-OAH | OAH/Non-OAH |
+| Store_Code | 门店代码 |
+| Store_Name | 门店名称 |
+| Region | 区域 |
+| CG | 城市组 |
+| Province | 省份 |
+| City | 城市 |
+| City_Level | 城市级别 |
+| Vip_Level | VIP等级 |
+| Client Group | 客户组 |
+| OAH/Non-OAH | OAH/非OAH |
 | 编码 | 编码 |
 | 微信号(绑定的企业微信ID) | 微信号(绑定的企业微信ID) |
-| IP | IP |
+| IP | IP地址 |
 | 手机号 | 手机号 |
 | 角色 | 角色 |
 
 # [UpsertRateControl] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了更新插入速率控制信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | ID | ID |
-| FuncationName | FuncationName |
-| SecondTimestamp | SecondTimestamp |
-| UpsertCount | UpsertCount |
-| CreatedOn | CreatedOn |
+| FuncationName | 函数名称 |
+| SecondTimestamp | 秒级时间戳 |
+| UpsertCount | 更新插入计数 |
+| CreatedOn | 创建时间 |
 | ID | ID |
 
 # [V_DAILY_NSC_Spark_S3_Bonus_RawData2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了每日NSC Spark S3奖励原始数据2。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| BuyTime | BuyTime |
-| area_name | area_name |
-| province | province |
-| city_group | city_group |
-| city | city |
-| ka_type | ka_type |
-| ka_name | ka_name |
-| SNCCode | SNCCode |
-| StoreCode | StoreCode |
-| Store_Name | Store_Name |
-| Vip_Level | Vip_Level |
+| BuyTime | 购买时间 |
+| area_name | 区域名称 |
+| province | 省份 |
+| city_group | 城市组 |
+| city | 城市 |
+| ka_type | KA类型 |
+| ka_name | KA名称 |
+| SNCCode | SNC代码 |
+| StoreCode | 门店代码 |
+| Store_Name | 门店名称 |
+| Vip_Level | VIP等级 |
 | 是否有导 | 是否有导 |
 | 是否院线店 | 是否院线店 |
 | Unionid | Unionid |
-| Brand | Brand |
-| Stage | Stage |
-| ProductCode | ProductCode |
-| ProductName | ProductName |
-| Qty | Qty |
-| OrderNum | OrderNum |
-| ID_CRMPlus | ID_CRMPlus |
+| Brand | 品牌 |
+| Stage | 阶段 |
+| ProductCode | 产品代码 |
+| ProductName | 产品名称 |
+| Qty | 数量 |
+| OrderNum | 订单号 |
+| ID_CRMPlus | CRMPlus ID |
 | 是否退单 | 是否退单 |
 | 订单罐数 | 订单罐数 |
 | 退单罐数 | 退单罐数 |
 
 # [铂初分销店单Q2] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了铂初分销店单Q2信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
 | 区域 | 区域 |
@@ -8790,19 +8790,19 @@
 | 是否分销门店 | 是否分销门店 |
 
 # [罐子] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了罐子信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| ProductCode | ProductCode |
-| QRCode | QRCode |
-| RN2 | RN2 |
+| ProductCode | 产品代码 |
+| QRCode | 二维码 |
+| RN2 | 行号2 |
 
 # [星火门店详情Monthly] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了星火门店月度详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Region | Region |
-| CG | CG |
+| Region | 区域 |
+| CG | 城市组 |
 | 分销商代码 | 分销商代码 |
 | 分销商姓名 | 分销商姓名 |
 | TCDS编号 | TCDS编号 |
@@ -8820,14 +8820,14 @@
 | 门店退单_罐数 | 门店退单_罐数 |
 | 门店退单_金额 | 门店退单_金额 |
 | 月份 | 月份 |
-| CreatedOn | CreatedOn |
+| CreatedOn | 创建时间 |
 
 # [星火门店详情Monthly_20241101] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年11月1日的星火门店月度详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Region | Region |
-| CG | CG |
+| Region | 区域 |
+| CG | 城市组 |
 | 分销商代码 | 分销商代码 |
 | 分销商姓名 | 分销商姓名 |
 | TCDS编号 | TCDS编号 |
@@ -8845,14 +8845,14 @@
 | 门店退单_罐数 | 门店退单_罐数 |
 | 门店退单_金额 | 门店退单_金额 |
 | 月份 | 月份 |
-| CreatedOn | CreatedOn |
+| CreatedOn | 创建时间 |
 
 # [星火门店详情Monthly202409_1101] 字段注释说明
-本表记录了...的详细信息。下表对各字段含义进行简要说明，方便业务理解与数据分析。
+本表记录了2024年9月至11月1日的星火门店月度详情。下表对各字段含义进行简要说明，方便业务理解与数据分析。
 | 字段名 | 注释说明 |
 |---|---|
-| Region | Region |
-| CG | CG |
+| Region | 区域 |
+| CG | 城市组 |
 | 分销商代码 | 分销商代码 |
 | 分销商姓名 | 分销商姓名 |
 | TCDS编号 | TCDS编号 |
@@ -8870,4 +8870,4 @@
 | 门店退单_罐数 | 门店退单_罐数 |
 | 门店退单_金额 | 门店退单_金额 |
 | 月份 | 月份 |
-| CreatedOn | CreatedOn |
+| CreatedOn | 创建时间 |
